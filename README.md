@@ -44,5 +44,53 @@ No decorrer do curso, utilizaremos também:
 
 Obs.: Se utilizar a versão 3 do .NET Core SDK, remova as versões anteriores antes de instalar a nova.
 
+ [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente (Dev C#)](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/ambiente.md)
 
- [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente](content/ambiente.md)
+## Conteúdo
+
+### 🐢 Primeiros passos
+
+* [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
+* [📺](https://youtu.be/l3ft7U7iZ1s) Hello World com GitHub Pages
+
+### 📌 Conceitos básicos
+
+* [📺](https://youtu.be/5-2U1Tk2rHI) Marcação HTML
+
+## 🥋 Exercícios
+
+_Em breve._
+
+### 🐱‍👤 Prof. Neri: Soluções comentadas
+
+_Em breve._
+
+## Outros
+### 📜 Documentação
+
+### 🏎 _Roadmaps_ para devs
+
+* [🌍 Roadmap to becoming a web developer in 2020](https://github.com/kamranahmedse/developer-roadmap)
+
+### 🌎 Links úteis
+
+* [🌍 Emmet](https://docs.emmet.io/)
+* [🌍 Pexels](https://www.pexels.com/pt-br/)
+
+### 🏆 Top linguagens
+
+* [🌍 IEEE Spectrum](https://spectrum.ieee.org/computing/software/the-top-programming-languages-2019)
+* [🌍 TIOBE Index](https://www.tiobe.com/tiobe-index/)
+* [🌍 GitHub Octoverse](https://octoverse.github.com/#top-languages)
+* [🌍 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2019#most-popular-technologies)
+* [🌍 PYPL PopularitY of Programming Language](http://pypl.github.io/PYPL.html)
+
+## 💪 Contributors
+
+[👨🏻‍🏫 @diegoneri](https://github.com/diegoneri)
+
+----
+Prof. Ermogenes Palacio, 2020-.
+
+![GitHub followers](https://img.shields.io/github/followers/ermogenes?label=seguidores&style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/ermogenes?style=social)
