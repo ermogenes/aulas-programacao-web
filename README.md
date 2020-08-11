@@ -19,7 +19,7 @@ Disponibilidade dos professores nos dias das aulas presenciais, nos horários de
 
 * **Alunos de PC2 da Etec AB, 2020-2, 2I3:**
   * [👨‍👩‍👧‍👦 Turma **única**, no Teams](https://bit.ly/2i3-pc2)
-  * [📡 Sala de Reunião, no Teams, para as aulas síncronas](#) [em breve]
+  * [📡 Sala de Reunião, no Teams, para as aulas síncronas](https://bit.ly/pc2-aula-sinc)
 
 ## 😱 Entregas (para alunos presenciais)
 
