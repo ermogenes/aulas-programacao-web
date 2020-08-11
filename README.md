@@ -42,7 +42,7 @@ Para criar seu ambiente de trabalho, baixe as ferramentas e instale em seu compu
 No decorrer do curso, utilizaremos também:
 
 * Kit de desenvolvimento: [.NET Core SDK 📥](https://dotnet.microsoft.com/download)
-* Banco de dados [MySQL Community](https://dev.mysql.com/downloads/mysql/)
+* Banco de dados: [MySQL Community 📥](https://dev.mysql.com/downloads/mysql/)
 
 Obs.: Se utilizar a versão 3 do .NET Core SDK, remova as versões anteriores antes de instalar a nova.
 
