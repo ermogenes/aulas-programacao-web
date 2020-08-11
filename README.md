@@ -16,7 +16,7 @@ Este curso pode ser utilizado como continuação do curso [Dev C#](https://githu
 Disponibilidade dos professores nos dias das aulas presenciais, nos horários de aula (confira no Teams o horário das _lives_ e do atendimento por _chat_).
 
 * **Alunos de PC2 da Etec AB, 2020-2, 2I3:**
-  * [👨‍👩‍👧‍👦 Turma **única**, no Teams](#) [em breve]
+  * [👨‍👩‍👧‍👦 Turma **única**, no Teams](https://bit.ly/2i3-pc2)
   * [📡 Sala de Reunião, no Teams, para as aulas síncronas](#) [em breve]
 
 ## 😱 Entregas (para alunos presenciais)
