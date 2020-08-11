@@ -41,12 +41,12 @@ Para criar seu ambiente de trabalho, baixe as ferramentas e instale em seu compu
 * IDE: [Visual Studio Code 📥](https://code.visualstudio.com/download)
 * Controle de versão: [Git 📥](https://git-scm.com/downloads)
 
-No decorrer do curso, utilizaremos também:
+No decorrer do curso utilizaremos também:
 
 * Kit de desenvolvimento: [.NET Core SDK 📥](https://dotnet.microsoft.com/download)
 * Banco de dados: [MySQL Community 📥](https://dev.mysql.com/downloads/mysql/)
 
-Obs.: Se utilizar a versão 3 do .NET Core SDK, remova as versões anteriores antes de instalar a nova.
+Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as versões anteriores antes de instalar a nova.
 
  [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente (Dev C#)](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/ambiente.md)
 
@@ -70,7 +70,6 @@ _Em breve._
 _Em breve._
 
 ## Outros
-### 📜 Documentação
 
 ### 🏎 _Roadmaps_ para devs
 
