@@ -9,6 +9,8 @@
 
 **Materiais de Aula - Programação de Computadores II - [Etec Adolpho Berezin](http://eteab.com.br/)**
 
+Este curso pode ser utilizado como continuação do curso [Dev C#](https://github.com/ermogenes/aulas-programacao-csharp).
+
 ## 🧭 Aulas síncronas
 
 Disponibilidade dos professores nos dias das aulas presenciais, nos horários de aula (confira no Teams o horário das _lives_ e do atendimento por _chat_).
