@@ -18,7 +18,7 @@ Este curso pode ser utilizado como continuação do curso [Dev C#](https://githu
 Disponibilidade dos professores nos dias das aulas presenciais, nos horários de aula (confira no Teams o horário das _lives_ e do atendimento por _chat_).
 
 * **Alunos de PC2 da Etec AB, 2020-2, 2I3:**
-  * [👨‍👩‍👧‍👦 Turma **única**, no Teams](#) [em breve]
+  * [👨‍👩‍👧‍👦 Turma **única**, no Teams](https://bit.ly/2i3-pc2)
   * [📡 Sala de Reunião, no Teams, para as aulas síncronas](#) [em breve]
 
 ## 😱 Entregas (para alunos presenciais)
@@ -44,7 +44,7 @@ Para criar seu ambiente de trabalho, baixe as ferramentas e instale em seu compu
 No decorrer do curso, utilizaremos também:
 
 * Kit de desenvolvimento: [.NET Core SDK 📥](https://dotnet.microsoft.com/download)
-* Banco de dados [MySQL Community](https://dev.mysql.com/downloads/mysql/)
+* Banco de dados: [MySQL Community 📥](https://dev.mysql.com/downloads/mysql/)
 
 Obs.: Se utilizar a versão 3 do .NET Core SDK, remova as versões anteriores antes de instalar a nova.
 
