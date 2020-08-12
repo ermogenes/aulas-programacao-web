@@ -266,7 +266,7 @@ Indica algo como:
 
 Veja o exemplo:
 
-```
+```html
     <table border>
         <thead>
             <tr>
