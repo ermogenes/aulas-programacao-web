@@ -185,12 +185,131 @@ Exemplo (com imagem hospedada externamente):
 
 ### Links
 
-_Em breve_
+Usamos a _tag_ `a`, com o atributo `href`.
+
+- `href` indica o destino do link. Caso seja um arquivo não exibível (`.zip`, por exemplo), o navegador oferecerá a realização de _download_.
+- `title` indica o _tooltip_ opcional (texto exibido ao parar o ponteiro do _mouse_ sobre o link).
+- `target="_blank"` permite indicar que o link deverá abrir em uma nova janela.
+
+Todo o conteúdo entre `<a ...>` e `</a>` será clicável e remeterá ao URL indicado. Pode ser texto, imagem ou qualquer outra _tag_.
+
+Se for uma URL completa, o usuário para lá será redirecionado. Se for um nome de arquivo, ele será procurado na mesma pasta (ou no caminho relativo). Use essa característica para criar várias páginas no seu site!
+
+Exemplo de link com imagem de um gato, que abre outra aba com site externo (página do autor da foto):
+
+```html
+    <a href="https://www.pexels.com/pt-br/@kerber" target="_blank">
+        <img src="pexels-marko-blazevic-774731.jpg" alt="Imagem de um gato">
+    </a>
+```
 
 ### Listas
 
-_Em breve_
+Uma lista pode ser ordenada `ol` ou não ordenada `ul`, e pode conter itens e/ou outras listas.
+
+_Exemplo 1_:
+
+```html
+    <ol>
+        <li>Senna</li>
+        <li>Schumacher</li>
+        <li>Prost</li>
+    </ol>
+```
+
+Indica algo como:
+
+1. Senna
+1. Schumacher
+1. Prost
+
+_Exemplo 2_:
+
+```html
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+```
+
+Indica algo como:
+
+- HTML
+- CSS
+- JavaScript
+
+_Exemplo 3_:
+
+```html
+    <ol>
+        <li>Item numerado</li>
+        <li>Item numerado</li>
+        <ul>
+            <li>Sub-item não numerado</li>
+            <li>Sub-item não numerado</li>
+            <li>Sub-item não numerado</li>
+        </ul>
+        <li>Item numerado</li>
+    </ol>
+```
+Indica algo como:
+
+1. Item numerado
+1. Item numerado
+   - Sub-item não numerado
+   - Sub-item não numerado
+   - Sub-item não numerado
+1. Item numerado
 
 ### Tabelas
 
-_Em breve_
+Veja o exemplo:
+
+```
+    <table border>
+        <thead>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C1 x L1</td>
+                <td>C2 x L1</td>
+                <td>C3 x L1</td>
+            </tr>
+            <tr>
+                <td>C1 x L2</td>
+                <td>C2 x L2</td>
+                <td>C3 x L2</td>
+            </tr>
+            <tr>
+                <td>C1 x L3</td>
+                <td>C2 x L3</td>
+                <td>C3 x L3</td>
+            </tr>
+        </tbody>
+    </table>
+```
+
+- `table` indica que o conteúdo é tabular (em formato de tabela, com linhas e colunas).
+    - `border` indica que a tabela deve ser renderizada com bordas.
+- `thead` contém o cabeçalho da tabela.
+    - use um `tr` para cada linha.
+    - cada `th` dentro de um `tr` é uma célula de cabeçalho (um título de coluna).
+- `tbody` contém o corpo (células) da tabela.
+    - use um `tr` para cada linha.
+    - cada `td` dentro de um `tr` é uma célula da tabela.
+
+A tabela acima indica algo como:
+
+| **Coluna 1** | **Coluna 2** | **Coluna 3** |
+| --- | --- | --- |
+| C1 x L1 | C2 x L1 | C3 x L1 |
+| C1 x L2 | C2 x L2 | C3 x L2 |
+| C1 x L3 | C2 x L3 | C3 x L3 |
+
+Células podem conter qualquer tipo de conteúdo, inclusive outras tabelas. Porém, **não use isso para definir um leiaute para seu site**. Há ferramentas muito melhores para isso!
