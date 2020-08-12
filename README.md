@@ -55,7 +55,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 ### 🐢 Primeiros passos
 
 * [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
-* [📺](https://youtu.be/l3ft7U7iZ1s) Hello World com GitHub Pages
+* [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
 
 ### 📌 Conceitos básicos
 
