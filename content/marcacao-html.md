@@ -147,7 +147,7 @@ Use `h1` ... `h6` para definir títulos em 6 níveis/sub-níveis. Exemplo:
     <p>...</p>
 ```
 
-Esse código gerará uma árvore de subtítulos semelhante a:
+Esse código gerará uma árvore de subtítulos estruturalmente semelhante a:
 
 - História
   - História do Brasil
