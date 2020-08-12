@@ -116,14 +116,14 @@ Existem vários _templates_ de documento mínimo para uma página, e esses padr�
 As _tags_ mais comuns do cabeçalho são:
 
 - `title` é obrigatório e contém o título de identificação do documento.
-- `meta` permite realizar diversas configurações e difinições de metadados. Várias outras posuem o padrão `name` para o nome da configuração, e `content` para o seu valor.
+- `meta` permite realizar diversas configurações e difinições de metadados. Várias outras possuem o padrão `name` para o nome da configuração, e `content` para o seu valor.
     - `charset="UTF-8"` indica que o arquivo será escrito em UTF-8, o que nos permite usar acentuação e _emojis_, por exemplo.
     - `viewport` configura a janela do usuário. No exemplo, para usar toda a tela disponível (`width=device-width`) e manter o _zoom_ inicial em 100% (`initial-scale=1.0`).
     - `author` contém o nome do autor do documento.
     - `description` contém uma descrição da página para motores de busca.
     - `keywords` contém uma lista separada por vírgulas de palavras-chave, para motores de busca.
 - `link` permite instruir o navegador a baixar outros recursos, como arquivos de estilização.
-- `style` permite definir estilos válidos somente pra auma página (e não para o site todo).
+- `style` permite definir estilos válidos somente para uma página (e não para o site todo).
 - `script` permite criar códigos dinâmicos para interação com o usuário.
 
 ## Elementos do corpo do documento - `body`
@@ -168,7 +168,7 @@ Use `br` para quebrar uma linha forçadamente dentro de um parágrafo. `hr` faz 
 - `del` indica que o texto foi removido, e por padrão é renderizado ~~riscado~~.
 - `sup` e `sub` indicam sobrescrito (acima, como em ² e ³) e subescrito (abaixo).
 
-Há muito outros, mas sempre tome cuidado para não utilizá-los como formatação, e sim como indicação do seu significado.
+Há muitos outros, mas sempre tome cuidado para não utilizá-los como formatação, e sim como indicação do seu significado.
 
 ### Imagens
 
