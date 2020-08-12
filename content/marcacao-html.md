@@ -151,8 +151,8 @@ Esse código gerará uma árvore de subtítulos semelhante a:
 
 - História
   - História do Brasil
-    -- Guerra de Canudos
-    -- Diretas Já
+    - Guerra de Canudos
+    - Diretas Já
   - História do Japão
 
 Use `p` para definir parágrafos. Parágrafos subsequentes são espaçados por uma linha por padrão. Não há tabulação, como em português.
