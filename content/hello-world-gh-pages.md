@@ -183,11 +183,11 @@ Agora você pode iniciar o serviço pelo explorador (a), pela opção _Open Live
 
 ![](000008.png)
 
-![](000010.png)
+![](000011.png)
 
 O site será aberto no navegador, através de um URL `http://`. O endereço `127.0.0.1` significa sua máquina local, e `:<numero>` é o número da porta utilizada (pode variar).
 
-![](000011.png)
+![](000010.png)
 
 ## A página criada
 
