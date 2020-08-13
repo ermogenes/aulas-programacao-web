@@ -60,6 +60,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 ### 📌 Conceitos básicos
 
 * [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+* [📖 Estilos CSS](content/estilos-css.md)
 
 ## 🥋 Exercícios
 
