@@ -89,6 +89,16 @@ _Em breve._
   - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   - [👶🏻 W3Schools](https://www.w3schools.com/js/)
   - [👶🏻 JavaScript.info](https://javascript.info/)
+  - [📖 Como o Javascript funciona: uma visão geral da engine, runtime e da call stack](https://medium.com/reactbrasil/como-o-javascript-funciona-uma-vis%C3%A3o-geral-da-engine-runtime-e-da-call-stack-471dd5e1aa30)
+
+- ⛵ Navegadores
+  - [📖 Como os navegadores funcionam: bastidores dos navegadores modernos](https://www.html5rocks.com/pt/tutorials/internals/howbrowserswork/)
+  - [💡 Browsers List](https://browsersl.ist/)
+  - [💡 Can I Use](https://caniuse.com/)
+
+- 🎛 Ferramentas do desenvolvedor
+  - [📖 Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+  - [📖 Ferramentas do Firefox para desenvolvedores](https://developer.mozilla.org/pt-BR/docs/Tools)
 
 - 🧮 DOM
   - [🧬 Especificação](https://dom.spec.whatwg.org/)
