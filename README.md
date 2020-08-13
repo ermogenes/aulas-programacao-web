@@ -75,7 +75,7 @@ _Em breve._
 
 - 🏳 HTML
   - [🧬 Especificação](https://html.spec.whatwg.org/)
-  - [🧬 MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+  - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
   - [👶🏻 W3Schools](https://www.w3schools.com/html/)
 
 - 🎨 CSS
