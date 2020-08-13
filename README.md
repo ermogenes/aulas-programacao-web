@@ -72,6 +72,45 @@ _Em breve._
 
 ## Outros
 
+### 🕷 Especificações e tutoriais
+
+- 🏳 HTML
+  - [🧬 Especificação](https://html.spec.whatwg.org/)
+  - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+  - [👶🏻 W3Schools](https://www.w3schools.com/html/)
+
+- 🎨 CSS
+  - [🧬 Especificação](https://www.w3.org/TR/css-2018/)
+  - [📖 MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - [👶🏻 W3Schools](https://www.w3schools.com/css/)
+  - [👶🏻 CSS desde o início (Traduzido pelo Maujor)](https://www.maujor.com/tutorial/joe/cssjoe1.php)
+
+- 🔌 JavaScript
+  - [🧬 Especificação ECMA](https://www.ecma-international.org/ecma-262/10.0/index.html)
+  - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  - [👶🏻 W3Schools](https://www.w3schools.com/js/)
+  - [👶🏻 JavaScript.info](https://javascript.info/)
+  - [📖 Como o Javascript funciona: uma visão geral da engine, runtime e da call stack](https://medium.com/reactbrasil/como-o-javascript-funciona-uma-vis%C3%A3o-geral-da-engine-runtime-e-da-call-stack-471dd5e1aa30)
+
+- ⛵ Navegadores
+  - [📖 Como os navegadores funcionam: bastidores dos navegadores modernos](https://www.html5rocks.com/pt/tutorials/internals/howbrowserswork/)
+  - [💡 Browsers List](https://browsersl.ist/)
+  - [💡 Can I Use](https://caniuse.com/)
+
+- 🎛 Ferramentas do desenvolvedor
+  - [📖 Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+  - [📖 Ferramentas do Firefox para desenvolvedores](https://developer.mozilla.org/pt-BR/docs/Tools)
+
+- 🧮 DOM
+  - [🧬 Especificação](https://dom.spec.whatwg.org/)
+  - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+  - [👶🏻 W3Schools](https://www.w3schools.com/js/js_htmldom.asp)
+
+- 🦽 WAI-ARIA
+  - [🧬 Especificação](https://www.w3.org/TR/wai-aria/)
+  - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA)
+  - [👶🏻 Google Developers](https://developers.google.com/web/fundamentals/accessibility/semantics-aria?hl=pt-br)
+
 ### 🏎 _Roadmaps_ para devs
 
 * [🌍 Roadmap to becoming a web developer in 2020](https://github.com/kamranahmedse/developer-roadmap)
