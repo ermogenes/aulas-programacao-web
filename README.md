@@ -120,7 +120,7 @@ _Em breve._
 * [🌍 Emmet](https://docs.emmet.io/)
 * [🌍 Pexels](https://www.pexels.com/pt-br/)
 
-### História
+### 🗿 História
 
 * [🦉 Web Design History Timeline](https://www.webdesignmuseum.org/web-design-history)
 * [🦉 Web Layout History](http://grid-layout.com/history.html)
