@@ -70,6 +70,8 @@ _Em breve._
 
 _Em breve._
 
+Códigos disponíveis no [repositório oficial](https://github.com/exercicios-aulas-programacao-web).
+
 ## Outros
 
 ### 🕷 Especificações e tutoriais
