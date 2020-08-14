@@ -259,6 +259,12 @@ Adicionando um quarto valor ao hexadecimal (`00` a `FF`) ou usando a função `r
 `background-position`
 `background-attachment`
 
+![](000040.png)
+
+Imagem utilizada: [https://www.pexels.com/photo/leaves-hang-on-rope-1389460/](pexels-designecologist-1389460.jpg)
+
+### Gradientes
+
 https://cssgradient.io/
 
 ## Bordas
