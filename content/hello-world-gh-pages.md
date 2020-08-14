@@ -218,3 +218,43 @@ Você pode acessar esse URL em instantes.
 ## Evoluindo o site
 
 Você sempre pode evoluir seu site e enviar alterações para serem publicadas. Faça as alterações, realize o _commit_ e o _push_, automaticamente através de ferramentas de _Continuos Delivery_  (Entrega Contínua) do GitHub.
+
+## 🌠 EXTRA - Como fazer seu site aparecer na pesquisa do Google
+
+Mais cedo ou mais tarde o Google encontrará seu site, sem que você faça nada. Ele indexa links existentes em outras páginas e cada vez que seu site aparece como link em outro site, seu _ranking_ melhora.
+
+Para acelerar esse processo, a ainda poder consultar estatísticas das pesquisas, você pode cadastrar seu site no [Google Search Console](https://search.google.com/search-console).
+
+Uma vez logado com uma conta do Google, vá até o [Google Search Console](https://search.google.com/search-console).
+
+![](000017.png)
+
+Clique em "Adicionar propriedade". 
+
+![](000018.png)
+
+A seguinte tela aparecerá.
+
+![](000019.png)
+
+Escolha a opção "Prefixo do URL". Use o URL do seu site (não do repositório do GitHub). Clique em "Continuar".
+
+![](000020.png)
+
+Nesta tela, faça _download_ do arquivo HTML disponibilizado e grave ele na raiz do seu repositório. Isso comprovará ao Google que você é dono do site.
+
+![](000021.png)
+
+Seu arquivo repositório ficará semelhante ao seguinte:
+
+![](000022.png)
+
+Volte ao GSC e clique em "Verificar".
+
+![](000023.png)
+
+Agora o Google sabe que seu site existe. Pode demorar algumas semanas para que ele comece a aparecer na busca, e ainda assim você terá muito trabalho para fazê-lo aparecer na primeira página.
+
+Agora, estude sobre SEO - _Search Engine Optimization_ para que seu site brilhe!
+
+Uma boa fonte para começar é [este artigo](https://rockcontent.com/br/blog/o-que-e-seo/#:~:text=SEO%20significa%20Search%20Engine%20Optimization,para%20um%20site%20ou%20blog.) da Rock Content.

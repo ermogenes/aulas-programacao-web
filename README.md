@@ -111,6 +111,9 @@ _Em breve._
   - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA)
   - [👶🏻 Google Developers](https://developers.google.com/web/fundamentals/accessibility/semantics-aria?hl=pt-br)
 
+- 🛫 SEO - _Search Engine Optimization_
+  - [O que é SEO: o guia completo para você conquistar o topo do Google](https://rockcontent.com/br/blog/o-que-e-seo/#:~:text=SEO%20significa%20Search%20Engine%20Optimization,para%20um%20site%20ou%20blog.)
+
 ### 🏎 _Roadmaps_ para devs
 
 * [🌍 Roadmap to becoming a web developer in 2020](https://github.com/kamranahmedse/developer-roadmap)
