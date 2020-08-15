@@ -260,6 +260,7 @@ Algumas ferramentas para criar e compartilhar esquemas de cores na web:
 - [HailPixel](https://color.hailpixel.com/)
 - [Cohesive Colors](https://javier.xyz/cohesive-colors/)
 - [Coolors](https://coolors.co/)
+- [ColorSpace](https://mycolor.space/)
 - [Pallete Generator](https://palettegenerator.com/)
 
 ### RGBA
@@ -278,22 +279,68 @@ Adicionando um quarto valor ao hexadecimal (`00` a `FF`) ou usando a função `r
 
 Podemos preencher o fundo de um elemento usando cores e imagens. Existem diversas propriedades para posicionar corretamente as imagens no espaço ocupado pelo elemento.
 
+- `background-color` indica a cor de fundo do elemento.
+  - `background-color: rebeccapurple;` deixa o fundo em um tom púrpura.
+
+Imagens são referenciadas em CSS usando funções:
+
+- `url()` permite buscar uma imagem em uma URL acessível.
+- `linear-gradient()` gera uma imagem em gradiente (_dégradé_) linear.
+- `radial-gradient()` gera uma imagem em gradiente (_dégradé_) radial.
+
 🦽 _Imagens de fundo são ignoradas por leitores de tela! Evite usá-los como única maneira de entregar informações que são relevantes ao usuário!_
 
-`background-color`
-`background-image`
-`background-repeat`
-`background-size`
-`background-position`
-`background-attachment`
+- `background-image` indica uma imagem de fundo para o elemento.
+  - `background-image: url(fundo.jpg);` exibe a imagem `fundo.jpg` no fundo do elemento.
+  - `background-image: linear-gradient(to right, silver, black);` cria uma imagem em gradiente do cinza cinza até o preto, da esquerda para a direita.
+- `background-repeat` controla a repetição da imagem de fundo.
+  - `background-repeat: repeat;` - repete a imagem quanta vezes for necessário, lado a lado.
+  - `background-repeat: repeat-x;` - repete a imagem somente horizontalmente.
+  - `background-repeat: repeat-y;` - repete a imagem somente verticalmente.
+  - `background-repeat: space;` - repete quantas vezes for possível, sem cortar a imagem, e adiciona espaços entre elas se necessário.
+  - `background-repeat: round;` - repete quantas vezes for possível, sem cortar a imagem, distorcendo se necessário.
+  - `background-repeat: no-repeat;` - só exibe a imagem uma vez.
+- `background-size` controla o tamanho da imagem.
+  - `background-size: auto;` - segue a dimensão intrínseca da imagem.
+  - `background-size: contain;` - redimensiona a imagem para o maior tamanho possível sem distorção.
+  - `background-size: cover;` - redimensiona a imagem para preencher o elemento sem deixar áreas em branco, mas possivelmente não exibindo a imagem como um todo.
+- `background-position` - controla a posição inicial da imagem.
+  `background-position: top;`, (ou `left`, `right`, `bottom`) - a imagem inicia na borda indicada.
+  `background-position: 10px;` (ou `25%`) - a imagem inicia na posição indicada.
+- `background-attachment` - permite controlar a posição da imagem em relação ao navegador, e não ao elemento.
+  - `background-attachment: scroll;` - o fundo se desloca juntamente com a rolagem.
+  - `background-attachment: fixed;` - o fundo não se desloca juntamente com a rolagem.
 
 ![](000040.png)
 
-Imagem utilizada: [https://www.pexels.com/photo/leaves-hang-on-rope-1389460/](pexels-designecologist-1389460.jpg)
+Imagem utilizada nos exemplo acima: [https://www.pexels.com/photo/leaves-hang-on-rope-1389460/](https://www.pexels.com/photo/leaves-hang-on-rope-1389460/)
 
 ### Gradientes
 
-https://cssgradient.io/
+Referência oficial: https://drafts.csswg.org/css-images-3/#gradients
+
+Você pode criar um gradiente listando um ângulo e uma lista de cores (e suas posições).
+
+O **ângulo** pode ser definido como uma direção ou em graus, em sentido horário, sendo 0° direcionado para cima.
+
+- `to top` - de baixo para cima.
+- `to left` - da direita para a esquerda.
+- `to bottom` - de cima para baixo.
+- `to right` - da esquerda para a direita.
+- `45deg` - de sudoeste para nordeste.
+- `225deg` - de nordeste para sudoeste (45° + 180°).
+
+A lista de cores com suas posições é definida assim:
+
+- `silver, black` - de cinza a preto.
+- `red 0%, blue 100%` - de vermelho a azul.
+- `darksalmon 0%, salmon 50%, red 51%, firebrick 71%, crimson 100%` - um gradiente de vários pontos, em tons de vermelho [veja aqui](https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28top\%2C\%20rgba\%28250\%2C127\%2C114\%2C1\%29\%200\%25\%2C\%20rgba\%28255\%2C160\%2C122\%2C1\%29\%2050\%25\%2C\%20rgba\%28255\%2C0\%2C0\%2C1\%29\%2051\%25\%2C\%20rgba\%28178\%2C34\%2C34\%2C1\%29\%2071\%25\%2C\%20rgba\%28220\%2C20\%2C60\%2C1\%29\%20100\%25\%29\%3B').
+
+Usamos as duas informações no formato `linear-gradient(angulo, lista-de-cores)`.
+
+Você pode usar um gerador para facilitar a visualização. Um bom exemplo é o contido eno [CSSmatic](https://www.cssmatic.com/gradient-generator).
+
+O site [CSSGradient](https://cssgradient.io/) mostra diversas opções para inspiração.
 
 ## Bordas
 
