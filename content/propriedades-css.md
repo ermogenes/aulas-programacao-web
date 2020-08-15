@@ -25,6 +25,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
 
 ![](000026.png)
 
+---
+
 ### Tamanho
 
 - `font-size` permite alterar o tamanho do tipo a ser aplicado no texto. Pode ser dado em diversas unidades, sendo mais comuns (em 2020) definir o tamanho em pixels (`px`).
@@ -36,6 +38,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
 
 ![](000027.png)
 
+---
+
 ### Estilo da fonte
 
 - `font-style` permite alterar o estilo da fonte.
@@ -44,6 +48,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
 
 ![](000028.png)
 
+---
+
 ### Variante
 
 - `font-variant` permite alterar diversas características das fontes, sendo usado normalmente para colocar o texto em _versalete_ (letras minúsculas com a forma de maiúsculas).
@@ -51,6 +57,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
     - `font-variant: normal;` - normal.
 
 ![](000029.png)
+
+---
 
 ### Peso
 
@@ -63,6 +71,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
 
 ![](000030.png)
 
+---
+
 ### Tamanho da linha
 
 - `line-height` permite alterar a altura da linha de texto.
@@ -73,6 +83,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
 
 ![](000031.png)
 
+---
+
 ### Espaçamento entre letras
 
 - `letter-spacing` altera o espaço entre as letras.
@@ -81,6 +93,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
   - `letter-spacing: -2px;` - aproxima em 2px cada letra.
 
 ![](000032.png)
+
+---
 
 ### Espaçamento entre palavras
 
@@ -91,6 +105,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
 
 ![](000033.png)
 
+---
+
 ### Alinhamento horizontal
 
 - `text-align` configura o alinhamento para um bloco de texto. Não tem efeito para elementos _inline_.
@@ -100,6 +116,8 @@ Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcont
   - `text-align: justify;` - justificado.
 
 ![](000034.png)
+
+---
 
 ### Sublinhado
 
@@ -121,6 +139,8 @@ _Observação: um elemento filho não pode retirar o sublinhado herdado, somente
 
 ![](000035.png)
 
+---
+
 ### Indentação de parágrafo
 
 - `text-indent` configura o espaço em branco deixado na primeira linha de um parágrafo.
@@ -129,6 +149,8 @@ _Observação: um elemento filho não pode retirar o sublinhado herdado, somente
   - `text-indent: -20px;` - recuo de 20px.
 
 ![](000036.png)
+
+---
 
 ### Caixa alta/baixa
 
@@ -139,6 +161,8 @@ _Observação: um elemento filho não pode retirar o sublinhado herdado, somente
   - `text-transform: lowercase;` - transforma em minúsculas.
 
 ![](000037.png)
+
+---
 
 ### Sombreamento
 
@@ -218,7 +242,7 @@ As cores secundárias são formadas misturando os canais dois-a-dois:
 - `#ff00ff` - vermelho e azul = _magenta_
 - `#00ffff` - verde e azul = _cyan_
 
-Quanto mais alto o valor (mais próximo de `FF`), mais claro é o canal. O oposto tmabém é verdadeiro.
+Quanto mais alto o valor (mais próximo de `FF`), mais claro é o canal. O oposto também é verdadeiro.
 
 - `#6666ff` - azul claro (luz azul no máximo, e mais luz nos outros canais)
 - `#000066` - azul escuro (menos luz azul, e nenhuma luz nos outros canais)
@@ -251,6 +275,10 @@ Adicionando um quarto valor ao hexadecimal (`00` a `FF`) ou usando a função `r
 # Em desenvolvimento:
 
 ### Fundos
+
+Podemos preencher o fundo de um elemento usando cores e imagens. Existem diversas propriedades para posicionar corretamente as imagens no espaço ocupado pelo elemento.
+
+🦽 _Imagens de fundo são ignoradas por leitores de tela! Evite usá-los como única maneira de entregar informações que são relevantes ao usuário!_
 
 `background-color`
 `background-image`
