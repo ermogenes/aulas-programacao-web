@@ -334,11 +334,11 @@ A lista de cores com suas posições é definida assim:
 
 - `silver, black` - de cinza a preto.
 - `red 0%, blue 100%` - de vermelho a azul.
-- `darksalmon 0%, salmon 50%, red 51%, firebrick 71%, crimson 100%` - um gradiente de vários pontos, em tons de vermelho [veja aqui](https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28top\%2C\%20rgba\%28250\%2C127\%2C114\%2C1\%29\%200\%25\%2C\%20rgba\%28255\%2C160\%2C122\%2C1\%29\%2050\%25\%2C\%20rgba\%28255\%2C0\%2C0\%2C1\%29\%2051\%25\%2C\%20rgba\%28178\%2C34\%2C34\%2C1\%29\%2071\%25\%2C\%20rgba\%28220\%2C20\%2C60\%2C1\%29\%20100\%25\%29\%3B').
+- `darksalmon 0%, salmon 50%, red 51%, firebrick 71%, crimson 100%` - um gradiente de vários pontos, em tons de vermelho ([veja aqui](https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28top\%2C\%20rgba\%28250\%2C127\%2C114\%2C1\%29\%200\%25\%2C\%20rgba\%28255\%2C160\%2C122\%2C1\%29\%2050\%25\%2C\%20rgba\%28255\%2C0\%2C0\%2C1\%29\%2051\%25\%2C\%20rgba\%28178\%2C34\%2C34\%2C1\%29\%2071\%25\%2C\%20rgba\%28220\%2C20\%2C60\%2C1\%29\%20100\%25\%29\%3B')).
 
 Usamos as duas informações no formato `linear-gradient(angulo, lista-de-cores)`.
 
-Você pode usar um gerador para facilitar a visualização. Um bom exemplo é o contido eno [CSSmatic](https://www.cssmatic.com/gradient-generator).
+Você pode usar um gerador para facilitar a visualização. Um bom exemplo é o contido em [CSSmatic](https://www.cssmatic.com/gradient-generator).
 
 O site [CSSGradient](https://cssgradient.io/) mostra diversas opções para inspiração.
 
