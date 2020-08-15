@@ -273,8 +273,6 @@ Adicionando um quarto valor ao hexadecimal (`00` a `FF`) ou usando a função `r
 
 ---
 
-# Em desenvolvimento:
-
 ### Fundos
 
 Podemos preencher o fundo de um elemento usando cores e imagens. Existem diversas propriedades para posicionar corretamente as imagens no espaço ocupado pelo elemento.
@@ -311,11 +309,7 @@ Imagens são referenciadas em CSS usando funções:
   - `background-attachment: scroll;` - o fundo se desloca juntamente com a rolagem.
   - `background-attachment: fixed;` - o fundo não se desloca juntamente com a rolagem.
 
-![](000040.png)
-
-Imagem utilizada nos exemplo acima: [https://www.pexels.com/photo/leaves-hang-on-rope-1389460/](https://www.pexels.com/photo/leaves-hang-on-rope-1389460/)
-
-### Gradientes
+#### Gradientes
 
 Referência oficial: https://drafts.csswg.org/css-images-3/#gradients
 
@@ -342,15 +336,34 @@ Você pode usar um gerador para facilitar a visualização. Um bom exemplo é o 
 
 O site [CSSGradient](https://cssgradient.io/) mostra diversas opções para inspiração.
 
+#### Exemplos de fundos
+
+![](000040.png)
+
+Imagem utilizada nos exemplo acima: [https://www.pexels.com/photo/leaves-hang-on-rope-1389460/](https://www.pexels.com/photo/leaves-hang-on-rope-1389460/)
+
+---
+
 ## Bordas
 
-`border-width`
-`border-style`
-`border-color`
-`border-radius`
+Controla as bordas do elemento.
 
-`border-top-width`
-`border-top-right-radius`
+- `border-width` - largura da borda.
+  - `border-width: 1px;` - largura da borda definida em 1px.
+- `border-style` - estilo do traço da borda. Algumas opções possíveis são `none`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset` e `outset`.
+  - `border-style: none;` - sem borda.
+  - `border-style: solid;` - borda sólida.
+  - `border-style: dotted;` - borda pontilhada.
+  - `border-style: dashed;` - borda tracejada.
+- `border-color` - cor da borda.
+- `border-radius` - raio de arredondamento dos cantos da borda.
+  - `border-radius: 0;` - sem arredondamento.
+  - `border-radius: 5px;` - raio de arredondamento de 5px.
+  - `border-radius: 50%;` - raio de arredondamento máximo (vira um círculo ou elipse).
+
+💡 _Use uma imagem quadrada com borda arredondada em 50% para exibí-la em um círculo._
+
+![](000041.png)
 
 ## Tamanhos
 
