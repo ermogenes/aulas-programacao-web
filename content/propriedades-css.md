@@ -365,18 +365,25 @@ Controla as bordas do elemento.
 
 ![](000041.png)
 
-## Tamanhos
+---
 
-`width`
-`height`
-`min-`
-`max-`
+## Tamanho
+
+Controla os tamanhos do elemento.
+
+- `width` e `height` - largura e altura do elemento.
+- `min-width` e `min-height` - tamanhos mínimos.
+- `max-width` e `max-height` - tamanhos máximos.
 
 `padding`
 `margin`
 
 `overflow`
 `overflow-x`
+
+![](box-model.svg)
+
+## Posição
 
 ## Listas
 
