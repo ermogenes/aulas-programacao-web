@@ -1,5 +1,7 @@
 # Estilos CSS
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/WgxdN0navic)
+
 ## Introdução
 
 A linguagem CSS permite a configuração de propriedades dos elementos de um documento HTML. Dispões diversas maneiras de selecionar elementos, e permite impor regras para alteração de suas propriedades.

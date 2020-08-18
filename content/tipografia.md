@@ -1,5 +1,7 @@
 ## Tipografia
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/UViHi9HHAOU)
+
 Propriedades que permitem estilizar elementos textos textuais em sua página.
 
 Boas introduções ao tema podem ser encontradas [nesse artigo](https://rockcontent.com/br/blog/tipografia/) da RockContent, e [nesse artigo](https://neilpatel.com/br/blog/tipografia/#:~:text=Tipografia%20significa%20a%20impress%C3%A3o%20dos,e%20disposi%C3%A7%C3%A3o%20visual%20de%20palavras.) de Neil Patel.

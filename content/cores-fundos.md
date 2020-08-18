@@ -1,5 +1,7 @@
 # Cores
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/IEJhZot5HwY)
+
 O CSS permite que se defina uma cor de diversas maneiras diferentes. Todas elas tem o mesmo resultado, e podem ser utilizadas em qualquer propriedade.
 
 Veja detalhes técnicos no [MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value).

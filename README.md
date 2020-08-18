@@ -60,9 +60,9 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 ### 📌 Conceitos básicos
 
 * [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
-* [📖 Estilos CSS](content/estilos-css.md)
-* [📖 Tipografia](content/tipografia.md)
-* [📖 Cores e fundos](content/cores-fundos.md)
+* [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
+* [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
+* [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
 * [📖 _Box-model_](content/box-model.md)
 
 ## 🥋 Exercícios
