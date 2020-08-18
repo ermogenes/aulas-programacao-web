@@ -61,7 +61,9 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 * [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
 * [📖 Estilos CSS](content/estilos-css.md)
-* [📖 Propriedades CSS](content/propriedades-css.md)
+* [📖 Tipografia](content/tipografia.md)
+* [📖 Cores e fundos](content/cores-fundos.md)
+* [📖 _Box-model_](content/box-model.md)
 
 ## 🥋 Exercícios
 
