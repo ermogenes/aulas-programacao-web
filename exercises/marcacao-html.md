@@ -12,10 +12,10 @@ Faça um _site_ de boas-vindas para os estudantes de tecnologias web.
 
 ![](hello-dev-web-001.png)
 
-- Use a imagem do logo usando URL externa: https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png
-- Link do Dev Web (na imagem e no texto): https://github.com/ermogenes/aulas-programacao-web
-- Link da Etec: http://eteab.com.br/
-- No seu nome, use o link do seu perfil no GitHub (ex.: https://github.com/ermogenes)
+- Use a imagem do logo usando URL externa: [https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png](https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png)
+- Link do Dev Web (na imagem e no texto): [https://github.com/ermogenes/aulas-programacao-web](https://github.com/ermogenes/aulas-programacao-web)
+- Link da Etec: [http://eteab.com.br/](http://eteab.com.br/)
+- No seu nome, use o link do seu perfil no GitHub (ex.: [https://github.com/ermogenes](https://github.com/ermogenes))
 
 ---
 
@@ -84,13 +84,13 @@ Mapa de navegação (_sitemap_):
 _Links externos necessários:_
 
 - Dev C#
-  - Imagem Dev C#: https://raw.githubusercontent.com/ermogenes/aulas-programacao-web/master/content/logo-dev-cs.png
-  - Link ao clicar: https://github.com/ermogenes/aulas-programacao-csharp/
+  - Imagem Dev C#: [https://raw.githubusercontent.com/ermogenes/aulas-programacao-web/master/content/logo-dev-cs.png](https://raw.githubusercontent.com/ermogenes/aulas-programacao-web/master/content/logo-dev-cs.png)
+  - Link ao clicar: [https://github.com/ermogenes/aulas-programacao-csharp/](https://github.com/ermogenes/aulas-programacao-csharp/)
 - Dev Web
-  - Imagem Dev Web: https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png
-  - Link ao clicar: https://github.com/ermogenes/aulas-programacao-web/
+  - Imagem Dev Web: [https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png](https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png)
+  - Link ao clicar: [https://github.com/ermogenes/aulas-programacao-web/](https://github.com/ermogenes/aulas-programacao-web/)
 - Objetivo
-  - Página de salário: https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/
+  - Página de salário: [https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/](https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/)
 
 ---
 
@@ -112,4 +112,4 @@ Confira no Teams o link da tarefa equivalente. Lá você postará o link do ~~re
 
 Repositório de exemplo: Exercício `hello-dev-web` (Marcação HTML)
 
-Exemplo de link a ser postado: https://ermogenes.github.io/hello-dev-web
+Exemplo de link a ser postado: [https://ermogenes.github.io/hello-dev-web](https://ermogenes.github.io/hello-dev-web)
