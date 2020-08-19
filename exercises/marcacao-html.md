@@ -81,6 +81,17 @@ Mapa de navegação (_sitemap_):
 
 ![](passo-a-passo-004.png)
 
+_Links externos necessários:_
+
+- Dev C#
+  - Imagem Dev C#: https://raw.githubusercontent.com/ermogenes/aulas-programacao-web/master/content/logo-dev-cs.png
+  - Link ao clicar: https://github.com/ermogenes/aulas-programacao-csharp/
+- Dev Web
+  - Imagem Dev Web: https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png
+  - Link ao clicar: https://github.com/ermogenes/aulas-programacao-web/
+- Objetivo
+  - Página de salário: https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/
+
 ---
 
 ## Exercício `horario-2i3-2020-2`
