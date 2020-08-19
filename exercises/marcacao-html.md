@@ -19,6 +19,17 @@ Faça um _site_ dê boas-vindas para os estudantes de tecnologias web.
 
 ---
 
+### `galeria-primario`
+
+Faça um _site_ para exibir obras de arte feitas por alunos do primário.
+
+![](galeria-primario-001.png)
+
+- Use três (_ou mais_) imagens (`.png` ou `.jpg`) criadas por você no editor de imagens de sua preferência (Paint, Photoshop, Gimp, Krita, etc.), com qualquer desenho simples.
+- Tamanho sugerido das imagens: 400px x 200px.
+
+---
+
 ## 🏁 Orientações para entrega (alunos do curso presencial)
 Confira no Teams o link da tarefa equivalente. Lá você postará o link do ~~repositório no GitHub~~ **_site_ publicado**, um para cada exercício.
 
