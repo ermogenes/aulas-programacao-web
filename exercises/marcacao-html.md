@@ -8,7 +8,7 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 ## Exercício `hello-dev-web`
 
-Faça um _site_ dê boas-vindas para os estudantes de tecnologias web.
+Faça um _site_ de boas-vindas para os estudantes de tecnologias web.
 
 ![](hello-dev-web-001.png)
 
