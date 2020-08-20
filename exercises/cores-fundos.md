@@ -12,7 +12,7 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 Crie e publique uma estilização para [este _template_](https://github.com/ermogenes/html-template-frase).
 
-_Não altere a marcação (`index.html`), somente a estilização externa (`style.css`)._
+_Não altere a marcação (`index.html`), somente a estilização externa (`style.css`). Você pode adicionar imagens ao seu repositório._
 
 A estilização deve formar um tema bem definido à sua escolha, desde que fique claro a quem vê que há uma intencionalidade nas decisões estéticas.
 
