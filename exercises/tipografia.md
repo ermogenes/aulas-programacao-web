@@ -12,7 +12,7 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 Publique um _site_ com uma estilização de texto, usando [este template](https://github.com/ermogenes/html-lorem-ipsum).
 
-_Não altere a marcação (`index.html`), somente da estilização externa (`style.css`)._
+_Não altere a marcação (`index.html`), somente a estilização externa (`style.css`)._
 
 Dois exemplos de resolução:
 
