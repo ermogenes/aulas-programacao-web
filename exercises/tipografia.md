@@ -8,6 +8,26 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 ---
 
+## Exercício `cinco-fontes`
+
+Faça um _site_ que exiba textos em cinco fontes diferentes, como um catálogo.
+
+![](cinco-fontes-001.png)
+
+Cada uma delas deve ser de uma categoria:
+
+* Serif / `serif` (com serifa)
+* Sans Serif / `sans-serif` (sem serifa)
+* Display / `fantasy` (fonte artística)
+* Handwritting / `cursive` (cursiva / manuscrita)
+* Monospace / `monospace` (monoespaçada)
+
+Utilize web fontes do [Google Fonts](https://fonts.google.com/). Faça a importação das fontes no arquivo `.css`, juntamente com a estilização.
+
+💡 Dica: use classes para diferenciar os elementos que vão utilizar cada fonte!
+
+---
+
 ## Exercício `tipografia-lorem-ipsum`
 
 Publique um _site_ com uma estilização de texto, usando [este template](https://github.com/ermogenes/html-lorem-ipsum).
