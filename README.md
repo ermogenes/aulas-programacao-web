@@ -68,6 +68,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 ## 🥋 Exercícios
 
 * [🏳 Marcação HTML](exercises/marcacao-html.md)
+* [🎨 Tipografia](exercises/tipografia.md)
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
 
