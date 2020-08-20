@@ -1,4 +1,4 @@
-# Exercícios: Tipografia
+# Exercícios: Cores e fundos
 
 Para cada exercício abaixo crie um repositório com o nome indicado, e publique um _site_ usando o GitHub Pages que atenda ao requisito indicado.
 
@@ -10,7 +10,7 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 ## Exercício `tema-com-css`
 
-Crie e publique uma estilização para [este _template_]().
+Crie e publique uma estilização para [este _template_](https://github.com/ermogenes/html-template-frase).
 
 _Não altere a marcação (`index.html`), somente a estilização externa (`style.css`)._
 
