@@ -10,7 +10,9 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 ## Exercício `cinco-fontes`
 
-Faça um _site_ que exiba textos em cinco fontes diferentes, como um catálogo.
+Faça um _site_ que exiba textos em cinco fontes quaisquer, diferentes, como um catálogo.
+
+Exemplo:
 
 ![](cinco-fontes-001.png)
 
