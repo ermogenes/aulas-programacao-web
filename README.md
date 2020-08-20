@@ -71,7 +71,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
 
-_Em breve._
+* 🏳 [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
 
 Códigos disponíveis no [repositório oficial](https://github.com/exercicios-aulas-programacao-web).
 
