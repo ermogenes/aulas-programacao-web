@@ -1,4 +1,4 @@
-# Leiaute
+# Tamanho e posicionamento
 
 ## Fluxo normal
 
@@ -75,6 +75,15 @@ Pode ser bem difícil controlar corretamente tamanho de imagens usando esses mec
 
 ## Vazamento / `overflow`
 
+Podemos controlar a maneira que conteúdo vazado é exibido (ou não).
+
+- `overflow: visible;` - padrão, exibe o conteúdo mesmo que ele vaze para fora do elemento.
+- `overflow: hidden;` - esconde o conteúdo vazado.
+- `overflow: scroll;` - exibe barras de rolagem para controlar a exibição de conteúdo vazado.
+- `overflow: auto;` - exibe barras de rolagem somente se houver conteúdo vazado.
+
+![](000063.png)
+
 ## Floats
 
 Permitem que elementos sejam circundados por outros elementos.
@@ -93,10 +102,18 @@ Permitem que elementos sejam circundados por outros elementos.
     fixed
     sticky
     z-index
+    top
+    bottom
+    left
+    right
+
+![](000064.png)
+
+![](000065.gif)
 
 ## Colunas
 
-
+_Em breve..._
 
 ## Elementos HTML semânticos
 
@@ -105,4 +122,3 @@ Permitem que elementos sejam circundados por outros elementos.
 ![](000056.png)
 
 ![](000057.png)
-
