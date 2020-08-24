@@ -129,6 +129,11 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 
 * [🌍 Emmet](https://docs.emmet.io/)
 * [🌍 Pexels](https://www.pexels.com/pt-br/)
+* _Lorem Ipsum_ de imagens:
+  * [🌍 Placeholder.com](https://placeholder.com/)
+  * [🌍 Lorem Picsum](https://picsum.photos/)
+  * [🌍 Dummy Image](https://dummyimage.com/)
+  * [🌍 PlaceImg](https://placeimg.com/)
 
 ### 🗿 História
 
