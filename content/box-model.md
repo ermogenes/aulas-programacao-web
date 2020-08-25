@@ -1,5 +1,7 @@
 # _Box-model_
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/1sQzXRL8M4I)
+
 Chamamos de _box model_ a forma que o CSS define a caixa retangular que envolve os elementos da página.
 
 Um elemento possui uma medida implícita, que será calculada de acordo com o funcionamento da sua _tag_ e com seu conteúdo. Por exemplo, um parágrafo será exibido em bloco (usando toda a largura disponível) enquanto um link será exibido em linha (usando a largura necessária para o conteúdo e eventualmente quebrando o conteúdo em várias linhas).

@@ -1,5 +1,7 @@
 # Tamanho e posicionamento
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/5I9SbWkQF28)
+
 ## Fluxo normal
 
 Cada elemento HTML é desenhado na tela de maneira diferente, de acordo com sua definição. Alguns elementos, como um parágrafo, são chamados de elementos em **nível de bloco**, e tem um comportamento diferente de elementos que fluem como um texto, chamado de elementos em **nível de linha**.
