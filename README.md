@@ -65,6 +65,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 * [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
 * [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
 * [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
+* [📖 Leiaute](content/leiaute.md)
 
 ## 🥋 Exercícios
 
