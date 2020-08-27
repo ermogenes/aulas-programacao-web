@@ -61,11 +61,28 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 * [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
 * [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
+
+### 🕷 Marcação e estilização
+
 * [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
 * [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
 * [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
 * [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
 * [📖 Leiaute](content/leiaute.md)
+* [📖 Transições e animações](content/transicoes-animacoes.md)
+* [📖 Formulários](content/forms.md)
+
+### 🔋 JavaScript no _Frontend_
+
+_Em breve..._
+
+### 🔌 _Backend_ API com C#
+
+_Em breve..._
+
+### 🛢 Banco de dados com Entity Framework Core
+
+_Em breve..._
 
 ## 🥋 Exercícios
 
