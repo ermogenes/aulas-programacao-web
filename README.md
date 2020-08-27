@@ -71,6 +71,8 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 * [📖 Leiaute](content/leiaute.md)
 * [📖 Transições e animações](content/transicoes-animacoes.md)
 * [📖 Formulários](content/forms.md)
+* [📖 Responsividade](content/responsividade.md)
+* [📖 Bibliotecas e frameworks](content/bibliotecas.md)
 
 ### 🔋 JavaScript no _Frontend_
 
@@ -89,6 +91,7 @@ _Em breve..._
 * [🏳 Marcação HTML](exercises/marcacao-html.md)
 * [🎨 Tipografia](exercises/tipografia.md)
 * [🎨 Cores e fundos](exercises/cores-fundos.md)
+* [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
 
