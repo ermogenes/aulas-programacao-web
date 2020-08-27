@@ -98,29 +98,33 @@ Permitem que elementos sejam circundados por outros elementos.
 😖 _Dica_: Faça um favor para você mesmo: não tente criar leiautes usando _floats_. Designers mais experientes tentaram por mais de 10 anos até que desistiram. Então se criou a especificação _flex_.
 
 ## Posição
-    static
-    relative
-    absolute
-    fixed
-    sticky
-    z-index
-    top
-    bottom
-    left
-    right
+
+Indica o método de posicionamento do elemento em relação ao fluxo normal. O valor dessa propriedade indicará como a posição será calculada, em conjunto com as propriedades `top`, `right`, `bottom` e `left`.
+
+- `position` - muda o método de posicionamento.
+  - `position: static;` - método padrão, seguindo o fluxo normal. O elemento não pode ser posicionado.
+  - `position: relative;` - permite **posicionamento relativo** à posição do elemento no fluxo normal.
+  - `position: absolute;` - o elemento é retirado do fluxo normal, e permite **posicionamento absoluto** deslocado em relação à posição do primeiro elemento ancestral não-`static` (ou `body`).
+  - `position: fixed;` - como absoluto, mas não se reposiciona na rolagem do conteúdo.
+  - `position: sticky;` - como relativo, mas aderente às bordas do `viewport`.
+
+Além disso, podemos indicar modificadores nos três eixos:
+
+- Eixo `x` (horizontal): 
+  - `left: ` - deslocamento em relação à borda esquerda.
+  - `right: ` - deslocamento em relação à borda direita.
+- Eixo `y` (vertical): 
+  - `top: ` - deslocamento em relação à borda superior.
+  - `bottom: ` - deslocamento em relação à borda inferior.
+- Eixo `z` (empilhamento): 
+  - `z-index: ` - índice de empilhamento, sendo que números menores ficam abaixo, e maiores acima (o padrão é `0`).
+
+Exemplos:
 
 ![](000064.png)
 
 ![](000065.gif)
 
-## Colunas
+---
 
-_Em breve..._
-
-## Elementos HTML semânticos
-
-![](000055.png)
-
-![](000056.png)
-
-![](000057.png)
+Se necessário, consulte a lista completa no [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index).
