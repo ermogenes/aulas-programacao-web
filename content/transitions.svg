@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="461.89" height="115.61" version="1.1" viewBox="0 0 122.21 30.587" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <marker id="Arrow2Lend" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-opacity=".39759" stroke-width=".625"/>
+  </marker>
+  <linearGradient id="linearGradient905">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient909" cx="42.333" cy="10.961" r="37.808" gradientTransform="matrix(1 0 0 .083466 0 10.046)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient905"/>
+  <radialGradient id="radialGradient909-6" cx="42.333" cy="10.961" r="37.808" gradientTransform="matrix(1 0 0 .083466 .21769 19.492)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient905"/>
+  <marker id="Arrow2Lend-5" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-opacity=".39759" stroke-width=".625"/>
+  </marker>
+ </defs>
+ <g transform="translate(-4.522 -6.5891)">
+  <g font-family="Arial, sans-serif" stroke-width=".26458">
+   <g font-weight="bold">
+    <text x="4.5357141" y="22.339708" fill="#ff0000" font-size="10.583px" style="line-height:1.25" xml:space="preserve"><tspan x="4.5357141" y="22.339708" fill="#ff0000" font-family="Arial, sans-serif" font-weight="bold" stroke-width=".26458">Texto</tspan></text>
+    <text x="79.324097" y="22.246691" fill="#0000ff" font-size="18.521px" style="line-height:1.25" xml:space="preserve"><tspan x="79.324097" y="22.246691" fill="#0000ff" font-family="Arial, sans-serif" font-size="18.521px" font-weight="bold" stroke-width=".26458">Texto</tspan></text>
+    <text x="36.89333" y="22.2932" fill="#800080" font-size="14.552px" style="line-height:1.25" xml:space="preserve"><tspan x="36.89333" y="22.2932" fill="#800080" font-family="Arial, sans-serif" font-size="14.552px" font-weight="bold" stroke-width=".26458">Texto</tspan></text>
+   </g>
+   <g font-size="4.2333px">
+    <text x="13.018878" y="34.026417" style="line-height:1.25" xml:space="preserve"><tspan x="13.018878" y="34.026417" stroke-width=".26458">antes</tspan></text>
+    <text x="55.528519" y="30.994047" text-align="center" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="55.528519" y="30.994047" text-align="center">durante</tspan><tspan x="55.528519" y="36.285709" text-align="center">(calculado)</tspan></text>
+    <text x="96.992493" y="33.664684" style="line-height:1.25" xml:space="preserve"><tspan x="96.992493" y="33.664684" stroke-width=".26458">depois</tspan></text>
+   </g>
+  </g>
+  <path d="m4.5357 13.985 75.595-6.0476" fill="url(#radialGradient909)" marker-end="url(#Arrow2Lend)" opacity=".61859" stroke="#000" stroke-dasharray="1.03346, 0.344487" stroke-dashoffset=".34449" stroke-opacity=".39759" stroke-width=".34449"/>
+  <path d="m4.7534 23.431 74.839 0.75595" fill="url(#radialGradient909-6)" marker-end="url(#Arrow2Lend-5)" opacity=".61859" stroke="#000" stroke-dasharray="1.03346, 0.344487" stroke-dashoffset=".34449" stroke-opacity=".39759" stroke-width=".34449"/>
+ </g>
+</svg>
