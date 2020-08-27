@@ -125,24 +125,53 @@ Exemplos usando a animação abaixo:
 
 # Transformações
 
-_Em breve..._
+Apesar de ser frequentemente utilizado em conjunto com transições e animações, as tranformações são independentes e não relacionadas ao tema.
 
-none
-translate(x,y)
-translate3d(x,y,z)
-translateX(x)
-translateY(y)
-translateZ(z)	
-scale(x,y)
-scale3d(x,y,z)
-scaleX(x)
-scaleY(y)
-scaleZ(z)
-rotate(angle)
-rotate3d(x,y,z,angle)
-rotateX(angle)
-rotateY(angle)
-rotateZ(angle)
-skew(x-angle,y-angle)
-skewX(angle)
-skewY(angle)
+Podemos realizar as transformações usando as funções a seguir como valores da propriedade `transform`.
+
+- `transform: none;` - padrão, sem transformação.
+
+- `transform: translate(x,y);` - translação em 2D.
+- `transform: translate3d(x,y,z);` - translação em 3D.
+  - `transform: translateX(x);` - translação no eixo X.
+  - `transform: translateY(y);` - translação no eixo Y.
+  - `transform: translateZ(z);` - translação no eixo Z.
+
+- `transform: scale(x,y);` - redimensionamento em 2D.
+- `transform: scale3d(x,y,z);` - redimensionamento em 3D.
+  - `transform: scaleX(x);` - redimensionamento no eixo X.
+  - `transform: scaleY(y);` - redimensionamento no eixo Y.
+  - `transform: scaleZ(z);` - redimensionamento no eixo Z.
+
+- `transform: rotate(angulo);` - rotação em 2D.
+- `transform: rotate3d(x,y,z,angulo);` - rotação em 3D.
+  - `transform: rotateX(angulo);` - rotação no eixo X.
+  - `transform: rotateY(angulo);` - rotação no eixo Y.
+  - `transform: rotateZ(angulo);` - rotação no eixo Z.
+
+- `transform: skew(x-angulo,y-angulo);` - distorção em 2D.
+  - `transform: skewX(angulo);` - distorção no eixo X.
+  - `transform: skewY(angulo);` - distorção no eixo Y.
+
+Todas as transformações no eixo Z exigem a presença da transformação `perspective`, que deve ter um valor diferente de zero. Como o eixo Z afasta ou aproxima o elemento da tela, precisamos definir a perspectiva, ou seja, a distância inicial a ser considerada. Por exemplo, um elemento com `perspective(200px)` que receba `translateZ(100px)` vai ser exibido maior, pois foi trazido para a frente metade do caminho.
+
+Há uma explicação excelente [aqui](https://www.digitalocean.com/community/tutorials/css-translatez-and-perspective), em inglês.
+
+![](000070.png)
+
+Combinado com transformações, pode trazer efeitos memoráveis.
+
+Veja esse exemplo:
+
+```css
+#texto {
+  transition: all 3s ease;
+}
+
+#texto:hover {
+  transform: perspective(100px) rotateY(30deg);
+  box-shadow: 10px 10px 5px 0 black;
+}
+```
+
+![](000071.gif)
