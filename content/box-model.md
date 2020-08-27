@@ -53,6 +53,8 @@ Controla as bordas do elemento.
   - `border-radius: 5px;` - raio de arredondamento de 5px.
   - `border-radius: 50%;` - raio de arredondamento máximo (vira um círculo ou elipse).
 
+Podemos também utilizar `-top`, `-right`, `-bottom` e `-left` para alterar as bordas individualmente.
+
 💡 _Use uma imagem quadrada com borda arredondada em 50% para exibí-la em um círculo._
 
 ![](000041.png)
