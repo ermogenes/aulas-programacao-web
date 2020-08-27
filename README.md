@@ -71,8 +71,8 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 * [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
 * [📖 Transições e animações](content/transicoes-animacoes.md)
 * [📖 Leiaute](content/leiaute.md)
-* [📖 Formulários](content/forms.md)
 * [📖 Responsividade](content/responsividade.md)
+* [📖 Formulários](content/forms.md)
 * [📖 Bibliotecas e frameworks](content/bibliotecas.md)
 
 ### 🔋 JavaScript no _Frontend_
