@@ -151,12 +151,16 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 ### 🌎 Links úteis
 
 * [🌍 Emmet](https://docs.emmet.io/)
-* [🌍 Pexels](https://www.pexels.com/pt-br/)
-* _Lorem Ipsum_ de imagens:
-  * [🌍 Placeholder.com](https://placeholder.com/)
-  * [🌍 Lorem Picsum](https://picsum.photos/)
-  * [🌍 Dummy Image](https://dummyimage.com/)
-  * [🌍 PlaceImg](https://placeimg.com/)
+* [😀 Emojipedia](https://emojipedia.org/)
+* Bancos de dados de imagens:
+  * [🖼 Pexels](https://www.pexels.com/pt-br/)
+  * [🖼  Unsplash](https://unsplash.com/)
+  * [🖼  SimpleIcons](https://simpleicons.org/)
+  * _Lorem Ipsum_ de imagens:
+    * [🖼 Placeholder.com](https://placeholder.com/)
+    * [🖼 Lorem Picsum](https://picsum.photos/)
+    * [🖼 Dummy Image](https://dummyimage.com/)
+    * [🖼 PlaceImg](https://placeimg.com/)
 
 ### 🗿 História
 
