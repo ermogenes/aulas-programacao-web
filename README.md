@@ -53,15 +53,17 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ## Conteúdo
 
-**Legenda (para alunos presenciais):**  ✔ Conteúdo já estudado | 👁‍🗨 Conteúdo da semana atual | 🔥 Conteúdo adicionado recentemente
+**Legenda:** 📷 Slides | 📺 Vídeo-aula no YouTube | 📖 Material em texto e imagens
+
+**Para alunos presenciais:** ✔ Conteúdo já estudado | 👁‍🗨 Conteúdo da semana atual | 🔥 Conteúdo adicionado recentemente
+
+### 👔 Introdução
+
+* [📺](https://youtu.be/_o0C4-YX4qI) Apresentação ✔
 
 ### 🐢 Primeiros passos
 
-* [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 * [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md) ✔
-
-### 📌 Conceitos básicos
-
 * [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) ✔
 * [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md) ✔
 
