@@ -209,26 +209,26 @@ Em nível de bloco:
 
 Em nível de linha:
 
-`a` - âncora (link)
-`abbr` - abreviação
-`b` - atenção ao texto (_bring attention_)
-`cite` - citação a trabalho de terceiro (bibliografia, por exemplo)
-`code` - código (como em linhas de programação, por exemplo)
-`del` - texto excluído
-`em` - ênfase
-`i` - expressão idiomática (termos técnicos, por exemplo)
-`ins` - texto incluído
-`kbd` - texto a ser escrito no teclado, teclas de atalho, etc.
-`mark` - texto marcado (com um marca texto, por exemplo)
-`q` - texto de autoria de terceiro
-`s` - texto riscado
-`small` - texto em letras miúdas
-`strong` - texto importante
-`sub` - subscrito
-`sup` - sobrescrito
-`time` - datas e horas
-`u` - texto não-articulado (com erro de grafia, por exemplo)
-`var` - variáve matemática ou de programação
+- `a` - âncora (link)
+- `abbr` - abreviação
+- `b` - atenção ao texto (_bring attention_)
+- `cite` - citação a trabalho de terceiro (bibliografia, por exemplo)
+- `code` - código (como em linhas de programação, por exemplo)
+- `del` - texto excluído
+- `em` - ênfase
+- `i` - expressão idiomática (termos técnicos, por exemplo)
+- `ins` - texto incluído
+- `kbd` - texto a ser escrito no teclado, teclas de atalho, etc.
+- `mark` - texto marcado (com um marca texto, por exemplo)
+- `q` - texto de autoria de terceiro
+- `s` - texto riscado
+- `small` - texto em letras miúdas
+- `strong` - texto importante
+- `sub` - subscrito
+- `sup` - sobrescrito
+- `time` - datas e horas
+- `u` - texto não-articulado (com erro de grafia, por exemplo)
+- `var` - variáve matemática ou de programação
 
 Muitos desses elementos são estilizados na folha de estilos do navegador (_user agent stylesheet_), devendo se tomar cuidado para mantê-los consistentes entre todos os usuários.
 
