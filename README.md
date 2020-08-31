@@ -53,23 +53,25 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ## Conteúdo
 
+**Legenda (para alunos presenciais):**  ✔ Conteúdo já estudado | 👁‍🗨 Conteúdo da semana atual | 🔥 Conteúdo adicionado recentemente
+
 ### 🐢 Primeiros passos
 
 * [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
-* [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
+* [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md) ✔
 
 ### 📌 Conceitos básicos
 
-* [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
-* [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
+* [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) ✔
+* [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md) ✔
 
 ### 🕷 Marcação e estilização
 
-* [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
-* [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
-* [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
-* [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
-* [📖 Transições e animações](content/transicoes-animacoes.md)
+* [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) ✔
+* [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
+* [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) 👁‍🗨
+* [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) 👁‍🗨
+* [📖 Transições e animações](content/transicoes-animacoes.md) 🔥
 * [📖 Leiaute](content/leiaute.md)
 * [📖 Responsividade](content/responsividade.md)
 * [📖 Formulários](content/forms.md)
