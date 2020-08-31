@@ -1,6 +1,6 @@
 # Leiaute
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/ciLNSZdOVas)
 
 # Flex
 
