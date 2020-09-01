@@ -30,6 +30,8 @@ _Algumas áreas estarão em destaque para facilitar o seu entendimento, mas não
 
 ![](000090.png)
 
+## Estilização _mobile_
+
 Vamos iniciar nossa estilização removendo as margens da página.
 
 ```css
@@ -81,6 +83,8 @@ Nosso leiaute já está pronto para _mobile_, porem fica bastante inadequado par
 
 ![](000094.png)
 
+## _Media query_
+
 Vamos criar uma _media query_ para estilizar telas maiores. Digamos que a opção seja por tornar o _design_ do conteúdo horizontal em _viewports_ com pelo menos 768px. Podemos fazer da seguinte forma:
 
 ```css
@@ -122,6 +126,7 @@ E vamos configurar as barras laterais para ocuparem um tamanho base de 200px, de
 
 ![](000097.gif)
 
+## Ajustes finais
 
 Agora só falta tratar os casos extremos de _viewports_ muito largas. A maneira mais comum é definir um tamanho máximo para o corpo da página (`body`) e centralizá-lo usando a técnica das bordas horizontais automáticas (`auto`).
 
@@ -139,7 +144,7 @@ E pronto! 😊
 
 Veja exemplos funcionais [sem conteúdo](https://ermogenes.github.io/holy-grail-layout/) e [com conteúdo](https://ermogenes.github.io/holy-grail-layout/index-conteudo.html).
 
-## Código final
+## Código da solução final
 
 Disponível [aqui](https://github.com/ermogenes/holy-grail-layout/).
 
