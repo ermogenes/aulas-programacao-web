@@ -12,7 +12,7 @@ Nesse passo-a-passo vamos criá-lo com a mentalidade _mobile-first_, ou seja, pr
 
 ![](000101.png)
 
-## Marcação básica
+## Marcação
 
 Vamos usar [_tags_ semânticas](leiaute.md#elementos-html-sem%C3%A2nticos) para cada elemento. Nossa estrutura básica será, então:
 
