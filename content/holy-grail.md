@@ -137,7 +137,11 @@ body {
 
 E pronto! 😊
 
+Veja exemplos funcionais [sem conteúdo](https://ermogenes.github.io/holy-grail-layout/) e [com conteúdo](https://ermogenes.github.io/holy-grail-layout/index-conteudo.html).
+
 ## Código final
+
+Disponível [aqui](https://github.com/ermogenes/holy-grail-layout/).
 
 ### Marcação (`index.html`)
 
