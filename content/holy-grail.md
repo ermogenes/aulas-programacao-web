@@ -81,7 +81,7 @@ Para nosso _design_ atingir os objetivos para dispositivos _mobile_, só falta t
 
 ![](000093.png)
 
-Nosso leiaute já está pronto para _mobile_, porem fica bastante inadequado para telas maiores:
+Nosso leiaute já quase está pronto para _mobile_, porém ainda fica bastante inadequado para telas maiores:
 
 ![](000094.png)
 
