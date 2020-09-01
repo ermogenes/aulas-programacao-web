@@ -75,7 +75,8 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 * [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) 👁‍🗨
 * [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🔥
 * [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) 🔥
-* [📖 Responsividade](content/responsividade.md)
+* [📖 Responsividade](content/responsividade.md) 🔥
+* [📖 _Mobile-first holy grail_](content/holy-grail.md) 🔥
 * [📖 Formulários](content/forms.md)
 * [📖 Bibliotecas e frameworks](content/bibliotecas.md)
 
