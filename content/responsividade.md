@@ -99,6 +99,14 @@ Existem diversas técnicas para imagens responsivas, mas a técnica mais utiliza
 
 Podemos fazer isso aplicando em imagens a regra `max-width: 100%;`.
 
+Exemplo do comportamento padrão:
+
+![](000100.gif)
+
+Exemplo do comportamento com `max-width: 100%;`:
+
+![](000099.gif)
+
 ## _Mobile-first_
 
 É um consenso na comunidade que devemos criar nossos leiautes pensando primeiro em dispositivos pequenos, móveis, e adaptá-los para ocupar os espaços adicionais disponíveis em dispositivos maiores como monitores e televisores.
