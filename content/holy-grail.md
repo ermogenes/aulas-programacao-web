@@ -142,6 +142,16 @@ body {
 
 ![](000098.gif)
 
+Para finalizar, falta garantir que o counteúdo principal seja flexível em ambas as situações, já que ainda não está em pequenas _viewports_. Podemos somente mover a regra de dentro da _media query_ para fora dela.
+
+```css
+.hg-conteudo > main {
+    flex: 1;
+}
+```
+
+![](000102.gif)
+
 E pronto! 😊
 
 Veja exemplos funcionais [sem conteúdo](https://ermogenes.github.io/holy-grail-layout/) e [com conteúdo](https://ermogenes.github.io/holy-grail-layout/index-conteudo.html).
@@ -194,13 +204,13 @@ body {
     order: -1;
 }
 
+.hg-conteudo > main {
+    flex: 1;
+}
+
 @media (min-width: 768px) {
     .hg-conteudo {
         flex-flow: row;
-    }
-
-    .hg-conteudo > main {
-        flex: 1;
     }
 
     .hg-conteudo > aside,
