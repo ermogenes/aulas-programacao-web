@@ -1,6 +1,6 @@
 # Responsividade
 
-[📽 Veja esta vídeo-aula no Youtube](#) _em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/ltndQE-fqSg)
 
 Trata-se da capacidade de um _site_ de se adaptar graciosamente ao diferentes tamanhos de tela dos agentes de usuário (_viewport_).
 

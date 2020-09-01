@@ -1,6 +1,6 @@
 # _Mobile-first holy grail_
 
-[📽 Veja esta vídeo-aula no Youtube](#) _em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/K39Pnhg99Nk)
 
 Um dos mais famosos problemas de Web Design até pouco tempo era a construção do chamado _Holy Grail Layout_, ou o "Leiaute Cálice Sagrado". O termo foi popularizado em 2006 por um artigo muito influente no _site_ [_A List Apart_](https://alistapart.com/article/holygrail/).
 
@@ -9,6 +9,8 @@ Consiste em criar de forma simples e funcional um leiaute com cabeçalho, rodap�
 Isso era bastante difícil de se obter antes da especificação **flex**.
 
 Nesse passo-a-passo vamos criá-lo com a mentalidade _mobile-first_, ou seja, primeiro criaremos um _design_ para dispositivos pequenos, depois ajustaremos para dispositivos maiores.
+
+![](000101.png)
 
 ## Marcação básica
 
