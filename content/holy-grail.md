@@ -130,7 +130,7 @@ E vamos configurar as barras laterais para ocuparem um tamanho base de 200px, de
 
 ## Ajustes finais
 
-Agora só falta tratar os casos extremos de _viewports_ muito largas. A maneira mais comum é definir um tamanho máximo para o corpo da página (`body`) e centralizá-lo usando a técnica das bordas horizontais automáticas (`auto`).
+Falta tratar os casos extremos de _viewports_ muito largas. A maneira mais comum é definir um tamanho máximo para o corpo da página (`body`) e centralizá-lo usando a técnica das bordas horizontais automáticas (`auto`).
 
 ```css
 body {
