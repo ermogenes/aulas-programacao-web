@@ -55,7 +55,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 **Legenda:** 📷 Slides | 📺 Vídeo-aula no YouTube | 📖 Material em texto e imagens
 
-**Para alunos presenciais:** ✔ Conteúdo já estudado | 👁‍🗨 Conteúdo da semana atual | 🔥 Conteúdo adicionado recentemente
+**Para alunos presenciais:** ✔ Conteúdo já estudado | 👁‍🗨 Conteúdo da semana atual | 🔥 Conteúdo adicionado recentemente | 🎁 Conteúdo extra
 
 ### 👔 Introdução
 
@@ -73,7 +73,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 * [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
 * [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) 👁‍🗨
 * [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) 👁‍🗨
-* [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md)
+* [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
 * [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
 * [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) 🔥
 * [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 🔥
