@@ -95,9 +95,11 @@ _Em breve..._
 
 ## 🥋 Exercícios
 
-* [🏳 Marcação HTML](exercises/marcacao-html.md)
-* [🎨 Tipografia](exercises/tipografia.md)
-* [🎨 Cores e fundos](exercises/cores-fundos.md)
+**Para alunos presenciais:** ✔ Entrega finalizada | 👁‍🗨 Entrega atual | 🔥 Exercícios adicionados recentemente | 🎁 Exercícios extra
+
+* [🏳 Marcação HTML](exercises/marcacao-html.md) ✔
+* [🎨 Tipografia](exercises/tipografia.md) 👁‍🗨
+* [🎨 Cores e fundos](exercises/cores-fundos.md) 👁‍🗨
 * [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
