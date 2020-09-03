@@ -40,6 +40,8 @@ A maioria dos componentes de entrada são elementos em nível de linha, criados 
 
 Os elementos que permitem digitação aceitam um valor no atributo `placeholder` para servir de ajuda ao usuário, ocupando o espaço de digitação quando não houver conteúdo.
 
+Você pode desabilitar um elemento de formulário usando o atributo `disabled`, e torná-lo somente para leitura com `readonly`. O atributo `required` marca um campo como obrigatório.
+
 ---
 
 ### Rótulos
@@ -59,6 +61,7 @@ Identificam um campo no formulário.
 Permitem a digitação livre de _strings_.
 
 * Defina um valor inicial através do atributo `value`.
+* Defina um limites de tamanho com `minlength` (mínimo) e `maxlenght` máximo.
  
 Exemplo 1:
 ```html
@@ -83,6 +86,8 @@ _Usar `type="text"` é opcional, pois é o valor padrão._
 ### Caixa de texto numérica
 
 Aceita somente números.
+
+* Defina valores limites com `min` (mínimo) e `max` (máximo).
 
 Exemplo 1:
 
@@ -298,3 +303,33 @@ Exemplos:
 ![](000118.png)
 
 _Não use `input type="submit"` ou `"reset"`, pois são muito mais difíceis de estilizar._
+
+## Estilização
+
+Os elementos podem variar muito de uma plataforma para outra, em seu visual e em sua experiência. Há uma capacidade limitada de estilização, portanto faça muitos testes em tudo que mudar.
+
+Fontes geralmente são bem aceitas, porém devem ser sempre ajustadas pois são herdadas da plataforma, e não da folha de estilo do navegador.
+
+As propriedades de _box-model_ são bem suportadas, mas tem valores iniciais bem diferentes em cada componente. Considere utilizar `box-sizing: border-box;` e ajustar `padding` e `margin`, já que cada elemento pode ter um tipo de borda diferente dos demais.
+
+Estilizar `fieldset` e `legend` pode ser bem complicado. Evite usar se possível.
+
+Use a propriedade CSS `outline: none;` para remover o contorno que algumas plataformas deixam em torno de elementos com o foco do usuário.
+
+Use a propriedade CSS `cursor` para definir diferentes cursores para um item:
+- `default` - padrão (seta)
+- `none` - sem cursor
+- `pointer` - link
+- `help` - ajuda
+- `wait` - aguardando (ampulheta)
+- `text` - cursor para seleção de texto
+- `not-allowed` - clique não permitido
+
+Pseudo-classe para itens de formulário:
+
+- `:focus` - elementos com o foco do usuário
+- `:required` e `:optional` - elementos obrigatórios e opcionais
+- `:valid` e `:invalid` - elementos válidos e inválidos (em relação a `required`, `min`/`max` e `minlenght`/`maxlength`, por exemplo)
+- `:enabled` e `:disabled` - elementos habilitados e desabilitados
+- `:read-only` e `:read-write` - elementos somente para leitura ou não
+- `:checked` - elementos selecionados (_check_ e _radio_)
