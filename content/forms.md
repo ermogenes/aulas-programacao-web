@@ -34,7 +34,7 @@ De maneira geral, escrevemos nossos componentes dentro de um `form`, e o envio �
 
 Podemos agrupar visualmente campos na tela usando `fieldset`, e criamos rótulos para campos usando `label`.
 
-A maioria dos componentes de entrada são criados usando a _tag_ `input`, _combos_ e listas são criados usando `select` e caixas de texto com múltiplas linhas usam `textarea`.
+A maioria dos componentes de entrada são elementos em nível de linha, criados usando a _tag_ `input`. _Combos_ e listas são criados usando `select` e caixas de texto com múltiplas linhas usam `textarea`.
 
 **Sempre** devemos criar um `id` para identificar cada elemento de entrada, bem como criar um `name` (se possível com o mesmo valor de `id`), usado para diferenciar os dados quando enviados para serem processados.
 
