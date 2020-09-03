@@ -325,7 +325,7 @@ Use a propriedade CSS `cursor` para definir diferentes cursores para um item:
 - `text` - cursor para seleção de texto
 - `not-allowed` - clique não permitido
 
-Pseudo-classe para itens de formulário:
+Pseudo-classes para itens de formulário:
 
 - `:focus` - elementos com o foco do usuário
 - `:required` e `:optional` - elementos obrigatórios e opcionais
