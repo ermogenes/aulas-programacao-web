@@ -101,6 +101,7 @@ _Em breve..._
 * [🎨 Tipografia](exercises/tipografia.md) 👁‍🗨
 * [🎨 Cores e fundos](exercises/cores-fundos.md) 👁‍🗨
 * [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+* [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) 🔥
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
 
@@ -162,8 +163,9 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 * [😀 Emojipedia](https://emojipedia.org/)
 * Bancos de dados de imagens:
   * [🖼 Pexels](https://www.pexels.com/pt-br/)
-  * [🖼  Unsplash](https://unsplash.com/)
-  * [🖼  SimpleIcons](https://simpleicons.org/)
+  * [🖼 Unsplash](https://unsplash.com/)
+  * [🖼 SimpleIcons](https://simpleicons.org/)
+  * [🖼 PNGPlay](http://www.pngplay.com/)
   * _Lorem Ipsum_ de imagens:
     * [🖼 Placeholder.com](https://placeholder.com/)
     * [🖼 Lorem Picsum](https://picsum.photos/)
