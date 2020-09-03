@@ -286,12 +286,15 @@ Permitem o acionamento do formulário.
 
 * `submit` cria um botão de envio.
 * `reset` cria um botão que volta os campos para seu valor inicial.
+* Você pode utilizar qualquer tipo de conteúdo junto ao texto do botão.
 
 Exemplos:
 
 ```html
-<input type="submit" value="Enviar">
-<input type="reset" value="Reiniciar">
+<button type="submit">Enviar</button>
+<button type="reset">Reiniciar</button>
 ```
 
 ![](000118.png)
+
+_Não use `input type="submit"` ou `"reset"`, pois são muito mais difíceis de estilizar._
