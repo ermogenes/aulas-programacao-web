@@ -24,6 +24,8 @@ Atributos:
 
 Veremos mais sobre `action` e `method` em breve.
 
+---
+
 ### Componentes de entrada
 
 Os prinicipais componentes de entrada usados em formulários serão estudados na sequência. O HTML possui especificação para muitos outros, alguns não implementados por alguns navegadores (como `color`, `date` e `range`) outros mais maduros mas com uso fora do escopo desse curso (como `file`e `image`).
@@ -34,17 +36,23 @@ Podemos agrupar visualmente campos na tela usando `fieldset`, e criamos rótulos
 
 A maioria dos componentes de entrada são criados usando a _tag_ `input`, _combos_ e listas são criados usando `select` e caixas de texto com múltiplas linhas usam `textarea`.
 
-**Sempre** devemos criar um `id` para cada elemento de entrada, bem como criar um `name` geralmente com o mesmo valor de `id`, usado para diferenciar os dados quando enviados para serem processados.
+**Sempre** devemos criar um `id` para identificar cada elemento de entrada, bem como criar um `name` (se possível com o mesmo valor de `id`), usado para diferenciar os dados quando enviados para serem processados.
 
 Os elementos que permitem digitação aceitam um valor no atributo `placeholder` para servir de ajuda ao usuário, ocupando o espaço de digitação quando não houver conteúdo.
+
+---
 
 ### Rótulos
 
 Identificam um campo no formulário.
 
+* Sempre use `for` para indicar o `id` do componente identificado.
+
 ```html
 <label for="nome_usuario">Digite o seu nome:</label>
 ```
+
+---
 
 ### Caixa de texto
 
@@ -70,6 +78,8 @@ Exemplo 2:
 
 _Usar `type="text"` é opcional, pois é o valor padrão._
 
+---
+
 ### Caixa de texto numérica
 
 Aceita somente números.
@@ -92,6 +102,8 @@ Exemplo 2:
 
 ![](000106.png)
 
+---
+
 ### Caixa de senha
 
 Esconde os valores digitados. Usado para entrada de senhas.
@@ -113,6 +125,8 @@ Exemplo 2:
 ```
 
 ![](000108.png)
+
+---
 
 ### _Checkbox_
 
@@ -138,6 +152,8 @@ Exemplo 2:
 
 ![](000110.png)
 
+---
+
 ### Caixa de texto com múltiplas linhas
 
 Entrada de textos longos, possivelmente com quebra de linha.
@@ -162,6 +178,8 @@ Exemplo 2:
 ```
 
 ![](000112.png)
+
+---
 
 ### _Combo box_ ou caixa de seleção
 
@@ -212,6 +230,8 @@ Exemplo 3:
 
 ![](000115.png)
 
+---
+
 ### _Radio_ e `fieldset`
 
 _Radios_ são componentes de grupo, onde somente um elemento de cada grupo pode ser selecionado por vez.
@@ -257,6 +277,8 @@ Exemplo 2:
 ```
 
 ![](000117.png)
+
+---
 
 ### Botões de ação
 
