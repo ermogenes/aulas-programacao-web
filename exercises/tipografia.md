@@ -28,6 +28,8 @@ Utilize web fontes do [Google Fonts](https://fonts.google.com/). Faça a importa
 
 💡 Dica: use classes para diferenciar os elementos que vão utilizar cada fonte!
 
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
+
 ---
 
 ## Exercício `tipografia-lorem-ipsum`
@@ -42,6 +44,8 @@ Dois exemplos de resolução:
 * [https://ermogenes.github.io/nome-do-exercicio-xyz/](https://ermogenes.github.io/nome-do-exercicio-xyz/)
 
 Para esse exercício não será avaliada a qualidade visual da tipografia, e sim a utilização da técnica.
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ---
 

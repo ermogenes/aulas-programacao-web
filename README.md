@@ -85,13 +85,33 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 _Em breve..._
 
+<!-- 
+* [📖 Iniciando com JavaScript](content/js.md)
+* [📖 Funções e objetos](content/funcoes-objetos.md)
+* [📖 DOM](content/dom.md)
+* [📖 Async](content/async.md)
+* [📖 Fetch API e JSON](content/fetch-json.md)
+* [📖 LocalStorage e SessionStorage](content/storage.md)
+-->
+
 ### 🔌 _Backend_ API com C#
 
 _Em breve..._
 
+<!-- 
+* [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
+* [📖 HTTP, rotas e REST](content/http-rest.md)
+-->
+
 ### 🛢 Banco de dados com Entity Framework Core
 
 _Em breve..._
+
+<!-- 
+* [📖 Entity Framework](content/ef.md)
+* [📖 Database-first](content/database-first.md)
+* [📖 Code-first](content/code-first.md)
+-->
 
 ## 🥋 Exercícios
 

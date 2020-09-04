@@ -17,7 +17,10 @@ Faça um _site_ de boas-vindas para os estudantes de tecnologias web.
 - Link da Etec: [http://eteab.com.br/](http://eteab.com.br/)
 - No seu nome, use o link do seu perfil no GitHub (ex.: [https://github.com/ermogenes](https://github.com/ermogenes))
 
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
+
 ---
+
 
 ## Exercício `galeria-primario`
 
@@ -27,6 +30,8 @@ Faça um _site_ para exibir obras de arte feitas por alunos do primário.
 
 - Use três (_ou mais_) imagens (`.png` ou `.jpg`) criadas por você no editor de imagens de sua preferência (Paint, Photoshop, Gimp, Krita, etc.), com qualquer desenho simples.
 - Tamanho sugerido das imagens: 400px x 200px.
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ---
 
@@ -54,6 +59,8 @@ Faça um _site_ que exiba uma lista de links para os _sites_ das Etecs da Baixad
     - [Etec de Peruíbe](http://etecperuibe.com.br/)
 
 Todos os links devem abrir em novas abas.
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ---
 
@@ -92,6 +99,8 @@ _Links externos necessários:_
 - Objetivo
   - Página de salário: [https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/](https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/)
 
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
+
 ---
 
 ## Exercício `horario-2i3-2020-2`
@@ -104,6 +113,8 @@ Ele deve conter uma tabela com os seguintes dados:
 --- | --- | --- | --- | --- | ---
 **Bloco I** | OCA2 | RCD1 | SUPBD | PC2 ☕ | GSO2
 **Bloco II** | SUPINF | RCD1 | PTCC | PC2 ☕ | PTCC
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ---
 

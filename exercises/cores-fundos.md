@@ -32,6 +32,8 @@ Exemplo 3 - Estilização com tema inspirado em tardes de outono:
 
 ![](cores-fundos-004.png)
 
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
+
 ---
 
 ## 🏁 Orientações para entrega (alunos do curso presencial)
