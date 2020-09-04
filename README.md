@@ -72,12 +72,12 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 * [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) ✔
 * [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
-* [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) 👁‍🗨
-* [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) 👁‍🗨
+* [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) ✔
+* [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) ✔
 * [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
-* [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
-* [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) 🔥
-* [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 🔥
+* [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) 👁‍🗨
+* [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) 👁‍🗨 🔥
+* [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 👁‍🗨 🔥
 * [📖 Formulários](content/forms.md)
 * [📖 Bibliotecas e frameworks](content/bibliotecas.md)
 
@@ -98,10 +98,10 @@ _Em breve..._
 **Para alunos presenciais:** ✔ Entrega finalizada | 👁‍🗨 Entrega atual | 🔥 Exercícios adicionados recentemente | 🎁 Exercícios extra
 
 * [🏳 Marcação HTML](exercises/marcacao-html.md) ✔
-* [🎨 Tipografia](exercises/tipografia.md) 👁‍🗨
-* [🎨 Cores e fundos](exercises/cores-fundos.md) 👁‍🗨
-* [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
-* [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) 🔥
+* [🎨 Tipografia](exercises/tipografia.md) ✔
+* [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
+* [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) 👁‍🗨
+* [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) 👁‍🗨 🔥
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
 
