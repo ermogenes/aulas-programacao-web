@@ -20,12 +20,21 @@ Você pode alterar a marcação e a estilização à vontade.
 
 _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
-<!-- ---
+---
 
-## Exercício ``
+## Exercício `aplicacao-leiaute`
 
-https://github.com/ermogenes/holy-grail-layout/ 
--->
+Use [este _template_](https://github.com/ermogenes/holy-grail-layout/) para criar um _site_ responsivo com o tema livre de sua preferência.
+
+Exemplo de [solução](https://ermogenes.github.io/visoes-do-futuro/):
+
+![](ermogenes.github.io_visoes-do-futuro_.png)
+
+![](ermogenes.github.io_visoes-do-futuro_iPhone_5_SE.png)
+
+Você pode alterar a marcação e a estilização à vontade.
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ---
 
