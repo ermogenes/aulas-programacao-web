@@ -2,7 +2,7 @@
 
 [📽 Veja esta vídeo-aula no Youtube](https://youtu.be/ciLNSZdOVas)
 
-Quando uma pripriedade CSS é alterada, o navegador faz a transição do estado anterior para o novo estado. Por exemplo, ao mudar a cor de um elemento de vermelho para azul, o navegador faz a mudança direta de cores, conforme definido.
+Quando uma propriedade CSS é alterada, o navegador faz a transição do estado anterior para o novo estado. Por exemplo, ao mudar a cor de um elemento de vermelho para azul, o navegador faz a mudança direta de cores, conforme definido.
 
 O CSS permite que você controle a maneira como essa transição será feita usando as **transições**. Elas estão disponíveis somente para [algumas propriedades](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties), não todas.
 
@@ -98,7 +98,7 @@ Outros ajustes:
   - `animation-direction: normal;` - padrão, do início para o final.
   - `animation-direction: reverse;` - do final para o início.
   - `animation-direction: alternate;` - do início para o final, depois do final para o início.
-  - `animation-direction: alternate-reverse;` - como alternate, mas invertido.
+  - `animation-direction: alternate-reverse;` - como `alternate`, mas invertido.
 - `animation-iteration-count` - quantidade de vezes que será executada.
   - `animation-iteration-count: 2;` - 2 vezes.
   - `animation-iteration-count: infinite;` - infinitas vezes.
@@ -127,7 +127,7 @@ Exemplos usando a animação abaixo:
 
 # Transformações
 
-Apesar de ser frequentemente utilizado em conjunto com transições e animações, as tranformações são independentes e não relacionadas ao tema.
+Apesar de serem frequentemente utilizadas em conjunto com transições e animações, as tranformações são independentes e não relacionadas ao tema.
 
 Podemos realizar as transformações usando as funções a seguir como valores da propriedade `transform`.
 
