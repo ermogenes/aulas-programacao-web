@@ -142,7 +142,7 @@ body {
 
 ![](000098.gif)
 
-Para finalizar, falta garantir que o counteúdo principal seja flexível em ambas as situações, já que ainda não está em pequenas _viewports_. Podemos somente mover a regra de dentro da _media query_ para fora dela.
+Para finalizar, falta garantir que o conteúdo principal seja flexível em ambas as situações, já que ainda não está em pequenas _viewports_. Podemos somente mover a regra de dentro da _media query_ para fora dela.
 
 ```css
 .hg-conteudo > main {
