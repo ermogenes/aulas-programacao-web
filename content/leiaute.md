@@ -77,7 +77,7 @@ Veja estes exemplos:
 
 ## Alinhamento no eixo transversal
 
-Caso os itens tenham alturas distintas entre si, ou não ocupem toda a altura do _container_, podemos acabar com espaços não ocupados no eixo transversal ao eixo principal. Nesse caso, alinhamos os itens usando a propriedade do _container_ `align-items` com o sseguintes valores:
+Caso os itens tenham alturas distintas entre si, ou não ocupem toda a altura do _container_, podemos acabar com espaços não ocupados no eixo transversal ao eixo principal. Nesse caso, alinhamos os itens usando a propriedade do _container_ `align-items` com os seguintes valores:
 
 ![Todos os direitos W3C](https://www.w3.org/TR/css-flexbox-1/images/flex-align.svg)
 
