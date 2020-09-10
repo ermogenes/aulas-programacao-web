@@ -173,7 +173,7 @@ Escolha os componentes desejados na _documentação_ e siga os exemplos dados.
 
 ```html
 <div class="tabs two">
-  <input id="tabWeb" type="radio" name="tabsDev" checked >
+  <input id="tabWeb" type="radio" name="tabsDev" checked>
   <input id="tabCs" type="radio" name="tabsDev">
   <div class="row">
     <div><img src="devweb.png"></div>
