@@ -22,7 +22,7 @@ Crie uma página contendo um formulário de cadastro de usuário, permitindo que
   - Cidade e estado;
   - CEP;
 - Estado civil (solteiro(a), casado(a), divorciado(a), viúvo(a) ou separado(a));
-- Opção de preferencial de contato (por e-mail ou por telefone);
+- Opção de preferência de contato (por e-mail ou por telefone);
 - Opção "Li e concordo".
 
 Inclua botões para reiniciar e para enviar.
