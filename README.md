@@ -79,7 +79,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 * [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) 👁‍🗨 🔥
 * [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 👁‍🗨 🔥
 * [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md) 🔥
-* [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁 🔥
+* [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁 🔥
 
 ### 🔋 JavaScript no _Frontend_
 

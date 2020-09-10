@@ -1,6 +1,6 @@
 # Bibliotecas CSS e CDN
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/PkpVgtvo-U0)
 
 São coleções de funcionalidades pré-configuradas de terceiros disponíveis para uso em seus projetos.
 
