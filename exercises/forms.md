@@ -33,13 +33,24 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 
 ## Exercício `form-login`
 
-_Em breve..._
+Crie e publique uma estilização um formulário de _login_ usando [este _template_](https://github.com/ermogenes/form-login).
+
+_Você pode alterar a marcação e a estilização à vontade._
+
+_Template_ sem estilização:
+
+![](form-login-001.png)
+
+Exemplo - Estilização em tema escuro, de utilização genérica:
+
+![](form-login-002.gif)
 
 _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ---
 
 ## 🏁 Orientações para entrega (alunos do curso presencial)
+
 Confira no Teams o link da tarefa equivalente. Lá você postará o link do ~~repositório no GitHub~~ **_site_ publicado**, um para cada exercício.
 
 Repositório de exemplo: Exercício `hello-dev-web` (Marcação HTML)
