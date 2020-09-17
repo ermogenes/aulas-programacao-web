@@ -41,7 +41,7 @@ _Template_ sem estilização:
 
 ![](form-login-001.png)
 
-Exemplo - Estilização em tema escuro, de utilização genérica:
+[Exemplo](https://github.com/ermogenes/form-login-dark) - Estilização em tema escuro, de utilização genérica:
 
 ![](form-login-002.gif)
 
