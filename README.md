@@ -121,7 +121,7 @@ _Em breve..._
 - [🎨 Tipografia](exercises/tipografia.md) ✔
 - [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
 - [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) ✔
-- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
+- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) 👁‍🗨
 - [🏳🎨 Formulários](exercises/forms.md) 👁‍🗨 🔥
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
