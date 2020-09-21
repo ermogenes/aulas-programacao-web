@@ -83,16 +83,17 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🔋 JavaScript no _Frontend_
 
-_Em breve..._
+<!-- _Em breve..._ -->
 
+- [📖 Hello World com JavaScript](content/hello-world-js.md) 🔥
+- [📖 Sintaxe e estruturas básicas](content/sintaxe.md) 🔥
 <!--
-* [📖 Iniciando com JavaScript](content/js.md)
-* [📖 Funções e objetos](content/funcoes-objetos.md)
-* [📖 DOM](content/dom.md)
-* [📖 Async](content/async.md)
-* [📖 Fetch API e JSON](content/fetch-json.md)
-* [📖 LocalStorage e SessionStorage](content/storage.md)
--->
+- [📖 Funções e objetos](content/funcoes-objetos.md) 🔥
+- [📖 DOM](content/dom.md) 🔥
+- [📖 Async](content/async.md) 🔥
+- [📖 Fetch API e JSON](content/fetch-json.md) 🔥
+- [📖 LocalStorage e SessionStorage](content/storage.md) 🔥
+  -->
 
 ### 🔌 _Backend_ API com C#
 
