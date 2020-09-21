@@ -354,3 +354,5 @@ Exibe uma caixa para o usuário com um campo para digitação, e retorna o valor
 let valorInicial = 0;
 let idade = prompt("Qual sua idade?", valorInicial);
 ```
+
+![](000160.png)
