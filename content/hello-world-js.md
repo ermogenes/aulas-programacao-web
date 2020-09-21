@@ -28,7 +28,7 @@ Há também outros _engines_ desvinculados de navegadores, que trazem outros tip
 
 Você pode executar códigos JavaScript de diversas maneiras usando o navegador.
 
-A maneira mais simples é através do console. Como se trata de uma linguagem interpretada, os console é um REPL (_read–eval–print loop_), ou seja, um loop infinito que lê um comando, executa e exibe um resultado. Esse é o mesmo comportamento do terminal do Windows, por exemplo.
+A maneira mais simples é através do console. Como se trata de uma linguagem interpretada, o console é um REPL (_read–eval–print loop_), ou seja, um loop infinito que lê um comando, executa e exibe um resultado. Esse é o mesmo comportamento do terminal do Windows, por exemplo.
 
 Você pode acessar o console do navegador usando as ferramentas do desenvolvedor. Cada navegador possui seu conjunto de ferramentas, e a tecla de atalho mais comum é `F12` (caso não funcione no seu navegador, procure por ferramentas do desenvolvedor no menu). Procure pela aba "Console".
 

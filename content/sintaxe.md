@@ -66,7 +66,6 @@ A interpolação é feita usando o delimitador `` ` `` e as variáveis são escr
 
 ![](000135.png)
 
-![](000136.png)
 
 ### `undefined` e `null`
 
@@ -78,6 +77,8 @@ Cada um desses valores constitui um tipo por si só.
 Nunca use `undefined` diretamente. Ele é reservado para variáveis declaradas sem valor inicial.
 
 Quando precisar "apagar" o valor de uma variável, ou indicar que ela possui valor, mas esse valor é vazio ou desconhecido, use "null".
+
+![](000136.png)
 
 Os dois valores aparecerão com bastante frequência nas próximas aulas.
 
@@ -151,7 +152,7 @@ Operador '??' ou _null coalesce_:
 
 - `a ?? b` retorna `b` se `a` for `null` ou `undefined`, senão retorna `a`.
 
-Usado para retorna o primeiro valor diferente de `null` ou `undefined`.
+Usado para retornar o primeiro valor diferente de `null` ou `undefined`.
 
 ![](000151.png)
 
@@ -207,6 +208,47 @@ Caso os valores sejam de tipos diferentes, os valores são considerados diferent
 ![](000149.png)
 
 A comparação estrita é sempre preferível em JavaScript.
+
+## Funções de string
+
+- `.length` - tamanho da string;
+- `.charAt(n)` - caracter que ocupa a n-ésima posição (começando em 0);
+- `.toUpperCase()` - transforma letras em maiúsculas;
+- `.toLowerCase()` - transforma letras em minúsculas;
+- `.includes(valor)` - retorna `true` se `valor` existe na string;
+- `.trim()` - remove espaços no início e no final da string;
+- `.repeat(vezes)` - repete a string a quantidade de vezes especificada;
+- `.replace(anterior, novo)` e `.replaceAll(anterior, novo)` - substitui a primeira ou todas as ocorrências de `anterior` por `novo`;
+- `.slice(inicio, fim)` - retorna uma parte da string, incluindo `inicio` mas incluindo `fim`.
+
+![](000154.png)
+
+## Funções numéricas
+
+- `.toString(base)` - converte um número para string, na base indicada (ou na base 10);
+
+![](000155.png)
+
+- `Math.PI` - o número π.
+- `.toFixed(casasDecimais)` - efetua o arredondamento para um número fixo de casas;
+- `Math.round(x)` - efetua o arredondamento de `x` para o inteiro mais próximo;
+
+![](000156.png)
+
+- `parseInt(string)` - retorna um número inteiro contido no início da string;
+- `parseFloat(string)` - retorna um número em ponto flutuante contido no início da string;
+
+![](000157.png)
+
+- `Math.random()` - um número aleatório entre `0` e `1`.
+
+![](000158.png)
+
+- `Math.sin(x)`, `Math.cos(x)` e `Math.tan(x)` - seno, cosseno e tangente de `x`.
+- `Math.sqrt(x)` - raiz quadrada de `x`.
+- `Math.pow(x, y)` - `x` a `y`-ésima potência.
+
+![](000159.png)
 
 ## Decisão
 
@@ -279,47 +321,6 @@ Podemos gerar o nosso erro customizado usando `throw`.
 ```js
 throw new Error("mensagem de erro");
 ```
-
-## Funções de string
-
-- `.length` - tamanho da string;
-- `.charAt(n)` - caracter que ocupa a n-ésima posição (começando em 0);
-- `.toUpperCase()` - transforma letras em maiúsculas;
-- `.toLowerCase()` - transforma letras em minúsculas;
-- `.includes(valor)` - retorna `true` se `valor` existe na string;
-- `.trim()` - remove espaços no início e no final da string;
-- `.repeat(vezes)` - repete a string a quantidade de vezes especificada;
-- `.replace(anterior, novo)` e `.replaceAll(anterior, novo)` - substitui a primeira ou todas as ocorrências de `anterior` por `novo`;
-- `.slice(inicio, fim)` - retorna uma parte da string, incluindo `inicio` mas incluindo `fim`.
-
-![](000154.png)
-
-## Funções numéricas
-
-- `.toString(base)` - converte um número para string, na base indicada (ou na base 10);
-
-![](000155.png)
-
-- `Math.PI` - o número π.
-- `.toFixed(casasDecimais)` - efetua o arredondamento para um número fixo de casas;
-- `Math.round(x)` - efetua o arredondamento de `x` para o inteiro mais próximo;
-
-![](000156.png)
-
-- `parseInt(string)` - retorna um número inteiro contido no início da string;
-- `parseFloat(string)` - retorna um número em ponto flutuante contido no início da string;
-
-![](000157.png)
-
-- `Math.random()` - um número aleatório entre `0` e `1`.
-
-![](000158.png)
-
-- `Math.sin(x)`, `Math.cos(x)` e `Math.tan(x)` - seno, cosseno e tangente de `x`.
-- `Math.sqrt(x)` - raiz quadrada de `x`.
-- `Math.pow(x, y)` - `x` a `y`-ésima potência.
-
-![](000159.png)
 
 ## Comando simples de interação
 
