@@ -1,6 +1,6 @@
 # JavaScript
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/ejWjuYLnKkA)
 
 JavaScript é uma linguagem de programação interpretada criada para tornar possível a execução de programas associados à páginas HTML. Esse programas são chamados _scripts_ e seu ambiente de execução é o navegador do usuário. JavaScript não tem nada a ver com Java, além de seu nome, criado se aproveitar do seu sucesso. Hoje em dia, a linguagem segue a especificação [ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) (ES), atualmente na versão 11 (ES11 ou ES2020).
 

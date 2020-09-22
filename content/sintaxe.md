@@ -1,6 +1,6 @@
 # JavaScript - Sintaxe e estruturas básicas
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/z7gvyMe0VQI)
 
 A sintaxe da linguagem JavaScript é semelhante em muitos pontos com a da linguagem C#. Este material não é extensivo, então vamos diretamente aos pontos mais importantes.
 

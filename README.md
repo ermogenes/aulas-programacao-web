@@ -83,10 +83,9 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🔋 JavaScript no _Frontend_
 
-<!-- _Em breve..._ -->
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) 🔥
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) 🔥
 
-- [📖 Hello World com JavaScript](content/hello-world-js.md) 🔥
-- [📖 Sintaxe e estruturas básicas](content/sintaxe.md) 🔥
 <!--
 - [📖 Funções e objetos](content/funcoes-objetos.md) 🔥
 - [📖 DOM](content/dom.md) 🔥
