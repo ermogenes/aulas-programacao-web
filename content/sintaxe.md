@@ -2,7 +2,7 @@
 
 [📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
 
-A sintaxe da linguagem JavaScript é semelhante em muitos pontos com a da linguagem C#. Este material não é estensivo, então vamos diretamente aos pontos mais importantes.
+A sintaxe da linguagem JavaScript é semelhante em muitos pontos com a da linguagem C#. Este material não é extensivo, então vamos diretamente aos pontos mais importantes.
 
 ## Comandos
 
