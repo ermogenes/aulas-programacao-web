@@ -23,8 +23,8 @@ let usuarioAtual = {
 ```
 
 - os símbolos `{` e `}` delimitam o objeto.
-- dentro declaramoms diversas propriedades separadas por vírgulas, no formato `chave: valor`.
-- propriedades podem ser de qualquer tipo, inclusive objetos.
+- dentro declaramos diversas propriedades separadas por vírgulas, no formato `chave: valor`.
+- propriedades podem ser de qualquer tipo, inclusive outros objetos.
 
 Para acessar os valores, usamos a notação `.`:
 
@@ -48,7 +48,7 @@ delete cidade.estado.sigla; // exclui a propriedade sigla
 
 ![](000161.png)
 
-🍌 Declarar um objeto como `const` garante que nenhuma atribuição será aceita para substituir o objeto como um todo, mas ainda permite que você altere suas propriedades, ou mesmo as adicione ou remova!
+🍌 _Declarar um objeto como `const` garante que nenhuma atribuição será aceita para substituir o objeto como um todo, mas ainda permite que você altere suas propriedades, ou mesmo as adicione ou remova!_
 
 Ao acessar uma propriedade inexistente o retorno é `undefined`. Porém, se você tentar acessar um propriedade em `undefined` uma exceção é lançada. Para garantir que nenhum erro aconteça, use o operador de encadeamento opcional (_optional chainning_) `?`.
 
@@ -99,13 +99,13 @@ Quando não houver mais nenhuma referência a um objeto, ele é eliminado da mem
 Não há diferença entre `==` e `===` quando comparando objetos. A regra para ambos é:
 
 - `true` quando variáveis referenciam o mesmo objeto;
-- `false` nos demais casos, mesmo se os conteúdos sejam iguais.
+- `false` nos demais casos, mesmo que os conteúdos sejam idênticos.
 
 ![](000166.png)
 
 ## Conversão de objetos para tipos primitivos
 
-Está fora do nosso escopo entender como o JavaScript faz essas conversões, mas via de regra isso não parece ser uma boa prática na maioria das situações. Evite se possível.
+Está fora do nosso escopo entender como o JavaScript faz essas conversões, mas não é uma boa prática na maioria das situações. Evite se possível.
 
 # Arranjos (_são objetos_)
 
@@ -165,7 +165,7 @@ for (let brinquedo of brinquedos) {
 
 ![](000173.png)
 
-🍌 Não confunda `for`..`of` com `for`..`in`, que não deve ser usada com arranjos.
+🍌 _Não confunda `for`..`of` com `for`..`in`, que não deve ser usado com arranjos._
 
 ## Manipulando arranjos
 
