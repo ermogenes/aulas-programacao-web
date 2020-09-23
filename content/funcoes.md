@@ -277,7 +277,7 @@ numeros.forEach((x, i) => {
 ```
 
 - `numeros.forEach(alert);` chama a função `alert` para cada um dos elementos em sequência.
-- `numeros.forEach(n => console.log(``A metade de ${n} é ${metade(n)}.``));` recebe no parâmetro `n` o valor a ser processado, e processa `console.log` repassando o elemento dentro de uma string.
+- ``numeros.forEach(n => console.log(`A metade de ${n} é ${metade(n)}.`));`` recebe no parâmetro `n` o valor a ser processado, e processa `console.log` repassando o elemento dentro de uma string.
 - `numeros.forEach((x, i) => {...});` chama a função passando como argumentos o elemento em `x` e seu índice em `i`, que serão processados em uma função de múltiplas linhas.
 
 ![](000198.gif)
@@ -360,3 +360,51 @@ console.log(`Saldo: ${saldo}`);
 ```
 
 ![](000202.png)
+
+## Métodos
+
+Quando uma função é armazenada como uma propriedade de um objeto a chamamos de _método_. Métodos são elementos fundamentais da programação orientada a objetos.
+
+Podemos declarar métodos de diversas formas diferentes:
+
+```js
+let funcaoDeclaradaExternamente = () => { console.log("funcaoDeclaradaExternamente"); };
+
+let objeto = {
+    funcaoPreexistente: funcaoDeclaradaExternamente,
+    funcaoDeclaradaExternamente,
+    funcaoDeclaradaInternamente: function() {
+        console.log("funcaoDeclaradaInternamente");
+    },
+    funcaoDeclaradaInternamenteComAtalho() {
+        console.log("funcaoDeclaradaInternamenteComAtalho");
+    },
+    arrowFunction: () => { console.log("arrowFunction"); },
+};
+
+console.dir(objeto);
+objeto.funcaoPreexistente();
+objeto.funcaoDeclaradaExternamente();
+objeto.funcaoDeclaradaInternamente();
+objeto.funcaoDeclaradaInternamenteComAtalho();
+objeto.arrowFunction();
+```
+
+![](000204.png)
+
+Um cuidado que devemos ter é entender como funciona o acesso aos dados internos do objeto pelos métodos. Podemos ter acesso ao conteúdo interno do objeto chamador usando `this`. No exemplo abaixo, implementamos dois métodos, `dizerOla` usando a declaração de função, e `dizerOlaComBug` usando _arrow functions_. Perceba no segundo método não temos acesso ao objeto chamador porque **_arrow functions_ não possuem `this`**.
+
+```js
+let pessoa = {
+    nome: "Ermogenes",
+    dizerOla: function() {
+        return `Olá, meu nome é ${this.nome}!`;
+    },
+    dizerOlaComBug: () => `Olá, meu nome é ${this.nome}!`,
+};
+
+console.log(pessoa.dizerOla());
+console.log(pessoa.dizerOlaComBug());
+```
+
+![](000203.png)
