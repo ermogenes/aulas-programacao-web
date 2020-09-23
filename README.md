@@ -85,9 +85,10 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 - [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) 🔥
 - [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) 🔥
+- [📖 Objetos](content/objetos.md) 🔥
 
 <!--
-- [📖 Funções e objetos](content/funcoes-objetos.md) 🔥
+- [📖 Funções](content/funcoes.md) 🔥
 - [📖 DOM](content/dom.md) 🔥
 - [📖 Async](content/async.md) 🔥
 - [📖 Fetch API e JSON](content/fetch-json.md) 🔥
