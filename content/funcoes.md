@@ -254,7 +254,7 @@ console.log(caraOuCoroa());
 
 ![](000197.png)
 
-Sempre que possível, use _arrow functions_.
+**Sempre que possível, use _arrow functions_.**
 
 ## Processando arranjos com funções
 
