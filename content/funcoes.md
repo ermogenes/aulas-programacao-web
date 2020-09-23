@@ -1,8 +1,8 @@
 # Funções
 
-Por se tratar de uma linguagem dinâmica interpretada, o JavaScript permite muita flexibilidade ao trabalhar com funções.
+Por se tratar de uma linguagem dinâmica interpretada o JavaScript permite muita flexibilidade ao trabalhar com funções.
 
-Elas são tratadas como "cidadãos de primeira classe", o que significa que uma função não é deiferente de outro tipo de dado qualquer, e pode ser armazenada em variáveis e passada como parâmetro para outras funções. Essencialmente, uma função armazena um bloco de código JavaScript que pode ser executado a qualquer momento.
+Elas são tratadas como "cidadãos de primeira classe", o que significa que uma função não é diferente de outro tipo de dado qualquer, podendo ser armazenada em variáveis e passada como parâmetro para outras funções. Essencialmente, uma função armazena um bloco de código JavaScript que pode ser executado a qualquer momento.
 
 ## Criando funções
 
@@ -40,7 +40,7 @@ let minhaFuncao = function() {
 
 ## Escopo e visibilidade
 
-Variáveis declaradas dentro de uma função só são visíveis dentro da função. São chamadas de variáveis locais.
+Variáveis declaradas dentro de uma função só são visíveis dentro da função. São chamadas de _variáveis locais_.
 
 ```js
 let exibirMensagem = function() {
@@ -88,7 +88,7 @@ console.log(mensagem);
 
 ![](000188.png)
 
-Caso seja criada outra com o mesmo nome internamente, ela sobrepõe a externa, que não serã mais alterada. Dizemos que a variável foi _sombreada_.
+Caso seja criada outra com o mesmo nome internamente, ela sobrepõe a externa, que não estará mais visível. Dizemos que a variável foi _sombreada_.
 
 ```js
 let mensagem = "Olá!";
@@ -111,7 +111,7 @@ Resumindo, variáveis declaradas fora de funções são chamadas de _variáveis 
 
 ## Parâmetros e argumentos
 
-Podemos definir parâmetros de entrada, em cujos os argumentos serão **copiados**.
+Podemos definir parâmetros de entrada, nos quais os argumentos serão **copiados**.
 
 ```js
 let exibirMensagem = function(mensagem) {
@@ -174,7 +174,7 @@ console.log(retorno); // undefined
 
 ![](000193.png)
 
-Podemos ter vários retornos em nossa função.
+Podemos ter vários pontos de retorno em nossa função.
 
 ```js
 let verificaParidade = function(numero) {
@@ -208,7 +208,7 @@ console.log(soma(32.4, -2)); // 30.4
 
 ![](000195.png)
 
-Nessa situação, usar uma _arrow function_ é bem mais fácil:
+Nessa situação, usar uma _arrow function_ é bem mais enxuta:
 
 ```js
 let soma = (a, b) => a + b;
@@ -221,10 +221,11 @@ Pode-se ler: _"dados `a` e `b`, retorne `a + b`"_.
 
 ![](000196.png)
 
-O resultado a expressão à direita será o conteúdo da função. Caso a expressão retorne um valor, ele será o retorno da função.
+O resultado a expressão à direita será o conteúdo da função. Ao ser executada, caso a expressão retorne um valor, ele será o valor de retorno da função.
 
 - Caso haja somente um parâmetro, não há necessidade dos parênteses.
 - Caso não haja nenhum parâmetro, usa-se `()`.
+- Caso deseje uma função vazia (sem nenhum processamento), use `{}`.
 - Caso necessite de mais de um comando, define-se a expressão entre `{` e `}`, e usa-se um `return` explícito.
 
 ```js
@@ -255,13 +256,13 @@ console.log(caraOuCoroa());
 
 Sempre que possível, use _arrow functions_.
 
-## Processando arranjos usando funções
+## Processando arranjos com funções
 
-As técnica abaixo trazem um sabor de programação funcional para o JavaScript. Cada função opera sobre um arranjo, executando a sua tarefa usando todos os seus elementos.
+As técnicas abaixo trazem um sabor de programação funcional para o JavaScript. Cada função opera sobre um arranjo, executando a sua tarefa enquanto percorre todos os seus elementos.
 
 ### Executando uma função para cada um dos elementos
 
-Dados um arranjo e uma função, podemos executar a função uma vez para cada elemento do arranjo usando `forEach`. Ele recebe uma função, e a executa passando 3 argumentos, na sequência: o valor do elemento, o índice do elemento e a referência ao arranjo como um todo. Use-os conforme a sua necessidade.
+Dados um arranjo e uma função, podemos executar a função uma vez para cada elemento do arranjo usando `forEach`. Ele recebe uma função e a executa passando 3 argumentos, na sequência: o valor do elemento, o índice do elemento e a referência ao arranjo como um todo. Use-os conforme a sua necessidade.
 
 ```js
 let metade = x => x / 2;
@@ -275,19 +276,19 @@ numeros.forEach((x, i) => {
 }); // dobros
 ```
 
-- `numeros.forEach(alert);` chama a função `alert` para cada um dos elementos em sequencia.
-- `numeros.forEach(n => console.log(`A metade de ${n} é ${metade(n)}.`));` recebe no parâmetro `n` o valor a ser processado, e processa `console.log` repassando o elemento dentro de uma string.
+- `numeros.forEach(alert);` chama a função `alert` para cada um dos elementos em sequência.
+- `numeros.forEach(n => console.log(``A metade de ${n} é ${metade(n)}.``));` recebe no parâmetro `n` o valor a ser processado, e processa `console.log` repassando o elemento dentro de uma string.
 - `numeros.forEach((x, i) => {...});` chama a função passando como argumentos o elemento em `x` e seu índice em `i`, que serão processados em uma função de múltiplas linhas.
 
 ![](000198.gif)
 
 ![](000199.png)
 
-Usar `forEach` é sempre preferível a iterar arranjos.
+**Usar `forEach` é sempre preferível a iterar arranjos.**
 
 ### Buscando e filtrando
 
-As funções `find`, `findIndex` e `filter` funcionam de forma parecida com `forEach`, mas com alguns detalhes que permite executar buscas e filtros.
+As funções `find`, `findIndex` e `filter` funcionam de forma parecida com `forEach`, mas com alguns detalhes que permitem executar buscas e filtros.
 
 - `find(funcao)` executa `funcao` em cada um dos elementos até que para um deles a função retorne `true`, quando `find` finaliza e retorna o valor do item atual.
 - `findIndex(funcao)` faz a mesma coisa, mas retorna o índice e não o valor.
@@ -317,11 +318,11 @@ console.log(craquesBasquete);
 
 ### Transformando um arranjo
 
-A função `map` executa uma função para cada elemento, e retorna um arranjo com os retornos, um a um.
+A função `map` executa uma função para cada elemento e retorna um arranjo contendo os retornos, com índices equivalentes.
 
 ![](000201.png)
 
-A função `reduce` processa todos os elementos da lista e traz como resultado somente um valor. Isso é muito útil em diversas situações, como calcular a soma encontrar o maior item, por exemplo. Precisamos informar um identificador para o valor anterior e um para o valor atual.
+A função `reduce` processa todos os elementos da lista e traz como resultado somente um valor. Isso é muito útil em diversas situações, como calcular a soma e encontrar o maior item, por exemplo. Precisamos informar um identificador para o valor anterior e um para o valor atual.
 
 Vejamos alguns exemplos:
 
