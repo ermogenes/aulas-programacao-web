@@ -46,11 +46,11 @@ cidade.estado = { // cria uma propriedade que é outro objeto
 delete cidade.estado.sigla; // exclui a propriedade sigla
 ```
 
-![](000161.png)
+![](000162.png)
 
 🍌 _Declarar um objeto como `const` garante que nenhuma atribuição será aceita para substituir o objeto como um todo, mas ainda permite que você altere suas propriedades, ou mesmo as adicione ou remova!_
 
-Ao acessar uma propriedade inexistente o retorno é `undefined`. Porém, se você tentar acessar um propriedade em `undefined` uma exceção é lançada. Para garantir que nenhum erro aconteça, use o operador de encadeamento opcional (_optional chainning_) `?`.
+Ao acessar uma propriedade inexistente o retorno é `undefined`. Porém, se você tentar acessar uma propriedade em `undefined` uma exceção é lançada. Para garantir que nenhum erro aconteça, use o operador de encadeamento opcional (_optional chainning_) `?`.
 
 ![](000168.png)
 
@@ -105,7 +105,7 @@ Não há diferença entre `==` e `===` quando comparando objetos. A regra para a
 
 ## Conversão de objetos para tipos primitivos
 
-Está fora do nosso escopo entender como o JavaScript faz essas conversões, mas não é uma boa prática na maioria das situações. Evite se possível.
+Está fora do nosso escopo entender como o JavaScript faz essas conversões. De qualquer maneira, não é uma boa prática na maioria das situações. Evite se possível.
 
 # Arranjos (_são objetos_)
 
@@ -172,7 +172,7 @@ for (let brinquedo of brinquedos) {
 Métodos de manipulação de arranjos:
 
 - `.reverse()` inverte a posição dos elementos do arranjo;
-- `string.split(separador)` retorna uma matriz com os elementos entre separador;
+- `string.split(separador)` retorna um arranjo com os elementos entre separador;
 - `.join(separador)` retorna uma string com os elementos entre separador.
 
 ![](000177.png)
@@ -184,7 +184,7 @@ Os métodos abaixo são bem peculiares:
 - `.shift()` retira o primeiro elemento e desloca os demais elementos pra o início;
 - `.unshift(x)` adiciona `x` no início do arranjo.
 
-Arranjos são estruturas de dados do tipo _deque_ em JavaScript. Isso significa que podemos tratá-la como pilha ou como fila, de acordo com os métodos utilizados.
+Arranjos são estruturas de dados do tipo [_deque_](https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)) em JavaScript. Isso significa que podemos tratá-la como pilha ou como fila, de acordo com os métodos utilizados.
 
 Se precisarmos de uma fila, usamos `push` e `shift`.
 
