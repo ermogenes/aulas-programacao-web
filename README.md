@@ -124,6 +124,7 @@ _Em breve..._
 - [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) ✔
 - [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) 👁‍🗨
 - [🏳🎨 Formulários](exercises/forms.md) 👁‍🗨 🔥
+- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) 👁‍🗨 🔥
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
 
