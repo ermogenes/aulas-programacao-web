@@ -1,6 +1,8 @@
 # Objetos
 
-O Javascript possui diversos tipos de dados primitivos (dados puros) e um tipo complexo, chamado `Object` (objeto).
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/FKPb2I9cVVo)
+
+O JavaScript possui diversos tipos de dados primitivos (dados puros) e um tipo complexo, chamado `Object` (objeto).
 
 Um objeto pode conter diversos valores, e não somente um. É uma estrutura de dados do tipo chave/valor, onde cada propriedade possui um nome (chave) e um valor.
 

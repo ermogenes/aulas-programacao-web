@@ -1,5 +1,7 @@
 # Funções
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/MOIbBRNVfPA)
+
 Por se tratar de uma linguagem dinâmica interpretada o JavaScript permite muita flexibilidade ao trabalhar com funções.
 
 Elas são tratadas como "cidadãos de primeira classe", o que significa que uma função não é diferente de outro tipo de dado qualquer, podendo ser armazenada em variáveis e passada como parâmetro para outras funções. Essencialmente, uma função armazena um bloco de código JavaScript que pode ser executado a qualquer momento.
