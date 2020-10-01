@@ -20,25 +20,25 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 Reimplementação em JavaScript do exercício `ContagemRegressiva` da lista "Saída em console" do Dev C#: [ContagemRegressiva](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/exercises/saida.md#exerc%C3%ADcio-contagemregressiva)
 
----
+## _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ## Exercício `NomeCompletoJs`
 
 Reimplementação em JavaScript do exercício `NomeCompleto` da lista "Entrada de dados e _strings_" do Dev C#: [NomeCompleto](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/exercises/entrada-strings.md#exerc%C3%ADcio-nomecompleto)
 
----
+## _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ## Exercício `DivisaoJs`
 
 Reimplementação em JavaScript do exercício `Divisao` da lista "Decisão e operações lógicas" do Dev C#: [Divisao](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/exercises/decisao-simples.md#exerc%C3%ADcio-divisao)
 
----
+## _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ## Exercício `Media4NotasJs`
 
 Reimplementação em JavaScript do exercício `Media4Notas` da lista "Decisão e operações lógicas" do Dev C#: [Media4Notas](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/exercises/decisao-simples.md#exerc%C3%ADcio-media4notas)
 
----
+## _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
 ## Exercício `TabuadaJs`
 
