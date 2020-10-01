@@ -54,7 +54,7 @@ Podemos vincultar um _script_ a uma página HTML usando a tag `script`, de duas 
 ```html
 ...
 <script>
-  console.log("Hello worl!d");
+  console.log("Hello world!");
 </script>
 ...
 ```
@@ -74,7 +74,7 @@ No arquivo `.html`:
 No arquivo `meu-script.js`:
 
 ```js
-console.log("Hello world");
+console.log("Hello world!");
 ```
 
 Os scripts serão colocados na lista de arquivos para _download_ assim que a _tag_ for encontrada, e executados assim que os scripts forem baixados.
