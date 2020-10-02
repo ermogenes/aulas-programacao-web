@@ -78,13 +78,13 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) ✔
 - [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) ✔
 - [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) ✔
-- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md) 👁‍🗨 🔥
-- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 👁‍🗨 🎁 🔥
+- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md) ✔
+- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁 ✔
 
 ### 🔋 JavaScript no _Frontend_
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) 🔥
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) 🔥
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) 👁‍🗨
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) 👁‍🗨
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) 🔥
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) 🔥
 
@@ -122,10 +122,10 @@ _Em breve..._
 - [🎨 Tipografia](exercises/tipografia.md) ✔
 - [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
 - [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) ✔
-- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) 👁‍🗨
-- [🏳🎨 Formulários](exercises/forms.md) 👁‍🗨
-- [🔋 Primeiros passos com JavaScript](exercises/js.md) 🔥
-- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) 👁‍🗨 🔥
+- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
+- [🏳🎨 Formulários](exercises/forms.md) ✔
+- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) ✔
+- [🔋 Primeiros passos com JavaScript](exercises/js.md) 👁‍🗨 🔥
 
 ### 🐱‍👤 Prof. Neri: Soluções comentadas
 
