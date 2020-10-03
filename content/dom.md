@@ -29,9 +29,12 @@ Contém, entre outras coisas, os objetos:
 
 # DOM - _Document Object Model_
 
-É o nome dado à estrutura de objetos [padronizada pelo WHATWG](https://dom.spec.whatwg.org/) como ponto de acesso a todo o conteúdo do documento.
+É o nome dado à estrutura de objetos [padronizada pelo WHATWG](https://dom.spec.whatwg.org/) como ponto de acesso a todo o conteúdo do documento. O seu objeto raiz é `document`.
 
-O seu objeto raiz é `document`. Abaixo dele existe todo o conteúdo do documento HTML de origem, incluíndo textos dentro e fora de _tags_, comentários e _scripts_, todos eles chamados de **nós (_nodes_)**.
+- `document.title` contém o título da página atual (definido pela _tag_ `title`).
+- `document.referrer` contém o URL da página que continha o _link_ para a página atual (ou `""` se a origem foi a digitação do endereço ou o uso de um Favorito).
+
+Em `document` existe todo o conteúdo do documento HTML de origem, incluíndo textos dentro e fora de _tags_, comentários e _scripts_, todos eles chamados de **nós (_nodes_)**.
 
 Você pode visualizar os nós de um documento nas ferramentas de desenvolvedor, aba _Elements_:
 
