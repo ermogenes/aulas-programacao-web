@@ -27,6 +27,8 @@ Contém, entre outras coisas, os objetos:
   - `screen.width` e `screen.height` indicam o tamanho do tela atual do usuário (total).
 - `document`, que contém o documento atual, seguindo o modelo DOM.
 
+![](000206.png)
+
 # DOM - _Document Object Model_
 
 É o nome dado à estrutura de objetos [padronizada pelo WHATWG](https://dom.spec.whatwg.org/) como ponto de acesso a todo o conteúdo do documento. O seu objeto raiz é `document`.
@@ -88,6 +90,8 @@ Alguns elementos possuem acesso direto. Por exemplo:
 - `document.head`: a _tag_ `head`.
 - `document.body`: a _tag_ `body`, ou `null` se chamado dentro de `head` (_pois ainda não foi lido pelo navegador_).
 
+![](000207.png)
+
 🍌 É criada automaticamente uma variável global para cada elemento com o atributo `id`, com o nome equivalente. **Seu uso não é recomendado** pois se outra variável for criada com o mesmo nome ela possui precedência.
 
 Há alguns auxiliares específicos para tabelas:
@@ -117,6 +121,30 @@ Use:
 
 - `hasChildNodes()` para saber se o nó possui filhos;
 - `length` para obter o número de filhos.
+
+Ex.:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>Aprendendo DOM</h1>
+    <ul>
+      <li>BOM</li>
+      <li>Elementos</li>
+      <li>Eventos</li>
+    </ul>
+    <p>Muito obrigado!</p>
+  </body>
+</html>
+```
+
+![](000208.png)
 
 ## Obtendo um elemento usando o atributo `id`
 
