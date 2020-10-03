@@ -287,11 +287,11 @@ Veja exemplos com `insertAdjacentHTML`:
 - `no.insertAdjacentHTML("beforeend", string)`: na mesma posição de `append`;
 - `no.insertAdjacentHTML("afterend", string)`: na mesma posição de `after`.
 
-## Removendo um elemento
+### Removendo um elemento
 
 Use `elem.remove()`.
 
-## Clonando elementos
+### Clonando elementos
 
 Para criar cópias idênticas de um elemento:
 
