@@ -119,8 +119,8 @@ Todos os nós | Somente elementos | Descrição
 
 Use:
 
-- `hasChildNodes()` para saber se o nó possui filhos;
-- `length` para obter o número de filhos.
+- `hasChildNodes()` para saber se o nó possui filhos.
+- `length` para obter o número de elementos em uma lista.
 
 Ex.:
 
