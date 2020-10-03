@@ -150,6 +150,18 @@ Ex.:
 
 Use `document.getElementById('meuIdUnico')` para obter o elemento de `id` igual a `meuIdUnico`, não importa em que parte do documento.
 
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <div>
+      <p>Este parágrafo não está identificado.</p>
+      <p id="meuParagrafo">Este parágrafo está identificado.</p>
+    </div>
+  </body>
+```
+
+![](000209.png)
+
 🍌 Se um `id` não é único, todas as técnicas de obtenção por `id` se tornam imprevisíveis.
 
 ## Obtendo elementos usando seletores CSS
