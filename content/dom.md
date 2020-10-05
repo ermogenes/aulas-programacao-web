@@ -414,7 +414,154 @@ Para criar cópias idênticas de um elemento:
 
 ## Eventos
 
-__Em breve..._
+Eventos são sinais de que algo aconteceu. Veja alguns exemplos:
+
+- Mouse:
+  - `click`: quando o usuário clica em algum elemento.
+  - `mousemove`: quando o ponteiro do mouse é movido.
+- Teclado:
+  - `keydown`: quando o usuário pressiona uma tecla.
+  - `keyup`: quando o usuário solta a tecla.
+- Documento:
+  - `DOMContentLoaded`: quando o documento foi carregado e o DOM foi construído.
+
+Podemos executar código quando um evente ocorre. Para isso, precisamos de uma função (chamada _handler_ ou manipulador) que será executada a cada vez que o evento ocorrer. Depois, precisamos vincular o _handler_no evento.
+
+Exemplo: Exibir _Olá_ ao clicar em um botão.
+
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <button id="botaoQueResponde">Clique aqui!</button>
+    <script>
+      const botao = document.getElementById('botaoQueResponde');
+      botao.addEventListener('click', () => alert('Olá, usuário!'));
+    </script>
+  </body>
+```
+
+![](000219.gif)
+
+Existem várias formas de se adicionar um _handler_ em um evento, porém a mais versátil é `elem.addEventListener("evento", handler)`. Podemos adicionar um _handler_ em mais de um evento, e mais de um _handler_ no mesmo evento.
+
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <button>Clique aqui</button>
+    <button>ou aqui</button>
+    <script>
+      const dizerOla = () => alert("Olá, usuário!");
+      const dizerTchau = () => alert("Tchau!");
+
+      // Todas as tags button
+      const botoes = document.querySelectorAll("button");
+
+      // Adiciona dizerOla nos eventos de todos os botões
+      botoes.forEach((b) => b.addEventListener("click", dizerOla));
+
+      // Adiciona dizerTchau no evento do segundo botão (junto com dizerOla)
+      botoes[1].addEventListener("click", dizerTchau);
+    </script>
+  </body>
+```
+
+![](000220.gif)
+
+Um evento pode disponibilizar outras informações para o _handler_. Elas são passadas através do parâmetro definido no _handler_. Por exemplo, para saber qual elemento foi o chamador do evento, podemos acessar `.currentTarget`.
+
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <button>Clique aqui</button>
+    <button>ou aqui</button>
+    <script>
+      const qualBotao = (evt) =>
+        alert(`Você clicou em "${evt.currentTarget.textContent}"`);
+
+      const botoes = document.querySelectorAll("button");
+
+      botoes.forEach((b) => b.addEventListener("click", qualBotao));
+    </script>
+  </body>
+```
+
+![](000221.gif)
+
+Alguns elementos possuem comportamentos padrão em certos eventos. Uma _tag_ `a` inicia a navegação para `href` quando clicada, um botão do tipo `submit` envia o seu formulário quando clicado, etc.
+
+Para prevenir o comportamento padrão de um elemento, use o método `.preventDefault()` do objeto de evento.
+
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+
+    <a href="https://github.com/ermogenes/aulas-programacao-web/">
+      Link para Dev Web
+    </a>
+
+    <script>
+      document.querySelector("a").addEventListener("click", (evt) => {
+        evt.preventDefault();
+        evt.currentTarget.insertAdjacentHTML("afterend", "<span>😐</span>");
+      });
+    </script>
+  </body>
+```
+
+![](000222.gif)
+
+Você pode causar o disparo de um evento manualmente usando `.dispatchEvent`.
+
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+
+    <button id="botaoDisparo">Disparar clique no link</button>
+    <br />
+    <a href="https://github.com/ermogenes/aulas-programacao-web/">
+      Link para Dev Web
+    </a>
+
+    <script>
+      document.querySelector("a").addEventListener("click", (evento) => {
+        evento.preventDefault();
+        evento.currentTarget.insertAdjacentHTML("afterend", "<span>😐</span>");
+      });
+
+      document.getElementById("botaoDisparo").addEventListener("click", (e) => {
+        document.querySelector("a").dispatchEvent(new Event("click"));
+      });
+    </script>
+  </body>
+```
+
+![](000223.gif)
+
+O evento `document.DOMContentLoaded` é disparado quando o navegador já baixou todo o HTML, o processou e terminou de gerar o DOM, portanto todos os elementos já estão disponíveis. Use-o para garantir que os elementos manipulados já foram carregados.
+
+```html
+  <body>
+    <script>
+      const m = document.getElementById("mensagens");
+      console.log(m); // null, poi ainda não foi criado
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const m = document.getElementById("mensagens");
+        console.log(m); // elemento já está acessível
+
+        m.insertAdjacentHTML(
+          "beforeend",
+          "<li>Disparado DOMContentLoaded</li>"
+        );
+      });
+    </script>
+
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <ul id="mensagens"></ul>
+  </body>
+```
+
+![](000224.png)
 
 ## Formulários
 
