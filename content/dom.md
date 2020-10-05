@@ -103,13 +103,25 @@ Há alguns auxiliares específicos para tabelas:
 
 De maneira geral, para acessar os um nó específico precisamos navegar pela árvore do DOM ou realizar uma busca.
 
+## `NodeList` e `HTMLCollection`
+
+No DOM há dois tipos principais de coleções de nós. Elas podem ser **estáticas** (não reflete o estado atual do momento do acesso, mas do momento da criação da lista) ou **vivas** (reflete o estado atual do momento do acesso, não do momento da criação da lista).
+
+- `NodeList` é um arranjo, portanto possui `.forEach` e todos os demais métodos como qualquer arranjo. Pode ser estática ou viva. Ex.:
+  - `childNodes`, viva
+  - `querySelectorAll`, estática
+- `HTMLCollection` é um _array-like_/_iterable_. Sempre é viva. Permite acessar os itens usando `[índice]` e iterar com `for..of`. Para converter para arranjo, use `Array.from()`. Ex.:
+  - `children`
+  - `getElementsByClassName`
+  - `getElementsByTagName`
+
 ## Navegando pela estrutura do DOM
 
 Todos os nós permitem navegação, usando as propriedades/métodos abaixo. _Atente-se ao fato de que todos eles são somente-para-leitura._
 
 Todos os nós | Somente elementos | Descrição
 --- | --- | ---
-`childNodes` | `children` | coleção **viva** dos filhos (_por ser um _array-like_/_iterable_ você pode usar `for..of` para iterar, ou `Array.from(...)` para converter em arranjo_)
+`childNodes` | `children` | coleção com todos os filhos (`childNodes` é um `NodeList` e `children` é um `HTMLCollection`)
 `childNodes[n]` | `children[n]` |  _n_-ésimo filho
 `firstChild` | `firstElementChild` | primeiro filho
 `lastChild` | `lastElementChild` | último filho
@@ -168,19 +180,36 @@ Use `document.getElementById('meuIdUnico')` para obter o elemento de `id` igual 
 
 Em CSS você pode referenciar qualquer elemento ou conjunto de elementos utilizando os seletores. Podemos aproveitar esse conhecimento para obter elementos a partir de um elemento pai:
 
-- `elem.querySelectorAll(cssSelector)` obtém uma coleção **estática** dos elementos dentro de `elem` que atendem `cssSelector`;
+- `elem.querySelectorAll(cssSelector)` obtém uma coleção **estática** (`NodeList`) dos elementos dentro de `elem` que atendem `cssSelector`;
 - `elem.querySelector(cssSelector)` obtém o primeiro elemento dentro de `elem` que atende `cssSelector`;
-- `elem.matches(cssSelector)` verifica se algum elemento em `elem` atende `cssSelector`;
+- `elem.matches(cssSelector)` verifica se `elem` atende `cssSelector`;
 - `elem.contains(outroElem)` verifica se `outroElem` é descendente de `elem`;
 - `elem.closest(cssSelector)` obtém o ancestral mais próximo de `elem` que atende `cssSelector` (incluíndo possivelmente `elem`).
 
 Qualquer seletor CSS pode ser utilizado com esses métodos.
 
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <div>
+      <p class="tipo1">Lorem ipsum dolor sit amet.</p>
+      <p>Fugiat, natus. Culpa, modi porro.</p>
+      <p id="diferente">Temporibus eligendi consequuntur id suscipit!</p>
+      <p class="tipo2">Ut reiciendis ullam cumque ea.</p>
+      <p class="tipo1 tipo2">Odit nobis doloremque quisquam ipsum.</p>
+    </div>
+  </body>
+```
+
+![](000210.png)
+
 ## Outros métodos para obtenção de elementos
 
 Os métodos da família `getElement` também permitem encontrar elementos no documento, porém são mais complexos e portanto menos utilizados que os baseados em seletores. Geralmente são encontrados em _scripts_ mais antigos.
 
-Métodos no singular (`getElement_`) retornam o primeiro elemento, e no plural (`getElements_`) uma coleção **viva** com todos os elementos.
+_Na prática, use `document.getElementById(id)` e evite os demais._
+
+Métodos no singular (`getElement_`) retornam o primeiro elemento, e no plural (`getElements_`) uma com todos os elementos (geralmente `HTMLCollection`, mas alguns navegadores antigos podem retornar um `NodeList` vivo).
 
 - `document.getElementById(id)` já estudado acima;
 - `elem.getElementsByTagName(tag)` obtém elementos pela _tag_ (`"*"` para qualquer _tag_);
@@ -196,11 +225,15 @@ Podemos obter e alterar o conteúdo de um elemento usando `innerHTML` (conteúdo
 * O navegador processa a autocorreção.
 * Os `scripts` não são executados.
 
-💡 Para nós de texto ou comentários, use `data`.
-
 Para obter somente o texto, sem as _tags_, use `textContent`. Gravar usando essa propriedade garante que nenhuma _tag_ será injetada.
 
-Para obter o valor alterável pelo usuário em elementos de formulário, use `value`.
+![](000211.gif)
+
+![](000212.png)
+
+🍌 Nós de texto ou comentários não possuem HTML, portanto use `data`.
+
+🍌🍌 Para obter o valor alterável pelo usuário em elementos de formulário, use `value`.
 
 ## Manipulando atributos
 
@@ -213,16 +246,24 @@ Nos elementos são criadas propriedades automaticamente para atributos existente
 
 Podemos iterar os atributos de um elemento `elem` usando a coleção `elem.attributes`. Cada item da coleção possui `name` (com seu nome) e `value` (com seu valor).
 
-Ao usar atributos não padronizados, prefira nomeá-los usando o prefixo `data-`, pois o seu HTML continuará válido. Os atributos `data-*` estarão disponíveis em `elem.dataset`.
+![](000213.png)
 
-Ex.:
+Os atributos padronizados (que fazem parte da especificação do HTML) possuem sempre um propriedade automática. Ao usar atributos não padronizados, prefira nomeá-los usando o prefixo `data-`, pois o seu HTML continuará válido. Os atributos `data-*` estarão disponíveis em `elem.dataset`.
 
 ```html
-<body data-especie-relacionada="Elefante">
-<script>
-  alert(document.body.dataset.especieRelacionada); // Elefante
-</script>
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <p>Linguagens aprendidas:</p>
+    <ul id="linguagens">
+      <li data-componente="PC1">C#</li>
+      <li data-componente="PC2">HTML</li>
+      <li data-componente="PC2">CSS</li>
+      <li data-componente="PC2">JavaScript</li>
+    </ul>
+  </body>
 ```
+
+![](000214.png)
 
 ### Atributo `hidden`
 
@@ -248,14 +289,48 @@ Para controlar as características visuais dos elementos podemos utilizar os est
 
 Podemos acessar o conteúdo do atributo `class` usando `elem.className`. Ele contém todas as classes, como uma string, assim como no atributo HTML.
 
-A propriedade `elem.classList` contém uma coleção (um _iterable_, iterável com `for...of`) cujos itens são as classes aplicadas ao elemento. Ela também possui métodos facilitadores:
+A propriedade `elem.classList` contém uma coleção (um _array-like_, iterável com `for...of` ou `.forEach`) cujos itens são strings das classes aplicadas ao elemento. Ela também possui métodos facilitadores:
 
 - `add("classe")` adiciona `"classe"`;
 - `remove("classe")` remove `"classe"`;
 - `toggle("classe")` adiciona/remove `"classe"`, alternando conforme o caso;
 - `contains("classe")` verifica se `"classe"` existe em `classList`.
 
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      .negrito {
+        font-weight: bold;
+      }
+      .vermelho {
+        color: red;
+      }
+      .verde {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <p class="vermelho">Lorem ipsum dolor sit amet.</p>
+    <p class="negrito">Deleniti rem aperiam quisquam! Veniam?</p>
+    <p id="semEstilizacao">Officiis cumque unde vel distinctio!</p>
+    <p class="verde">Minus deserunt tenetur amet ratione.</p>
+    <p class="vermelho negrito">Necessitatibus rerum ut recusandae. Impedit.</p>
+  </body>
+</html>
+```
+
+![](000215.png)
+
 A técnica é definir um estilo padrão e criar estilos adicionais vinculados à classes. Adicione ou retire essas classes usando JavaScript.
+
+![](000216.gif)
 
 ### Estilos com as propriedades `style`
 
@@ -293,17 +368,9 @@ Em documentos dinâmicos frequentemente precisaremos incluir/remover nós ou ele
 Podemos criar elementos usando métodos do objeto `document`.
 
 - `document.createElement(tag)` cria um elemento do tipo adequado para a _tag_ informada;
-- `document.createTextNode(texto)` cria um elemento de texto.
+- `document.createTextNode(texto)` cria um nó de texto.
 
-O elemento pode ser salvo em uma variável e posteriomente inserido no DOM.
-
-Ex.:
-
-```js
-let boxAlerta = document.createElement('div');
-```
-
-Para inserir no DOM, escolha um nó base e chame o método adequado passando um ou mais nós a serem inseridos.
+O elemento pode ser salvo em uma variável e posteriomente inserido no DOM. Para inserir no DOM, escolha um nó base e chame o método adequado passando um ou mais nós a serem inseridos.
 
 - `no.append(novoNo)`, adiciona `novoNo` como último nó dentro de `no`.
 - `no.prepend(novoNo)`, adiciona `novoNo` como primeiro nó dentro de `no`.
@@ -311,28 +378,32 @@ Para inserir no DOM, escolha um nó base e chame o método adequado passando um 
 - `no.after(novoNo)`, adiciona `novoNo` como primeiro nó após `no`.
 - `no.replaceWith(novoNo)`, substitui `no` por `novoNo`, na mesma posição.
 
-Podemos passar uma _string_ ao invés de criar o nó. Isso fará o _engine_ processar o texto como se estivesse no arquivo `.html` inicial, criando os elementos necessários.
-
-Da mesma maneira, você pode inserir conteúdo HTML contido em uma string usando a propriedade `innerHTML`.
-
-```js
-boxAlerta.innerHTML = '<em>Atenção!</em> Algo de errado não está certo!';
-```
-
-Se você não quiser que as strings sejam processadas mas sim inseridas de forma segura sem conversão HTML, use `textContent` em vez de `innerHTML`.
+Podemos passar uma _string_ ao invés de criar o nó. Isso **não** fará o _engine_ processar o texto como HTML criando os elementos necessários, e sim criar um nó de texto.
 
 Os métodos da família `insertAdjacent` possuem uma sintaxe mais simples para inserção de elementos (`insertAdjacentElement`), texto (`insertAdjacentText`) e strings contendo código HTML (`insertAdjacentHTML`).
-
-Veja exemplos com `insertAdjacentHTML`:
 
 - `no.insertAdjacentHTML("beforebegin", string)`: na mesma posição de `before`;
 - `no.insertAdjacentHTML("afterbegin", string)`: na mesma posição de `prepend`;
 - `no.insertAdjacentHTML("beforeend", string)`: na mesma posição de `append`;
 - `no.insertAdjacentHTML("afterend", string)`: na mesma posição de `after`.
 
+Ex.:
+
+```html
+  <body>
+    <h1 id="titulo">Aprendendo DOM</h1>
+    <p>Cidades:</p>
+    <ul id="cidades"></ul>
+  </body>
+```
+
+![](000217.gif)
+
 ### Removendo um elemento
 
 Use `elem.remove()`.
+
+![](000218.gif)
 
 ### Clonando elementos
 
