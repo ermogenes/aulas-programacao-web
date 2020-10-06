@@ -425,7 +425,7 @@ Eventos são sinais de que algo aconteceu. Veja alguns exemplos:
 - Documento:
   - `DOMContentLoaded`: quando o documento foi carregado e o DOM foi construído.
 
-Podemos executar código quando um evente ocorre. Para isso, precisamos de uma função (chamada _handler_ ou manipulador) que será executada a cada vez que o evento ocorrer. Depois, precisamos vincular o _handler_no evento.
+Podemos executar código quando um evente ocorre. Para isso, precisamos de uma função (chamada _handler_ ou manipulador) que será executada a cada vez que o evento ocorrer. Depois, precisamos vincular o _handler_ no evento.
 
 Exemplo: Exibir _Olá_ ao clicar em um botão.
 
