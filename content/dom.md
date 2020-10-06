@@ -1,6 +1,6 @@
 # DOM - _Document Object Model_
 
-
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/7mLX9WKf1Ow)
 
 ## Ambiente de execução JavaScript
 
