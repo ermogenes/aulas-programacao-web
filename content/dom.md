@@ -565,4 +565,151 @@ O evento `document.DOMContentLoaded` é disparado quando o navegador já baixou 
 
 ## Formulários
 
-__Em breve..._
+Há alguns recursos facilitadores para manipulação de formulários.
+
+Para campos `input`, `select` e `textarea` temos a propriedade `value` com o valor digitado pelo usuário.
+
+Para campos `input` do tipo `checkbox` ou `radio` podemos usar o _boolean_ `ckecked`.
+
+Para os `select`, temos ainda:
+
+- `options`, com uma coleção dos elementos `option`;
+- `selectedIndex`, com o índice da opção selecionada.
+
+Em `document.forms` temos uma coleção dos forms do documento.
+
+Os campos possuem os seguintes eventos:
+
+- `focus`, quando o foco entra no campo;
+- `input`, quando uma entrada é detectada;
+- `change`, quando a alteração do campo é finalizada;
+- `blur`, quando o foco sai do campo.
+
+O `form`, por sua vez possui o evento `submit`, para quando for enviado. Caso não quisermos personalizar o seu comportamento, podemos usar `preventDefault`. Retornar `false` também garante que os valores não serão enviados.
+
+Exemplo de validação:
+
+Em `index.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      form {
+        display: flex;
+        flex-flow: column;
+        max-width: 280px;
+      }
+      form > * {
+        padding: 5px;
+      }
+      .invalido {
+        color: red;
+      }
+      input[type="checkbox"].invalido + label {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="titulo">Cadastro de usuário</h1>
+    <form id="cadastro">
+      <label for="usuario">Usuário:</label>
+      <input type="text" id="usuario" name="usuario" />
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" />
+
+      <label for="repetesenha">Repetir senha:</label>
+      <input type="password" id="repetesenha" name="repetesenha" />
+
+      <label for="cidade">Cidade:</label>
+      <select id="cidade" name="cidade">
+        <option selected>-- selecione --</option>
+        <option value="1">Mongaguá</option>
+        <option value="2">Praia Grande</option>
+        <option value="3">Itanhaém</option>
+      </select>
+
+      <div>
+        <input type="checkbox" id="deacordo" name="deacordo" />
+        <label for="deacordo">Concordo com os termos de uso</label>
+      </div>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+```
+
+Em `index.js`:
+
+```js
+const removeErro = (evt) => evt.currentTarget.classList.remove("invalido");
+
+const processarForm = (evt) => {
+  evt.preventDefault();
+
+  const usuario = document.getElementById("usuario");
+  const senha = document.getElementById("senha");
+  const repetesenha = document.getElementById("repetesenha");
+  const cidade = document.getElementById("cidade");
+  const deacordo = document.getElementById("deacordo");
+
+  if (usuario.value.trim().length === 0) {
+    usuario.classList.add("invalido");
+    usuario.focus();
+    return;
+  }
+
+  if (senha.value.trim().length < 8) {
+    senha.classList.add("invalido");
+    senha.focus();
+    return;
+  }
+
+  if (repetesenha.value !== senha.value) {
+    repetesenha.classList.add("invalido");
+    repetesenha.focus();
+    return;
+  }
+
+  if (!["1", "2", "3"].includes(cidade.value)) {
+    cidade.classList.add("invalido");
+    cidade.focus();
+    return;
+  }
+
+  if (!deacordo.checked) {
+    deacordo.classList.add("invalido");
+    deacordo.focus();
+    return;
+  }
+
+  const novoUsuario = {
+    usuario: usuario.value.trim(),
+    senha: senha.value,
+    cidade: cidade.value,
+  };
+
+  console.log(novoUsuario);
+};
+
+const iniciar = () => {
+  document.forms[0].addEventListener("submit", processarForm);
+
+  document
+    .querySelectorAll("input,select")
+    .forEach((campo) => campo.addEventListener("input", removeErro));
+};
+
+document.addEventListener("DOMContentLoaded", iniciar);
+```
+
+![](000224.gif)
