@@ -87,7 +87,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) 👁‍🗨
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) 👁‍🗨
-- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) 🔥
+- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) 👁‍🗨 🔥
 
 <!--
 - [📖 Async](content/async.md) 🔥
