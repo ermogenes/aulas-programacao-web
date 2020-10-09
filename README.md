@@ -129,9 +129,11 @@ ou
 - [🔋 Primeiros passos com JavaScript](exercises/js.md) 👁‍🗨
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) _em breve..._
 
-### 🐱‍👤 Prof. Neri: Soluções comentadas
-
-- 🏳 [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
+### Soluções comentadas
+- Prof. Ermogenes
+  - 🏳 [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) | [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
+- Prof. Neri
+  - 🏳 [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
 
 Códigos disponíveis no [repositório oficial](https://github.com/exercicios-aulas-programacao-web).
 
