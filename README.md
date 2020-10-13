@@ -83,11 +83,11 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🔋 JavaScript no _Frontend_
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) 👁‍🗨
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) 👁‍🗨
-- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) 🔥
-- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) 🔥
-- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) 🔥
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
+- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
+- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
+- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) 👁‍🗨 🔥
 - [📖 Promises e async/await](content/async.md) 🔥
 
 <!--
@@ -126,11 +126,14 @@ ou
 - [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
 - [🏳🎨 Formulários](exercises/forms.md) ✔
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) ✔
-- [🔋 Primeiros passos com JavaScript](exercises/js.md) 👁‍🗨 🔥
+- [🔋 Primeiros passos com JavaScript](exercises/js.md) 👁‍🗨
+- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) _em breve..._
 
-### 🐱‍👤 Prof. Neri: Soluções comentadas
-
-- 🏳 [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
+### Soluções comentadas
+- Prof. Ermogenes
+  - 🏳 [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) | [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
+- Prof. Neri
+  - 🏳 [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
 
 Códigos disponíveis no [repositório oficial](https://github.com/exercicios-aulas-programacao-web).
 
