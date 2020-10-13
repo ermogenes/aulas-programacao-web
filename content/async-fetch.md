@@ -1,4 +1,4 @@
-# Promises e async/await
+# Assincronia
 
 Devido à sua natureza conectada, nem todas as funções de JavaScript são executadas imediatamente ao serem chamadas. Funções que demoram um tempo grande ou indeterminado para executarem frequentemente são retiradas do fluxo (_thread_) normal, e colocadas para execução em paralelo. Chamamos essas funções de funções assíncronas.
 
