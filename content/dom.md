@@ -712,4 +712,4 @@ const iniciar = () => {
 document.addEventListener("DOMContentLoaded", iniciar);
 ```
 
-![](000224.gif)
+![](000225.gif)
