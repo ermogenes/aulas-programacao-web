@@ -56,7 +56,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 **Legenda:** 📷 Slides | 📺 Vídeo-aula no YouTube | 📖 Material em texto e imagens
 
-**Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra
+**Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab
 
 ### 👔 Introdução
 
@@ -89,10 +89,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) 👁‍🗨 🔥
 - [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) 🔥
-
-<!--
-- [📖 LocalStorage e SessionStorage](content/storage.md) 🎁 🔥
-  -->
+- [📖 Web Storage](content/storage.md) 🎁 🤝 _Em breve..._
 
 ### 🔌 _Backend_ API com C#
 
