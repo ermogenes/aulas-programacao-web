@@ -72,7 +72,7 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 
 ## Exercício `Pokedex`
 
-Use a [PokeAPI](https://pokeapi.co/) para exibira imagem de um _pokémon_ [geração I](https://pt.wikipedia.org/wiki/Lista_de_Pok%C3%A9mon_da_gera%C3%A7%C3%A3o_I), aleatório.
+Use a [PokeAPI](https://pokeapi.co/) para exibir a imagem de um _pokémon_ [geração I](https://pt.wikipedia.org/wiki/Lista_de_Pok%C3%A9mon_da_gera%C3%A7%C3%A3o_I), aleatório.
 
 Para isso, sorteie um número entre 1 e 151 e use no _endpoint_ abaixo.
 
