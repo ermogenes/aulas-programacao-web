@@ -8,7 +8,9 @@ O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens
 
 ## Exercício `FraseDoDia`
 
-Ao carregar a página, exiba uma frase do dia (e seu autor) obtida da API pública do [QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/#get-a-random-quote).
+Ao carregar a página, exiba uma frase do dia (e seu autor) obtida da API pública do [QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/).
+
+_As frases desta API estão em inglês, exiba-as assim mesmo._
 
 - _Endpoint_: [https://quote-garden.herokuapp.com/api/v2/quotes/random](https://quote-garden.herokuapp.com/api/v2/quotes/random)
   - `quote.quoteText` contém o texto da frase;
@@ -72,7 +74,7 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 
 Use a [PokeAPI](https://pokeapi.co/) para exibira imagem de um _pokémon_ [geração I](https://pt.wikipedia.org/wiki/Lista_de_Pok%C3%A9mon_da_gera%C3%A7%C3%A3o_I), aleatório.
 
-Paar isso, sorteie um número entre 1 e 151 e use no _endpoint_ abaixo.
+Para isso, sorteie um número entre 1 e 151 e use no _endpoint_ abaixo.
 
 _Endpoint_: `https://pokeapi.co/api/v2/pokemon/NOME-OU-NUMERO-DO-POKEMON`
   - Exemplo para [Pikachu, código 25](https://pokeapi.co/api/v2/pokemon/25)
