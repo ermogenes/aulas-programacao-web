@@ -1,5 +1,7 @@
 # Assincronia
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/WEKmp75qonw)
+
 Devido à sua natureza conectada, nem todas as funções de JavaScript são executadas imediatamente ao serem chamadas. Funções que demoram um tempo grande ou indeterminado para executarem frequentemente são retiradas do fluxo (_thread_) normal, e colocadas para execução em paralelo. Chamamos essas funções de funções assíncronas.
 
 Para tratar a assincronia usando recursos do JavaScript, existem várias técnicas. Vamos estudar o método baseado em `Promises`. Estudemos como exemplo de função assíncrona a Fetch API.
@@ -65,7 +67,7 @@ Digamos que gostaríamos adaptar o código acima para executar cada comando some
 
 Permite a obtenção de recursos externos usando HTTP. É frequentemente utilizada para acessar recursos de _backend_, como APIs de aplicações e integração de sistemas.
 
-Um exemplo é a [API do GitHub](https://docs.github.com/pt), qe permite interagir com o serviço. Por exmeplo, a URL `https://api.github.com/users/ermogenes` é pública (não precisa de autenticação) e permite obter os dados do usuário indicado (`@ermogenes`) em formato JSON usando HTTP.
+Um exemplo é a [API do GitHub](https://docs.github.com/pt), que permite interagir com o serviço. Por exemplo, a URL `https://api.github.com/users/ermogenes` é pública (não precisa de autenticação) e permite obter os dados do usuário indicado (`@ermogenes`) em formato JSON usando HTTP.
 
 Você pode visualizar a URL diretamente no navegador. Seu resultado:
 
@@ -197,6 +199,8 @@ document.addEventListener('DOMContentLoaded', iniciar);
 ```
 
 ![](000230.png)
+
+💩 _Perceba que eu utilizei a informação `public_repos` (número de repositórios) quando deveria ter utilizado `followers` (seguidores)._ 😫
 
 ## Async/Await
 
