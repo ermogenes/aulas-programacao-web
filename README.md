@@ -126,7 +126,7 @@ ou
 - [🏳🎨 Formulários](exercises/forms.md) ✔
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) ✔
 - [🔋 Primeiros passos com JavaScript](exercises/js.md) 👁‍🗨
-- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) _em breve..._
+- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) 🔥
 
 ### Soluções comentadas
 - Prof. Ermogenes
