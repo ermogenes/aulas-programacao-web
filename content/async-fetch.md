@@ -218,6 +218,8 @@ const iniciar = () => {
   const result = await response.json();
   exibeUsuario(result);
 };
+
+document.addEventListener('DOMContentLoaded', iniciar);
 ```
 
 Note que o exemplo gera um erro:
@@ -236,6 +238,8 @@ const iniciar = async () => {
   const result = await response.json();
   exibeUsuario(result);
 };
+
+document.addEventListener('DOMContentLoaded', iniciar);
 ```
 
 Agora tudo funciona como esperado.
@@ -267,6 +271,8 @@ const iniciar = () => {
     .catch((error) => console.log(`Um erro foi encontrado: ${error.message}`))
     .then(() => console.log('operação concluída.'));
 };
+
+document.addEventListener('DOMContentLoaded', iniciar);
 ```
 
 ![](000231.png)
@@ -293,6 +299,8 @@ const iniciar = async () => {
   }
   console.log('operação concluída.');
 };
+
+document.addEventListener('DOMContentLoaded', iniciar);
 ```
 
 ## Objeto `request`
