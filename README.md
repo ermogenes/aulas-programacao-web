@@ -87,8 +87,8 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
-- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) 👁‍🗨 🔥
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) 🔥
+- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) 👁‍🗨 🔥
 - [📖 Web Storage](content/storage.md) 🎁 🤝 _Em breve..._
 
 ### 🔌 _Backend_ API com C#
@@ -122,15 +122,16 @@ ou
 - [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
 - [🏳🎨 Formulários](exercises/forms.md) ✔
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) ✔
-- [🔋 Primeiros passos com JavaScript](exercises/js.md) 👁‍🗨
-- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) 🔥
-- [🔋 Fetch API](exercises/fetch.md) 🔥
+- [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
+- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) 👁‍🗨
+- [🔋 Fetch API](exercises/fetch.md) 👁‍🗨 🔥
 
 ### Soluções comentadas
 - Prof. Ermogenes
-  - 🏳 [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) | [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
+  - [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) | [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
+  - [📺 Exercício: Pokedex](https://youtu.be/Nt0cxxzLtk4) | [🕸 solução](https://github.com/ermogenes/Pokedex-2020-2) 🔥  
 - Prof. Neri
-  - 🏳 [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
+  - [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
 
 Códigos disponíveis no [repositório oficial](https://github.com/exercicios-aulas-programacao-web).
 
