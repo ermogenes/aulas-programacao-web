@@ -144,7 +144,7 @@ Seu projeto ficará parecido com isso:
 
 ## Entendendo o _scaffolding_
 
-Foi criada uma classe com o contexto (`employeesContext.cs), que fará o acesso ao banco.
+Foi criada uma classe com o contexto (`employeesContext.cs`), que fará o acesso ao banco.
 
 Ela contém a string de conexão, em texto aberto, no método `OnConfiguring`. Há um _warning_ incluso, já que não é boa prática ter usuário e senha fixos dentro da aplicação. Por enquanto, certifique-se que a senha utilizada não é sensível (já que ela poderá subir ao GitHub, por exemplo), e remova a linha iniciada com `#warning`. Futuramente faremos uma segurança mais apurada.
 
