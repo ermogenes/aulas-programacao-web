@@ -91,6 +91,11 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) 🔥
 - [📖 Web Storage](content/storage.md) 🎁 🤝 _Em breve..._
 
+### 🛢 Banco de dados com Entity Framework e MySQL
+
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) _Em breve..._
+- [📺](#) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) 🔥
+
 ### 🔌 _Backend_ API com C#
 
 _Em breve..._
@@ -99,10 +104,6 @@ _Em breve..._
 * [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
 * [📖 HTTP, rotas e REST](content/http-rest.md)
 -->
-
-### 🛢 Banco de dados com Entity Framework Core
-
-_Em breve..._
 
 <!--
 * [📖 Entity Framework](content/ef.md)
