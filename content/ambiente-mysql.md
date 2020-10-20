@@ -33,7 +33,7 @@ Clique em _Execute_.
 
 ![](mysql-0008.png)
 
-A instaação foi concluída. Clique em _Next_.
+A instalação foi concluída. Clique em _Next_.
 
 ![](mysql-0009.png)
 
@@ -49,11 +49,11 @@ Escolha _Development Computer_ e anote a porta (no exemplo, 3306). Não desative
 
 ![](mysql-0012.png)
 
-MAntenha as configurações de segurança no recomendado.
+Mantenha as configurações de segurança no recomendado.
 
 ![](mysql-0013.png)
 
-Defina a senha de root. Não use uma senha reaproveitada de outro serviço. Sse não tiver nenhum dado sensível, e não for usado para produção, use uma senha curta e simples (ex. `root` ou `123`).
+Defina a senha de _root_. Não use uma senha reaproveitada de outro serviço. Se não tiver nenhum dado sensível, e não for usado para produção, use uma senha curta e simples (ex. `root` ou `123`).
 
 ![](mysql-0014.png)
 
