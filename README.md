@@ -51,6 +51,7 @@ No decorrer do curso utilizaremos também:
 Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as versões anteriores antes de instalar a nova.
 
 [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente (Dev C#)](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/ambiente.md)
+[📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
 
 ## Conteúdo
 
