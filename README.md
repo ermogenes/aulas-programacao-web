@@ -93,7 +93,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) _Em breve..._
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🔥
 - [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) 🔥
 
 ### 🔌 _Backend_ API com C#
