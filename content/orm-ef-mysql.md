@@ -1,6 +1,6 @@
 # ORM com Entity Framework e MySQL
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/63ocBcx8NXQ)
 
 No objetivo é acessar bancos de dados no C#. Há uma infinidade de maneiras de se fazer isso; nesse curso optaremos pela seguinte combinação:
 
@@ -61,7 +61,7 @@ Confirme a execução e aguarde.
 
 ![](mysql-0028.png)
 
-Ao final, na janela _Navigator_, aba _Scchemas_, atualize clicando no botão no canto superior direito. Seu banco de dados deve aparecer na lista. Abra a lista de tabelas e verifique se elas estão lá.
+Ao final, na janela _Navigator_, aba _Schemas_, atualize clicando no botão no canto superior direito. Seu banco de dados deve aparecer na lista. Abra a lista de tabelas e verifique se elas estão lá.
 
 ![](mysql-0029.png)
 
