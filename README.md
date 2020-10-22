@@ -96,6 +96,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🔥
 - [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) 🔥
+- [📺](#) [📖 Relacionamentos](content/relacionamentos.md) _Em breve..._
 
 ### 🔌 _Backend_ API com C#
 
@@ -184,6 +185,10 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 
 - 🛫 SEO - _Search Engine Optimization_
   - [O que é SEO: o guia completo para você conquistar o topo do Google](https://rockcontent.com/br/blog/o-que-e-seo/#:~:text=SEO%20significa%20Search%20Engine%20Optimization,para%20um%20site%20ou%20blog.)
+
+- 🛢 Entity Framework
+ - [📖 Documentação oficial](https://docs.microsoft.com/pt-br/ef/core/)
+ - [👶🏻 Learn Entity Framework Core](https://www.learnentityframeworkcore.com/)
 
 ### 🏎 _Roadmaps_ para devs
 
