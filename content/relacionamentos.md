@@ -344,7 +344,6 @@ var ingredientesDosBurguers = db.BurguerIngrediente
     .Include(bi => bi.Burguer)
     .Include(bi => bi.Ingrediente)
         .ThenInclude(i => i.TipoIngrediente)
-    .Include(bi => bi.Unidade)
     .Where(bi => bi.Ingrediente.TipoIngrediente.Descricao == "Pão");
 foreach(var ingredienteBurguer in ingredientesDosBurguers) 
 {
@@ -440,11 +439,11 @@ Método | Somente um resultado | Mais de um | Nenhum
 Podemos usá-los independentemente, ou de forma semelhante a `Where`, já com o filtro incorporado.
 
 ```cs
-                Burguer barato = db.Burguer.Where(b => b.Preco < 10).SingleOrDefault();
-                Console.WriteLine(barato != null ? "encontrado" : "não encontrado"); // encontrado
-                
-                Burguer caro = db.Burguer.SingleOrDefault(b => b.Preco > 200);
-                Console.WriteLine(caro != null ? "encontrado" : "não encontrado"); // não encontrado
+Burguer barato = db.Burguer.Where(b => b.Preco < 10).SingleOrDefault();
+Console.WriteLine(barato != null ? "encontrado" : "não encontrado"); // encontrado
+
+Burguer caro = db.Burguer.SingleOrDefault(b => b.Preco > 200);
+Console.WriteLine(caro != null ? "encontrado" : "não encontrado"); // não encontrado
 ```
 
 ## Funções agregadas
