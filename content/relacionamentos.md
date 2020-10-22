@@ -1,6 +1,6 @@
 # Relacionamentos com Entity Framework
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/kC-BWUBh6A4)
 
 Vamos avançar no estudo de Entity Framework (EF) trabalhando agora com múltiplas tabelas relacionadas.
 
