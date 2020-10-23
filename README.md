@@ -104,12 +104,20 @@ _Em breve..._
 
 <!--
 * [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
-* [📖 HTTP, rotas e REST](content/http-rest.md)
-* [📖 REST e CRUD](content/rest-crud.md)
+* [📖 HTTP, Controllers e Rotas ](content/http.md)
+* [📖 REST](content/rest.md)
 
-### Segurança
-### Deploy em serviços de nuvem
+### 🏁 Considerações finais
+
+* [📖 Segurança](content/seguranca.md)
+* [📖 Deploy em serviços de nuvem](content/cloud.md)
 -->
+
+### ☁ Publicando na nuvem com Microsoft Azure
+
+* [📖 Criando conta de estudante](content/azure-conta-estudante.md) 🎁
+* [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md) 🎁
+* [📖 Publicando uma aplicação .NET Core Web API](content/azure-servico-de-aplicativo.md) 🎁
 
 ## 🥋 Exercícios
 
