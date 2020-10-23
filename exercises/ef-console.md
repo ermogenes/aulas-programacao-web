@@ -23,7 +23,7 @@ Faça um programa que consulte o banco `hamburgueria` e exiba os nomes dos burgu
 ---
 ## Exercício `CadastroIngredientes`
 
-Faça um programa que permita que o usuário cadastre um novo ingrediente no banco `hamburgueria`. Solicite que ele digite o nome do ingediente e o tipo (1, 2 ou 3).
+Faça um programa que permita que o usuário cadastre um novo ingrediente no banco `hamburgueria`. Solicite que ele digite o nome do ingrediente e o tipo (1, 2 ou 3).
 
 O código do ingrediente é um [GUID](https://pt.wikipedia.org/wiki/Identificador_%C3%BAnico_universal) e deve ser gerado pela aplicação usando o comando `Guid.NewGuid().ToString()`.
 
