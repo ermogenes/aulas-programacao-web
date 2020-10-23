@@ -125,6 +125,7 @@ _Em breve..._
 - [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
 - [🔋 Fetch API](exercises/fetch.md) 👁‍🗨 🔥
+- [🛢 Entity Framework em console](exercises/ef-console.md) 🔥
 
 ### Soluções comentadas
 - Prof. Ermogenes
