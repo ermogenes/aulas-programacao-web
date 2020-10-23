@@ -446,6 +446,15 @@ Burguer caro = db.Burguer.SingleOrDefault(b => b.Preco > 200);
 Console.WriteLine(caro != null ? "encontrado" : "não encontrado"); // não encontrado
 ```
 
+Também podemos usar `First` ou `Last` para recuperar o primeiro e o último registro de uma lista.
+
+Método | Somente um resultado | Mais de um | Nenhum
+--- | --- | --- | ---
+`First` | Retorna o objeto | Retorna o primeiro objeto | Lança exceção
+`FirstOrDefault` | Retorna o objeto | Retorna o primeiro objeto | Retorna `null`
+`Last` | Retorna o objeto | Retorna o último objeto | Lança exceção
+`LastOrDefault` | Retorna o objeto | Retorna o último objeto | Retorna `null`
+
 ## Funções agregadas
 
 As funções a seguir realizam processamentos nas linhas, e retornam valores únicos em vez dos registros.
