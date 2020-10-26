@@ -23,7 +23,7 @@ Serão criados vários arquivos, entre eles:
 - `Program.cs` - arquivo inicial da aplicação, que iniciará um servidor HTTP para responder às requisições.
 - `Startup.cs` - ponto inicial do servidor HTTP, onde podemos configurar suas funcionalidades.
 
-Há também uma API de exemplo, que retorna uma lista aleatória de previsões do tempo _fake_, somente para teste da aplicação. Vamos usála para ver se nossa aplicação está rodando.
+Há também uma API de exemplo, que retorna uma lista aleatória de previsões do tempo _fake_, somente para teste da aplicação. Vamos usá-la para ver se nossa aplicação está rodando.
 
 Execute o projeto normalmente, usando `dotnet run`. A saída deve ser algo do tipo:
 
@@ -42,8 +42,8 @@ info: Microsoft.Hosting.Lifetime[0]
 
 Atente-se às informações:
 
-- `Now listening on: https://localhost:5001`:  a aplicação está ouvindo à porta `5001`, usando `https`.
-- `Now listening on: http://localhost:5000`:  a aplicação está ouvindo à porta `5000`, usando `http`.
+- `Now listening on: https://localhost:5001`:  a aplicação está ouvindo a porta `5001`, usando `https`.
+- `Now listening on: http://localhost:5000`:  a aplicação está ouvindo a porta `5000`, usando `http`.
 - `Application started. Press Ctrl+C to shut down.`: a aplicação vai ficar rodando até que você a interrompa usando `Ctrl+C`.
 
 Vá até o navegador e acesse `https://localhost:5001` e `http://localhost:5000`. Você não achará nenhum conteúdo, já que nada está sendo entregue para a raíz do _site_. Porém, há conteúdo sendo servido pela _controller_ `WeatherForecast`. Ela responde à rota `/WeatherForecast` com um arranjo JSON contendo o seu resultado. Para vê-lo, então, precisamos acessar `https://localhost:5001/WeatherForecast` ou `http://localhost:5000/WeatherForecast`.
@@ -217,3 +217,63 @@ Ao acessar, você verá algo do tipo:
 
 ![](000242.png)
 
+## Retornando um objeto complexo
+
+Digamos que gostaríamos de retornar um objeto com uma estrutura mais complexa, por exemplo, uma mensagem um link para o Dev Web.
+
+O ideal é criar uma classe que especifique esse formato. Normalmente a chamamos de DTO, ou _Data Transfer Object_. Vamos criar então uma _model_ chamada `HelloWorldModel`, em `/Models`, com essa finalizade.
+
+```cs
+namespace testeHWWebapi.Models
+{
+    public class HelloWorldModel
+    {
+        public string mensagem { get; set; }
+        public string url { get; set; }
+    }
+}
+```
+
+Agora, vamos alterar a `controller` para retornar um objeto desse tipo.
+
+```cs
+using Microsoft.AspNetCore.Mvc;
+using testeHWWebapi.Models; // referência às models
+
+namespace testeHWWebapi.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class HelloWorldController : ControllerBase
+    {
+        [HttpGet]
+        public HelloWorldModel Get() // o retorno é uma model
+        {
+            // Cria uma instância de HelloWorldModel, e a retorna
+            var resultado = new HelloWorldModel
+            {
+                mensagem = "Hello Dev Web!",
+                url = "https://github.com/ermogenes/aulas-programacao-web/"
+            };
+            return resultado;
+        }
+    }
+}
+```
+
+O resultado passa a ser:
+
+```json
+{
+  "mensagem": "Hello Dev Web!",
+  "url": "https://github.com/ermogenes/aulas-programacao-web/"
+}
+```
+
+E podemos alterar o script para considerar o link.
+
+```js
+mensagem.innerHTML = `<a href="${result.url}">${result.mensagem}</a>`;
+```
+
+![](000243.png)
