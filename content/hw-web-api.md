@@ -221,7 +221,7 @@ Ao acessar, você verá algo do tipo:
 
 Digamos que gostaríamos de retornar um objeto com uma estrutura mais complexa, por exemplo, uma mensagem um link para o Dev Web.
 
-O ideal é criar uma classe que especifique esse formato. Normalmente a chamamos de DTO, ou _Data Transfer Object_. Vamos criar então uma _model_ chamada `HelloWorldModel`, em `/Models`, com essa finalizade.
+O ideal é criar uma classe que especifique esse formato explicitamente. Normalmente a chamamos de DTO, ou _Data Transfer Object_. Vamos criar então uma _model_ chamada `HelloWorldModel`, em `/Models`, com essa finalidade.
 
 ```cs
 namespace testeHWWebapi.Models
