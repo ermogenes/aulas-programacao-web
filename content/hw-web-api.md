@@ -1,6 +1,6 @@
 # ASP.NET Core WebApi - Hello World
 
-[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/knoclF46PDA)
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/nXhpFgBOdd8)
 
 Para criarmos nossa primeira API de _backend_ usaremos o _framework_ ASP.NET Core. Ele usa o conceito orientado a objetos na arquitetura MVC, que se baseia em 3 pilares: _Model_, _View_ e _Controller_, onde:
 
