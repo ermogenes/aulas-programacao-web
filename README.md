@@ -100,10 +100,8 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🔌 _Backend_ API com C#
 
-_Em breve..._
-
+* [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 🔥
 <!--
-* [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
 * [📖 HTTP, Controllers e Rotas ](content/http.md)
 * [📖 REST](content/rest.md)
 
