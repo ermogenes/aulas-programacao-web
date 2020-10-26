@@ -1,6 +1,6 @@
 # ASP.NET Core WebApi - Hello World
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/knoclF46PDA)
 
 Para criarmos nossa primeira API de _backend_ usaremos o _framework_ ASP.NET Core. Ele usa o conceito orientado a objetos na arquitetura MVC, que se baseia em 3 pilares: _Model_, _View_ e _Controller_, onde:
 
@@ -224,7 +224,7 @@ Digamos que gostaríamos de retornar um objeto com uma estrutura mais complexa, 
 O ideal é criar uma classe que especifique esse formato explicitamente. Normalmente a chamamos de DTO, ou _Data Transfer Object_. Vamos criar então uma _model_ chamada `HelloWorldModel`, em `/Models`, com essa finalidade.
 
 ```cs
-namespace testeHWWebapi.Models
+namespace nomeDoProjeto.Models
 {
     public class HelloWorldModel
     {
@@ -238,9 +238,9 @@ Agora, vamos alterar a `controller` para retornar um objeto desse tipo.
 
 ```cs
 using Microsoft.AspNetCore.Mvc;
-using testeHWWebapi.Models; // referência às models
+using nomeDoProjeto.Models; // referência às models
 
-namespace testeHWWebapi.Controllers
+namespace nomeDoProjeto.Controllers
 {
     [ApiController]
     [Route("[controller]")]
