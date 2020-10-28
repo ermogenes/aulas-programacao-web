@@ -26,7 +26,7 @@ Será feita uma verificação via SMS ou ligação telefônica. Siga as instruç
 
 ![](az-005.png)
 
-Ao final da verificação, na tela de contrato, concorde com es termos de uso e clique em _Inscrever-se_.
+Ao final da verificação, na tela de contrato, concorde com os termos de uso e clique em _Inscrever-se_.
 
 ![](az-006.png)
 

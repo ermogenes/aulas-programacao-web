@@ -63,7 +63,7 @@ Você já terá acesso ao seu URL, mas ainda não fez a publicação da sua apli
 
 ![](az-035.png)
 
-Clique em _Centro de implantação_, e depois em _GitHub_.
+Clique em _Centro de Implantação_, e depois em _GitHub_.
 
 ![](az-036.png)
 

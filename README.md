@@ -101,17 +101,15 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 ### 🔌 _Backend_ API com C#
 
 * [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 🔥
+* [📺](#) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 🔥
+
 <!--
 * [📖 HTTP, Controllers e Rotas ](content/http.md)
 * [📖 REST](content/rest.md)
-
-### 🏁 Considerações finais
-
 * [📖 Segurança](content/seguranca.md)
-* [📖 Deploy em serviços de nuvem](content/cloud.md)
 -->
 
-### ☁ Publicando na nuvem com Microsoft Azure
+### ☁ Acesso rápido: Tutoriais de Azure
 
 * [📖 Criando conta de estudante](content/azure-conta-estudante.md) 🎁
 * [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md) 🎁
