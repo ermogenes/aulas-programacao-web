@@ -21,7 +21,7 @@ Usaremos esta conta para criar nossa infraestrutura e hospedar nossa aplicação
 
 ## Preparando a aplicação
 
-Precisamos de uma aplicação. Seu código ficará publicado no GitHub, mas rodará no Azure. O GitHub Actions ficará responsável por, a cada _commit_ no _branch_ `main`, executar a publicação automaticamente no ambiente do Azure. Chamamos esse processo de Integração Contínua.
+Precisamos de uma aplicação. Seu código ficará publicado no GitHub, mas rodará no Azure. O GitHub Actions ficará responsável por, a cada _commit_ no _branch_ `master`, executar a publicação automaticamente no ambiente do Azure. Chamamos esse processo de Integração Contínua.
 
 Crie uma aplicação do tipo `webapi`, hospedada no GitHub. Nessa aplicação, vamos fazer algumas configurações:
 
@@ -164,7 +164,7 @@ Escolha seu repositório e indique a configuração de execução .NET Core. Cli
 
 ![](az-039.png)
 
-Você verá seu _script_ de implantação do GitHub Actions. Ele será executado automaticamente a cada novo _push_ que altere o _branch_ _main_ no repositório do GitHub. Clique em _Finish_.
+Você verá seu _script_ de implantação do GitHub Actions. Ele será executado automaticamente a cada novo _push_ que altere o _branch_ `master` no repositório do GitHub. Clique em _Finish_.
 
 ![](az-040.png)
 
