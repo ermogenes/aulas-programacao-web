@@ -13,7 +13,7 @@ Nosso objetivo é publicar nossas aplicações na Internet de forma gratuita (po
 
 Um dos provedores de nuvem mais importantes hoje em dia. Possui uma opção de conta gratuita, que pode ser criada por qualquer um, com US$ 100.00 de crédito válidos por um ano. Os alunos do Centro Paula Souza podem criar sua conta usando o e-mail institucional (@etec.sp.gov.br ou @fatec.sp.gov.br), que terão a vantagem de poder renovar enquanto forem alunos, e não precisarem indicar um cartão de crédito durante o cadastro.
 
-* [📖 Criando conta de estudante no Azure](content/azure-conta-estudante.md)
+* [📖 Criando conta de estudante no Azure](azure-conta-estudante.md)
 
 Se você não tem ideia do que é computação em nuvem comece estudando [esses materiais introdutórios](https://docs.microsoft.com/pt-br/learn/modules/principles-cloud-computing/) no Microsoft Learn (aproximadamente 1h de duração, com textos/legendas em português).
 
