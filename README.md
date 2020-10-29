@@ -102,11 +102,11 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 * [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 🔥
 * [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 🔥
+<!-- * [📺](#) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 🔥 -->
 
 <!--
 * [📖 HTTP, Controllers e Rotas ](content/http.md)
 * [📖 REST](content/rest.md)
-* [📖 Segurança](content/seguranca.md)
 -->
 
 ### ☁ Acesso rápido: Tutoriais de Azure
