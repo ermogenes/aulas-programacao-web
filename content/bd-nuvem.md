@@ -158,8 +158,8 @@ Precisamos agora mudar a maneira que acessamos o nosso contexto de banco de dado
 Nesse exemplo, vamos criar uma _controller_ chamada `BoardgamesController`. Criaremos nela uma propriedade privada chamada `_db` do tipo `db.boardgameContext` onde gravaremos o contexto recebido no construtor. Para isso, adicione código semelhante a esse na sua classe:
 
 ```cs
-private boardgameContext _db { get; set; }
-public BoardgamesController(boardgameContext contexto)
+private boardgamesContext _db { get; set; }
+public BoardgamesController(boardgamesContext contexto)
 {
     _db = contexto;
 }
@@ -171,15 +171,18 @@ Crie um método que atenda à rota `/Boardgames` retorne uma lista com todos os 
 
 ```cs
 [HttpGet]
-public List<Boardgames> Get()
+public List<Boardgame> Get()
 {
-    var todosOsBoardGames = _db.Boardgames
-        .OrderBy(bg => bg.nota)
-        .ThenBy(bg => bg.ano)
-        .ThenBy(bg => bg.nome);
+    var todosOsBoardGames = _db.Boardgame
+        .OrderByDescending(bg => bg.Nota)
+        .ThenBy(bg => bg.Ano)
+        .ThenBy(bg => bg.Nome)
+        .ToList<Boardgame>();
     return todosOsBoardGames;
 }
 ```
+
+🍌 O código acima existe as referências a `System.Collections.Generic` e `System.Linq`.
 
 Teste sua API e se estiver funcionando corretamente, nosso backend está concluído e podemos prosseguir para o frontend.
 
