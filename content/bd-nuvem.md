@@ -357,7 +357,7 @@ No recurso do _Serviço de Aplicativo_, acesse a opção _Logs do Serviço de Ap
 
 ![](000261.png)
 
-Para visualizar vá em _Fluxo de log_ e selecione a opção _Web Server logs_. A cada acesso a uma URL da aplicação uma entrada de log será gerada. Analise os _logs_ para encontrar os seus problemas, assim como você faria no terminal.
+Para visualizar vá em _Fluxo de log_ e selecione a opção _Web Server logs_. A cada acesso a uma URL da aplicação uma entrada de _log_ será gerada. Analise os _logs_ para encontrar os seus problemas, assim como você faria no terminal.
 
 ![](000262.png)
 
