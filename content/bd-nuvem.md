@@ -298,7 +298,7 @@ Na página do recurso, clique em _Segurança de conexão_.
 
 ![](000253.png)
 
-Essa tela indica quais IPs pode enviar tráfego de rede para o servidor. Clique na opção _Adicionar o endereço IP do cliente atual_ e clique em _Salvar_. Seu computador estará autorizado a acessa o servidor. Vamos criar a estrutura e depois retirar a autorização, portanto mantenha essa tela aberta.
+Essa tela indica quais IPs pode enviar tráfego de rede para o servidor. Clique na opção _Adicionar o endereço IP do cliente atual_ e clique em _Salvar_. Seu computador estará autorizado a acessar o servidor. Vamos criar a estrutura e depois retirar a autorização, portanto mantenha essa tela aberta.
 
 Abra o MySQL Workbench e crie uma conexão usando as credenciais criadas acima:
 
