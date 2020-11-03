@@ -272,7 +272,7 @@ Escolha as configurações desejadas. Para esse exemplo, deixe tudo no mínimo.
 
 ![](000250.png)
 
-Voltando à tela anterior, defina um usuário e uma senha para o seu banco de produção. Atenção, pois essas credenciais devem ser mantidas seguras!
+Voltando à tela anterior, defina um usuário e uma senha para o seu banco de produção. _Atenção, pois essas credenciais devem ser mantidas seguras!_
 
 Revise e crie seu recurso.
 
@@ -292,7 +292,7 @@ Mantenha esses dados à mão, e seguros.
 
 ## Criando a estrutura do banco
 
-Não adiante tentar conectar ao seu banco de dados nesse momento, já que não há nenhum acesso liberado no seu _firewall_, por padrão. Vamos liberar temporariamente o acesso à seu computador.
+Não adianta tentar conectar ao seu banco de dados nesse momento, já que não há nenhum acesso liberado no seu _firewall_, por padrão. Vamos liberar temporariamente o acesso à seu computador.
 
 Na página do recurso, clique em _Segurança de conexão_.
 
@@ -316,7 +316,7 @@ Estando tudo correto, revogue o acesso à sua máquina no _firewall_ do servidor
 
 ![](000256.png)
 
-🐱‍👤 Sempre revogue acesso desnecessários. Isso torna sua aplicação mais segura. Quando for necessário, recrie a permissão.
+🐱‍👤 _Sempre revogue acessos desnecessários. Isso torna sua aplicação mais segura. Quando for necessário, recrie a permissão._
 
 ## Liberando o acesso à aplicação
 
@@ -359,6 +359,6 @@ No recurso do _Serviço de Aplicativo_, acesse a opção _Logs do Serviço de Ap
 
 Para visualizar vá em _Fluxo de log_ e selecione a opção _Web Server logs_. A cada acesso a uma URL da aplicação uma entrada de log será gerada. Analise os _logs_ para encontrar os seus problemas, assim como você faria no terminal.
 
-Não esqueça de desligar os _logs_ após o uso.
-
 ![](000262.png)
+
+Não esqueça de desligar os _logs_ após o uso.
