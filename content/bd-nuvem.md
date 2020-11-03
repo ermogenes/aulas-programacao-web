@@ -8,7 +8,7 @@ Vamos então criar um banco local para servir o ambiente de desenvolvimento, des
 
 Nesse material usaremos o banco de dados de exemplo `boardgames`.
 
-- Banco: [ermogenes/boardgames-mysql](https://github.com/ermogenes/boardgames-mysql).
+- Banco: [ermogenes/boardgames-mysql](https://github.com/ermogenes/boardgames-mysql)
 - Código-fonte: [ermogenes/boardgames-web](https://github.com/ermogenes/boardgames-web)
 - Aplicação publicada: [https://boardgames-web.azurewebsites.net/](https://boardgames-web.azurewebsites.net/)
 
