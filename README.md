@@ -130,6 +130,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
 - [🔋 Fetch API](exercises/fetch.md) 👁‍🗨 🔥
 - [🛢 Entity Framework em console](exercises/ef-console.md) 🔥
+- [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md) 🔥
 
 ### Soluções comentadas
 - Prof. Ermogenes
