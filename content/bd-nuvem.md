@@ -6,11 +6,11 @@ Precisamos agora de uma instância de produção do nosso banco de dados, acess�
 
 Vamos então criar um banco local para servir o ambiente de desenvolvimento, desenvolver a aplicação de forma a manter a _string de conexão_ segura, provisionar o servidor e fazer a implantação do banco na nuvem, provisionar e implantar a aplicação, e, por fim, configurar a aplicação para utilizar o banco de dados de produção na nuvem.
 
-Nsse material usaremos o banco de dados de exemplo `boardgames`.
+Nesse material usaremos o banco de dados de exemplo `boardgames`.
 
 - Banco: [ermogenes/boardgames-mysql](https://github.com/ermogenes/boardgames-mysql).
 - Código-fonte: [ermogenes/boardgames-web](https://github.com/ermogenes/boardgames-web)
-- Aplicação publicada: []()
+- Aplicação publicada: [https://boardgames-web.azurewebsites.net/](https://boardgames-web.azurewebsites.net/)
 
 ## Criando o banco de desenvolvimento
 
@@ -241,16 +241,124 @@ Anote suas configurações escolhidas.
 
 ## Implantando a aplicação
 
-Acesse o [Portal](https://portal.azure.com/) e crie o Serviço de Aplicativos integrado ao repositório do GitHub com os fontes da aplicação. Você deve ser capaz de acessar e visualizar as páginas do _frontend_, porém os _fetchs_ estarão recebendo um erro `500`, já que ainda não temos um banco de dados e a aplicação não conhece a _string de conexão_ a utilizar.
+Acesse o [Portal](https://portal.azure.com/) e crie o Serviço de Aplicativos integrado ao repositório do GitHub com os fontes da aplicação, utilizando as configurações escolhidas na simulação.
+
+_Para esse procedimento criei um grupo de recursos chamado `gr-boardgames-web` que será reutilizado nos passos seguintes, facilitando a sua exclusão futura. Faça sua organização da maneira que preferir._
+
+![](000244.png)
+
+![](000245.png)
+
+
+ Você deve ser capaz de acessar e visualizar as páginas do _frontend_, porém os _fetchs_ estarão recebendo um erro `500`, já que ainda não temos um banco de dados e a aplicação não conhece a _string de conexão_ a utilizar.
+
+![](000246.png)
 
 ## Provisionando o servidor de banco de dados
 
+Vamos agora implantar o banco de dados. Provisione um servidor usando a opção _Servidores de Banco de Dados do Azure para MySQL_.
+
+![](000247.png)
+
+Clique em _Adicionar_. Escolha _Servidor individual_.
+
+![](000248.png)
+
+Faça as configurações do seu servidor. Para personalizar os núcleos e o armazenamento, clique em _Configurar servidor_.
+
+![](000249.png)
+
+Escolha as configurações desejadas. Para esse exemplo, deixe tudo no mínimo.
+
+![](000250.png)
+
+Voltando à tela anterior, defina um usuário e uma senha para o seu banco de produção. Atenção, pois essas credenciais devem ser mantidas seguras!
+
+Revise e crie seu recurso.
+
+![](000251.png)
+
+Acesse o recurso para obter o nome do servidor e o nome de logon. Juntamente com a senha, eles serão necessários para se conectar e executar os _scripts_ DDL para criar a estrutura.
+
+Suas credenciais de acesso deverão ter um formato parecido com esses:
+
+- Nome do servidor: `<nome do seu banco de dados>.mysql.database.azure.com`
+- Nome de logon: `<nome do seu usuário>@<nome do seu banco de dados>`
+- Senha: `<sua senha definida no passo anterior>`
+
+Mantenha esses dados à mão, e seguros.
+
+![](000252.png)
+
 ## Criando a estrutura do banco
+
+Não adiante tentar conectar ao seu banco de dados nesse momento, já que não há nenhum acesso liberado no seu _firewall_, por padrão. Vamos liberar temporariamente o acesso à seu computador.
+
+Na página do recurso, clique em _Segurança de conexão_.
+
+![](000253.png)
+
+Essa tela indica quais IPs pode enviar tráfego de rede para o servidor. Clique na opção _Adicionar o endereço IP do cliente atual_ e clique em _Salvar_. Seu computador estará autorizado a acessa o servidor. Vamos criar a estrutura e depois retirar a autorização, portanto mantenha essa tela aberta.
+
+Abra o MySQL Workbench e crie uma conexão usando as credenciais criadas acima:
+
+- Hostname: use o _Nome do servidor_
+- Username: use o _Nome de logon_
+- Password: use a sua senha
+
+![](000254.png)
+
+Abra e execute o _script_ de [criação do banco](https://github.com/ermogenes/boardgames-mysql). Verifique se o banco foi criado normalmente, e se os dados da carga inicial estão acessíveis.
+
+![](000255.png)
+
+Estando tudo correto, revogue o acesso à sua máquina no _firewall_ do servidor clicando no ícone de lixeira e depois em _Salvar_.
+
+![](000256.png)
+
+🐱‍👤 Sempre revogue acesso desnecessários. Isso torna sua aplicação mais segura. Quando for necessário, recrie a permissão.
 
 ## Liberando o acesso à aplicação
 
-## Obtendo a _string de conexão_ de produção
+Ainda na tela de _Segurança de conexão_, vamos autorizar os IPs da nossa aplicação a acessar o servidor de banco de dados. Faça isso clicando em _Permitir acesso aos serviços do Azure_ e depois em _Salvar_.
+
+![](000257.png)
 
 ## Adicionado a _string de conexão_ na aplicação
 
+Vamos adicionar a referência ao banco no nosso servidor de aplicação. Essa configuração fará no Azure, em produção, o mesmo papel que o arquivo `appsettings.development.json` tem em seu ambiente local.
+
+Volte ao recurso do _Serviço de Aplicativo_ e selecione a opção _Configuração_.
+
+![](000258.png)
+
+Clique em _New Connection String_ e faça as seguinte configurações:
+
+- Name: `<nome da string de conexão>`, sendo o mesmo nome contido em `appsettings.json`, na sessão `ConnectionStrings`. Nesse exemplo, `boardgamesConnection`.
+- Value: `<string de conexão>`, a ser criada de acordo com os dados de produção, no mesmo formato da local. _(a)_
+- Type: `MySQL`
+
+_(a)_ Use os mesmos dados usados para conectar no MySQL Workbench, no padrão da conexão local. Você deve ter algo do tipo:
+
+- Formato esperado: `server=<Nome do servidor no Azure>;port=3306;user=<Nome de logon>;password=<Sua senha>;database=<nome do seu banco de dados>`
+- _String de conexão_ para esse exemplo: `server=boardgames-web-mysql.mysql.database.azure.com;port=3306;user=boardgames@boardgames-web-mysql;password=<senha real de produção>;database=boardgames`
+
+Clique em _Ok_ e depois em _Save_ e _Continue_.
+
+Sua aplicação deve estar funcional agora!
+
+![](000260.png)
+
 ## Ativando o _log_ para investigar erros
+
+Caso não esteja tudo certo, precisaremos verificar os _logs_ de erro, exatamente como vemos no terminal integrado do VsCode. Isso não fica habilitado por padrão, e deve ser desabilitado quando não estiver mais em uso, já que consome espaço do seu armazenamento.
+
+No recurso do _Serviço de Aplicativo_, acesse a opção _Logs do Serviço de Aplicativo_. Ative o _Log de servidor Web_ usando o sistema de arquivos, com cota mínima (25 MB) e o menor tempo de retenção possível (1 dia -- _deixar em branco significa manter indefinidamente!_). Ative também as mensagens de erro detalhadas e o rastreio de falhas de solicitação. Clique em _Salvar_.
+
+![](000261.png)
+
+Para visualizar vá em _Fluxo de log_ e selecione a opção _Web Server logs_. A cada acesso a uma URL da aplicação uma entrada de log será gerada. Analise os _logs_ para encontrar os seus problemas, assim como você faria no terminal.
+
+Não esqueça de desligar os _logs_ após o uso.
+
+![](000262.png)
