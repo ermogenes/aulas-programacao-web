@@ -1,6 +1,6 @@
 # Bancos de dados na nuvem
 
-[📽 Veja esta vídeo-aula no Youtube](#) _Em breve..._
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/ZE0Hzk0Ek6A)
 
 Precisamos agora de uma instância de produção do nosso banco de dados, acessível através de nossa aplicação.
 
