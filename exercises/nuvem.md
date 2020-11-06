@@ -1,6 +1,6 @@
 # Exercícios: Infraestrutura em nuvem
 
-Para cada exercício abaixo crie um repositório com o nome indicado contendo um projeto do tipo `console` em C#.
+Para cada exercício abaixo crie um repositório com o nome indicado contendo um projeto do tipo `webapi` em C#.
 
 ---
 ## Exercício `QuemSouEuAPI`
