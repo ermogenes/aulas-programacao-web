@@ -94,15 +94,15 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 👁‍🗨 🔥
-- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) 👁‍🗨 🔥
-- [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md) 🔥
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) ✔
+- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) ✔
+- [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md) ✔
 
 ### 🔌 _Backend_ API com C#
 
-* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 🔥
-* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 🔥
-* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 🔥
+* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 👁‍🗨 🔥
+* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 👁‍🗨 🔥
+* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 👁‍🗨 🔥
 
 <!--
 * [📖 HTTP, Controllers e Rotas ](content/http.md)
@@ -128,14 +128,14 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) ✔
 - [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
-- [🔋 Fetch API](exercises/fetch.md) 👁‍🗨 🔥
-- [🛢 Entity Framework em console](exercises/ef-console.md) 🔥
-- [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md) 🔥
+- [🔋 Fetch API](exercises/fetch.md) ✔
+- [🛢 Entity Framework em console](exercises/ef-console.md) ✔
+- [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md) 👁‍🗨 🔥
 
 ### Soluções comentadas
 - Prof. Ermogenes
   - [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) | [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
-  - [📺 Exercício: Pokedex](https://youtu.be/Nt0cxxzLtk4) | [🕸 solução](https://github.com/ermogenes/Pokedex-2020-2) 🔥  
+  - [📺 Exercício: Pokedex](https://youtu.be/Nt0cxxzLtk4) | [🕸 solução](https://github.com/ermogenes/Pokedex-2020-2)
 - Prof. Neri
   - [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
 
