@@ -2,6 +2,8 @@
 
 [📽 Veja esta vídeo-aula no Youtube](https://youtu.be/nXhpFgBOdd8)
 
+[📽 Veja também esta _live_ com o mesmo conteúdo e uma abordagem diferenciada](https://youtu.be/EC8hlh_hTuI)
+
 Para criarmos nossa primeira API de _backend_ usaremos o _framework_ ASP.NET Core. Ele usa o conceito orientado a objetos na arquitetura MVC, que se baseia em 3 pilares: _Model_, _View_ e _Controller_, onde:
 
 - _Model_: as classes que representam a estrutura dos dados da aplicação;
