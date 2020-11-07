@@ -8,7 +8,7 @@ Uma requisição (_request_) usa um método (_method_) ou verbo que indica a aç
 
 ## HTTP Status Codes
 
-Os códigos de status seguem uma tabela numéricas, com o seguinte agrupamento:
+Os códigos de status seguem uma tabela numérica, com o seguinte agrupamento:
 
 * Respostas de informação (100-199)
 * Respostas de sucesso (200-299)
@@ -144,9 +144,9 @@ namespace top5.Controllers
 Observações:
 
 * `[Route("api/[controller]")]` define um padrão `api/Tops` para todas as rotas atendidas por essa classe.
-* `private readonly top5Context _db` é uma maneira elegante de disponibilizar o contexto a todos os métodos da classe. Tem o mesma uso que `private top5Context _db { get; set; }`.
+* `private readonly top5Context _db` é uma maneira elegante de disponibilizar o contexto a todos os métodos da classe. Tem o mesmo uso que `private top5Context _db { get; set; }`.
 
-Feito isso, podemos começar a programar nosso métodos para responder às chamadas dos clientes REST nos _endpoints_ desejados.
+Feito isso, podemos começar a programar nossos métodos para responder às chamadas dos clientes REST nos _endpoints_ desejados.
 
 Neste exemplo, optamos por criar _models_ somente quando necessário, usando as classes do Entity Framework quando possível.
 
@@ -666,10 +666,15 @@ Dados inválidos (com -5 curtidas):
 
 ## Alterando um registro (por inteiro) 
 
+Para alterar os dados de um registro, precisamos de um _endpoint_ que aponte para um registro (como em GET) e receba os novos dados a serem gravados (como em POST).
+
+O método usado é PUT, com o registro a ser alterado indicado na rota e os dados recebidos via corpo da mensagem. Retornará `200 OK` caso o registro esteja correto, `400 BAD REQUEST` para registros inválidos e `404 NOT FOUND` caso o registro solicitado não exista.
+
 ```cs
 [HttpPut("{id}")]
 public ActionResult<Top> AlteraTop(string id, Top topAlterado)
 {
+    // Se o Id do objeto não bater com a da rota
     if (topAlterado.Id != id)
     {
         return BadRequest(new { mensagem = "Id inconsistente." });
@@ -700,6 +705,8 @@ public ActionResult<Top> AlteraTop(string id, Top topAlterado)
     return Ok(top);
 }
 ```
+
+* `[HttpPut("{id}")]` `AlteraTop(string id, Top topAlterado)`
 
 ## Alterando parte de um registro
 
