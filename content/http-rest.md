@@ -613,6 +613,7 @@ Exemplo: `POST /api/Tops`, contendo no corpo da requisição:
 Registro criado com sucesso:
 
 `201 CREATED`
+
 _header_: `location	https://localhost:5001/api/Tops/b23366ff-bc4b-4f09-a75b-f07045322a1e`
 ```json
 {
@@ -665,7 +666,40 @@ Dados inválidos (com -5 curtidas):
 
 ## Alterando um registro (por inteiro) 
 
-???
+```cs
+[HttpPut("{id}")]
+public ActionResult<Top> AlteraTop(string id, Top topAlterado)
+{
+    if (topAlterado.Id != id)
+    {
+        return BadRequest(new { mensagem = "Id inconsistente." });
+    }
+
+    var top = _db.Top
+        .Include(top => top.Item)
+        .SingleOrDefault(top => top.Id == id);
+
+    if (top == null)
+    {
+        return NotFound();
+    }
+
+    var mensagemErro = ValidaTop(topAlterado);
+
+    if (!String.IsNullOrEmpty(mensagemErro))
+    {
+        return BadRequest(new { mensagem = mensagemErro });
+    }
+
+    top.Titulo = topAlterado.Titulo;
+    top.Curtidas = topAlterado.Curtidas;
+    top.Item = topAlterado.Item;
+
+    _db.SaveChanges();
+
+    return Ok(top);
+}
+```
 
 ## Alterando parte de um registro
 
@@ -752,6 +786,7 @@ PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/
 400
 
 PATCH http://localhost:5000/api/tops/abc123/curtir
+
 PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/-18/curtir
 
 ```json
@@ -766,7 +801,27 @@ PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/
 
 ## Excluindo um registro
 
-???
+```cs
+[HttpDelete("{id}")]
+public ActionResult<Top> ExcluiTop(string id)
+{
+    var top = _db.Top
+        .Include(top => top.Item)
+        .SingleOrDefault(top => top.Id == id);
+
+    if (top == null)
+    {
+        return NotFound();
+    }
+
+    top.Item.Clear();
+    _db.Remove(top);
+    _db.SaveChanges();
+
+    return Ok();
+}
+```
 
 ## Fetch de APIs REST
 
+???
