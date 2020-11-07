@@ -680,39 +680,42 @@ public ActionResult<Top> AlteraTop(string id, Top topAlterado)
         return BadRequest(new { mensagem = "Id inconsistente." });
     }
 
+    // Busca pelo Id
     var top = _db.Top
         .Include(top => top.Item)
         .SingleOrDefault(top => top.Id == id);
 
+    // Não encontrado
     if (top == null)
     {
         return NotFound();
     }
 
+    // Efetua a validação
     var mensagemErro = ValidaTop(topAlterado);
 
+    // Inválido
     if (!String.IsNullOrEmpty(mensagemErro))
     {
         return BadRequest(new { mensagem = mensagemErro });
     }
 
+    // Efetiva as alterações
     top.Titulo = topAlterado.Titulo;
     top.Curtidas = topAlterado.Curtidas;
     top.Item = topAlterado.Item;
-
     _db.SaveChanges();
 
+    // 200 OK, com o objeto alterado
     return Ok(top);
 }
 ```
 
-* `[HttpPut("{id}")]` `AlteraTop(string id, Top topAlterado)`
+* `[HttpPut("{id}")]` e `AlteraTop(string id, Top topAlterado)` indicam os parâmetros `id` (na rota) e `topAlterado` (no corpo da mensagem).
 
 ## Alterando parte de um registro
 
 Curtidas
-
-Nos tops
 
 Model
 
@@ -725,6 +728,8 @@ namespace top5.Models
     }
 }
 ```
+
+Nos tops
 
 ```cs
 [HttpPatch("{id}/curtir")]
@@ -760,14 +765,14 @@ public ActionResult<CurtidasModel> CurteItem(string id, int posicao)
     
     if (top == null)
     {
-        return BadRequest();
+        return BadRequest(); // <-- ajustar
     }
 
     var item = top.Item.SingleOrDefault(item => item.Posicao == posicao);
 
     if (item == null)
     {
-        return BadRequest();
+        return BadRequest(); // <-- ajustar
     }
 
     item.Curtidas += 1;
@@ -780,6 +785,7 @@ public ActionResult<CurtidasModel> CurteItem(string id, int posicao)
 ```
 
 PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/curtir
+
 PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/2/curtir
 
 200, com o novo número de curtidas
