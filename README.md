@@ -104,11 +104,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
   * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi? 🎁
 * [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 👁‍🗨 🔥
 * [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 👁‍🗨 🔥
-
-<!--
-* [📖 HTTP, Controllers e Rotas ](content/http.md)
-* [📖 REST](content/rest.md)
--->
+<!-- * [📖 HTTP e REST](content/http-rest.md) -->
 
 ### ☁ Acesso rápido: Tutoriais de Azure
 
