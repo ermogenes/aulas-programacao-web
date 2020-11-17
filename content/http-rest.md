@@ -837,4 +837,10 @@ public ActionResult<Top> ExcluiTop(string id)
 
 ## Fetch de APIs REST
 
-???
+Precisamos agora estudar um pouco mais aprofundadamente a Fetch API para que possamos consumir o nosso backend em todas as suas nuances.
+
+A função `fetch` pode receber um segundo parâmetro indicando as opções da requisição (_request_): `fetch(url, request)`. Esse objeto vai conter as configurações e os dados a serem enviados na requisição:
+
+* `method` indica o método a ser utilizado, como `GET` ou `POST`.
+* `headers` contém um objeto cujas propriedades serão enviadas no cabeçalho da requisição.
+* `body` contém uma string ou campos de formulário enviados no corpo da requisição.

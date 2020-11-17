@@ -100,11 +100,20 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 🔌 _Backend_ API com C#
 
-* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 👁‍🗨 🔥
+* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 👁‍🗨
   * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi? 🎁
-* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 👁‍🗨 🔥
-* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 👁‍🗨 🔥
+* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 👁‍🗨
+* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 👁‍🗨
 <!-- * [📖 HTTP e REST](content/http-rest.md) -->
+* 📖 HTTP e REST _Em breve..._
+  * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE) 🔥
+  * [📺 Parte 2 - Estrutura da Aplicação](https://youtu.be/woUBgzJnt48) 🔥
+  * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4) 🔥
+  * [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA) 🔥
+  * [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww) 🔥
+  * [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE) 🔥
+  * [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg) 🔥
+  * [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU) 🔥
 
 ### ☁ Acesso rápido: Tutoriais de Azure
 
@@ -127,7 +136,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
 - [🔋 Fetch API](exercises/fetch.md) ✔
 - [🛢 Entity Framework em console](exercises/ef-console.md) ✔
-- [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md) 👁‍🗨 🔥
+- [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md) 👁‍🗨
 
 ### Soluções comentadas
 - Prof. Ermogenes
