@@ -1,5 +1,15 @@
 # HTTP e REST
 
+📽 Veja esta aula no YouTube:
+* [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE)
+* [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48)
+* [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4)
+* [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA)
+* [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww)
+* [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE)
+* [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg)
+* [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU)
+
 O [HTTP (Hypertext Transfer Protocol)](https://developer.mozilla.org/pt-BR/docs/Web/HTTP) é o protocolo de comunicação sobre o qual a web funciona. Com ele navegadores, servidores, aplicativos _mobile_ e qualquer outro tipo de aplicação podem trocar informações de maneira simples e direta.
 
 Por exemplo, quando você quer acessar um _site_, você digita seu endereço (ou URL) em um navegador (cliente HTTP) e ele envia seu pedido (GET) para o servidor indicado na URL, que responde e esse resultado é exibido pelo navegador. Porém, HTTP é muito mais que isso, suportando muitos tipos de tráfego de informação.
@@ -28,13 +38,13 @@ Veja uma tabela completa [aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTT
 
 Usamos clientes HTTP toda vez que fazemos uma requisição a um servidor usando esse protocolo. O tipo mais conhecido é o navegador (_browser_), mas ele tem um comportamento com finalidade específica, e não serve para tudo que precisamos como desenvolvedor. Podemos fazer nossas chamadas manualmente com JavaScript usando Fetch, mas isso não é nada prático para testar as nossas comunicações com os backends.
 
-Vamos utilizar um cliente HTTP dedicado para desenvolvedores chamado [Insomnia](https://insomnia.rest/). Com ele podemos entender em detalhes o que acontece na comunicação. Baixe-o e instale-o acessando [https://insomnia.rest/download/](https://insomnia.rest/download/), opção _Insomnia Core_.
+Caso seja necessário baixe um cliente HTTP dedicado para desenvolvedores chamado [Insomnia](https://insomnia.rest/). Com ele podemos entender em detalhes o que acontece na comunicação. Baixe-o e instale-o acessando [https://insomnia.rest/download/](https://insomnia.rest/download/), opção _Insomnia Core_. Outra opção bastante utilizada é o [Postman](https://www.postman.com/downloads/).
 
 ## REST
 
 Existe um estilo de arquitetura de sistemas criado para utilizar todo o potencial do protocolo HTTP chamado [REST (REpresentational State Transfer)](https://restfulapi.net/). Ele é muito popular hoje em dia e o utilizaremos neste material.
 
-O REST define regras e boas práticas para uso de HTTP em aplicações. Vejamos como usar os verbos.
+O REST define regras e boas práticas para uso de HTTP em aplicações. Vejamos como usar os verbos, cabeçalhos, status e corpo das mensagens para integrar aplicações.
 
 ### GET
 
@@ -101,13 +111,13 @@ Resultados comuns:
 * `200 OK` indica sucesso, com o corpo da mensagem vazio.
 * `404 NOT FOUND` em caso de não encontrar o recurso solicitado.
 
-## Exemplo da aula
+## Exemplo de aplicação usado na aula
 
 Vamos utilizar o banco de dados `top5` contido [aqui](https://github.com/ermogenes/top5-mysql). Siga as instruções para criá-lo na sua máquina.
 
 Inicie seu projeto `webapi` chamando `top5`, faça o _scaffolding_ do banco e configure a aplicação para ler a _string de conexão_ do arquivo _appsettings.json_ e injetar o contexto. Todos esses passos estão [nesta aula](https://github.com/ermogenes/aulas-programacao-web/blob/master/content/bd-nuvem.md).
 
-Vamos agora implementar nossa(s) _controller(s)_.
+Vamos agora implementar nossa(s) _controller(s)_. Se preferir acompanhar vendo o programa pronto, ele está disponível [aqui](#código-completo).
 
 ## Backend - Implementação das _controllers_
 
@@ -406,6 +416,26 @@ var tops = _db.Top
 
 * `String.IsNullOrEmpty(variavelString)` retorna `true` somente se `variavelString` for vazia (`""`) ou nula.
 
+## Código final
+
+```cs
+// GET api/Tops
+// GET api/Tops?titulo=valorDesejado
+[HttpGet]
+public ActionResult<List<Top>> ObtemTops(string titulo)
+{
+    // Obtém todos os tops que contém o título indicado
+    // ou todos, se não for indicado nenhum
+    var tops = _db.Top
+        .Include(top => top.Item) // ver ***
+        .Where(top => String.IsNullOrEmpty(titulo) || top.Titulo.Contains(titulo))
+        .ToList<Top>();
+
+    // 200 OK
+    return Ok(tops);
+}
+```
+
 ### Consulta a um registro único
 
 Precisamos de um _endpoint_ que retorne os dados de um registro único, caso já tenhamos o seu identificador. Para isso, passaremos o `id` do top diretamente na rota solicitada. Só temos que indicar que o novo método que atenderá a rota saiba em que ponto da URL estará o valor do parâmetro.
@@ -415,18 +445,22 @@ Queremos atender a algo do tipo `GET /api/Tops/identificador-do-registro`.
 Nesse caso, precisamos responder `404 NOT FOUND` quando o registro não for encontrado.
 
 ```cs
+// GET api/Tops/id-top-desejado
 [HttpGet("{id}")]
 public ActionResult<Top> ObtemTop(string id)
 {
+    // Obtém um top que possua o id indicado
     var top = _db.Top
         .Include(top => top.Item)
         .SingleOrDefault(top => top.Id == id);
 
     if (top == null)
     {
+        // 404 NOT FOUND
         return NotFound();
     }
 
+    // 200 OK
     return Ok(top);
 }
 ```
@@ -543,32 +577,35 @@ private string ValidaTop(Top topAValidar)
 Usaremos esse método para verificar a consistência do registro. Abaixo, o código completo.
 
 ```cs
+// POST api/Tops
+// body: objeto do tipo Top
 [HttpPost]
 public ActionResult<Top> IncluiTop(Top topInformado)
 {
-    // O Id deve vir vazio, e ser gerado pela aplicação
     if (topInformado.Id != null)
     {
+        // 400 BAD REQUEST
         return BadRequest(new { mensagem = "Id não pode ser informado." });
     }
 
-    // Executa validação
+    // Validação
     var mensagemErro = ValidaTop(topInformado);
 
-    // Tops inválidos recebem `400 BAD REQUEST`
     if (!String.IsNullOrEmpty(mensagemErro))
     {
+        // 400 BAD REQUEST
         return BadRequest(new { mensagem = mensagemErro });
     }
 
-    // Gera um Id
+    // Gera novo identificador único
     topInformado.Id = Guid.NewGuid().ToString();
 
-    // Cria o registro
+    // Salva o novo registro
     _db.Add(topInformado);
     _db.SaveChanges();
 
-    // Retorna 201 CREATED com o header Location e o objeto no corpo da mensagem
+    // 201 CREATED
+    // Location: url do novo registro
     return CreatedAtAction(nameof(ObtemTop), new { id = topInformado.Id }, topInformado);
 }
 ```
@@ -614,7 +651,7 @@ Registro criado com sucesso:
 
 `201 CREATED`
 
-_header_: `location	https://localhost:5001/api/Tops/b23366ff-bc4b-4f09-a75b-f07045322a1e`
+_header_: `Location	https://localhost:5001/api/Tops/b23366ff-bc4b-4f09-a75b-f07045322a1e`
 ```json
 {
   "id": "b23366ff-bc4b-4f09-a75b-f07045322a1e",
@@ -658,6 +695,7 @@ _header_: `location	https://localhost:5001/api/Tops/b23366ff-bc4b-4f09-a75b-f070
 Dados inválidos (com -5 curtidas):
 
 `400 BAD REQUEST`
+
 ```json
 {
   "mensagem": "Curtidas devem ser positivas."
@@ -671,42 +709,51 @@ Para alterar os dados de um registro, precisamos de um _endpoint_ que aponte par
 O método usado é PUT, com o registro a ser alterado indicado na rota e os dados recebidos via corpo da mensagem. Retornará `200 OK` caso o registro esteja correto, `400 BAD REQUEST` para registros inválidos e `404 NOT FOUND` caso o registro solicitado não exista.
 
 ```cs
+// PUT api/Tops/id-top-desejado
+// body: objeto do tipo Top
 [HttpPut("{id}")]
 public ActionResult<Top> AlteraTop(string id, Top topAlterado)
 {
-    // Se o Id do objeto não bater com a da rota
     if (topAlterado.Id != id)
     {
+        // 400 BAD REQUEST
         return BadRequest(new { mensagem = "Id inconsistente." });
     }
 
-    // Busca pelo Id
+    // Obtém um top que possua o id indicado
     var top = _db.Top
-        .Include(top => top.Item)
+        .Include(top => top.Item) // ver ***
         .SingleOrDefault(top => top.Id == id);
 
-    // Não encontrado
     if (top == null)
     {
+        // 404 NOT FOUND
         return NotFound();
     }
 
-    // Efetua a validação
+    // Validação
     var mensagemErro = ValidaTop(topAlterado);
 
-    // Inválido
     if (!String.IsNullOrEmpty(mensagemErro))
     {
+        // 400 BAD REQUEST
         return BadRequest(new { mensagem = mensagemErro });
     }
 
-    // Efetiva as alterações
+    // Altera para os novos valores
     top.Titulo = topAlterado.Titulo;
-    top.Curtidas = topAlterado.Curtidas;
-    top.Item = topAlterado.Item;
+    for(int posicao = 1; posicao <=5; posicao++)
+    {
+        string nomeAlterado = topAlterado.Item
+            .SingleOrDefault(i => i.Posicao == posicao)
+            .Nome;
+        top.Item
+            .SingleOrDefault(i => i.Posicao == posicao)
+            .Nome = nomeAlterado;
+    }
     _db.SaveChanges();
 
-    // 200 OK, com o objeto alterado
+    // 200 OK
     return Ok(top);
 }
 ```
@@ -715,9 +762,13 @@ public ActionResult<Top> AlteraTop(string id, Top topAlterado)
 
 ## Alterando parte de um registro
 
-Curtidas
+Quando necessitamos alterar ou corrigir somente parte de um registro, como em uma atualização de status, ou confirmação de uma ação, não usamos PUT e sim PATCH.
 
-Model
+O recurso é indicado na rota, bem como a ação aser executada, e os dados pertinentes, quando existentes, no corpo da requisição. Retornará `200 OK` se a ação teve sucesso, ou `400 BAD REQUEST` nos demais casos.
+
+Neste exemplo usamos PATCH quando o usuário curte um top ou um item de top. Retornamos o novo número de curtidas no corpo da resposta, em caso de sucesso. Para esse retorno, optamos pela criação de uma classe para definição de contrato de comunicação, sendo que todos os _endpoints_ com a ação de curtir retornam o mesmo tipo de objeto (do tipo `top5.Models.CurtidasModel`). Esse tipo de objeto é frequentemente chamado _Data Transfer Object_, ou DTO.
+
+Veja a classe Model:
 
 ```cs
 namespace top5.Models
@@ -729,66 +780,43 @@ namespace top5.Models
 }
 ```
 
-Nos tops
+Os métodos agora podem utilizá-la para definir o seu tipo de retorno.
+
+Abaixo, o método que permite curtir um top. Ele verifica a sua existência, acrescenta um no número de curtidas e retorna o valor atualizado.
 
 ```cs
+// PATCH api/Tops/id-top-desejado/curtir
 [HttpPatch("{id}/curtir")]
 public ActionResult<CurtidasModel> CurteTop(string id)
 {
+    // Obtém um top que possua o id indicado
     var top = _db.Top
-        .Include(top => top.Item)
+        .Include(top => top.Item) // ver ***
         .SingleOrDefault(top => top.Id == id);
     
     if (top == null)
     {
+        // 400 BAD REQUEST
         return BadRequest();
     }
 
+    // Acrescenta uma curtida
     top.Curtidas += 1;
     _db.SaveChanges();
 
+    // Retorna o novo número de curtidas
     var retorno = new CurtidasModel { Curtidas = top.Curtidas };
 
-    return retorno;
+    // 200 OK
+    return Ok(retorno);
 }
 ```
 
-Nos itens
+Exemplo: `PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/curtir`
 
-```cs
-[HttpPatch("{id}/Itens/{posicao}/curtir")]
-public ActionResult<CurtidasModel> CurteItem(string id, int posicao)
-{
-    var top = _db.Top
-        .Include(top => top.Item)
-        .SingleOrDefault(top => top.Id == id);
-    
-    if (top == null)
-    {
-        return BadRequest(); // <-- ajustar
-    }
+Curtidas alteradas com sucesso:
 
-    var item = top.Item.SingleOrDefault(item => item.Posicao == posicao);
-
-    if (item == null)
-    {
-        return BadRequest(); // <-- ajustar
-    }
-
-    item.Curtidas += 1;
-    _db.SaveChanges();
-
-    var retorno = new CurtidasModel { Curtidas = item.Curtidas };
-
-    return retorno;
-}
-```
-
-PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/curtir
-
-PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/2/curtir
-
-200, com o novo número de curtidas
+`200 OK`, com o novo número de curtidas
 
 ```json
 {
@@ -796,11 +824,68 @@ PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/
 }
 ```
 
-400
+Nos itens, recebemos na rota além do identificador do top, também a posição a ser curtida.
 
-PATCH http://localhost:5000/api/tops/abc123/curtir
+```cs
+// PATCH api/Tops/id-top-desejado/Itens/posicao-desejada/curtir
+[HttpPatch("{id}/Itens/{posicao}/curtir")]
+public ActionResult<CurtidasModel> CurteItem(string id, int posicao)
+{
+    // Obtém um top que possua o id indicado
+    var top = _db.Top
+        .Include(top => top.Item) // ver ***
+        .SingleOrDefault(top => top.Id == id);
+    
+    if (top == null)
+    {
+        // 400 BAD REQUEST
+        return BadRequest();
+    }
 
-PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/-18/curtir
+    // Busca pelo item da posição indicada
+    var item = top.Item.SingleOrDefault(item => item.Posicao == posicao);
+
+    if (item == null)
+    {
+        // 400 BAD REQUEST
+        return BadRequest();
+    }
+
+    // Acrescenta uma curtida ao item
+    item.Curtidas += 1;
+    _db.SaveChanges();
+
+    // Retorna o novo número de curtidas
+    var retorno = new CurtidasModel { Curtidas = item.Curtidas };
+
+    // 200 OK
+    return Ok(retorno);
+}
+```
+
+Exemplo: `PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/2/curtir`
+
+Curtidas alteradas com sucesso:
+
+`200 OK`, com o novo número de curtidas
+
+```json
+{
+  "curtidas": 7
+}
+```
+
+Top inexistente:
+
+Exemplo (a): `PATCH http://localhost:5000/api/tops/abc123/curtir`
+
+`400 BAD REQUEST`
+
+Item inexistente:
+
+Exemplo (b): `PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/-18/curtir`
+
+`400 BAD REQUEST`
 
 ```json
 {
@@ -811,29 +896,50 @@ PATCH http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32/itens/
 }
 ```
 
-
 ## Excluindo um registro
 
+A implementação da exclusão é muito parecida com a da consulta a um recurso único, com duas diferenças:
+
+* O retorno não inclui dados do recurso (no exemplo, `ActionResult<Top>` se torna somente `ActionResult`);
+* É efetuada a exclusão do recurso.
+
 ```cs
+// DELETE api/Tops/id-top-desejado
 [HttpDelete("{id}")]
-public ActionResult<Top> ExcluiTop(string id)
+public ActionResult ExcluiTop(string id)
 {
+    // Obtém um top que possua o id indicado
     var top = _db.Top
-        .Include(top => top.Item)
+        .Include(top => top.Item) // ver ***
         .SingleOrDefault(top => top.Id == id);
 
     if (top == null)
     {
+        // 404 NOT FOUND
         return NotFound();
     }
 
+    // Exclui todos os itens, e depois o top
     top.Item.Clear();
     _db.Remove(top);
     _db.SaveChanges();
 
+    // 200 OK
     return Ok();
 }
 ```
+
+Exclusão efetuada com sucesso:
+
+Exemplo: `DELETE http://localhost:5000/api/tops/26fdcb96-ae06-4cf8-be91-62b50d944e32`
+
+Não encontrado:
+
+`200 OK`
+
+Exemplo: `DELETE http://localhost:5000/api/tops/xyz-3457686`
+
+`404 NOT FOUND`
 
 ## Fetch de APIs REST
 
@@ -844,3 +950,95 @@ A função `fetch` pode receber um segundo parâmetro indicando as opções da r
 * `method` indica o método a ser utilizado, como `GET` ou `POST`.
 * `headers` contém um objeto cujas propriedades serão enviadas no cabeçalho da requisição.
 * `body` contém uma string ou campos de formulário enviados no corpo da requisição.
+
+### Chamadas REST
+
+`GET`, sem parâmetro de _query string_:
+
+```js
+// ...
+fetch("/api/Tops")
+// ...
+```
+
+`GET`, com parâmetro de _query string_:
+
+```js
+// ...
+fetch(`/api/Tops?titulo=${tituloDesejado}`)
+// ...
+```
+
+`POST`:
+
+```js
+// ...
+fetch("/api/Tops", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(novoTop),
+})
+// ...
+```
+
+`PUT`:
+
+```js
+// ...
+fetch(`/api/Tops/${id}`, {
+  method: "PUT",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(topAlterado),
+})
+// ...
+```
+
+`PATCH`:
+
+```js
+// ...
+fetch(`/api/Tops/${id}/Itens/${posicao}/curtir`, { method: "PATCH" })
+// ...
+```
+
+
+`DELETE`:
+
+```js
+// ...
+fetch(`/api/Tops/${id}`, { method: "DELETE" })
+// ...
+```
+
+### Entendendo os resultados
+
+Após a requisição, o objeto retornado possui todo o conteúdo da resposta.
+
+* `.status` possui o código de status do retorno (ex.: `404`);
+* `.statusText` possui a descrição textual do status de retorno (ex.: `NOT FOUND`);
+* `.ok` é `true` se o resultado possui status de sucesso (entre 200 e 299, inclusive);
+* `.json()` obtém um objeto JavaScript equivalente ao conteúdo JSON recebido.
+
+Exemplo:
+
+```js
+// ...
+const response = await fetch(url, requestOptions);
+if (response.ok) {
+  // Sucesso
+  const result = await response.json();
+  // ...
+} else {
+  // Erro
+  alert(`Erro: ${response.status} - ${response.statusText}`);
+}
+// ...
+```
+
+## Código completo
+
+Complemente seus estudos vendo o programa pronto e estudando seu conteúdo. Ele está disponível [aqui](https://github.com/ermogenes/top5).

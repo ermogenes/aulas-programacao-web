@@ -104,10 +104,9 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
   * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi? 🎁
 * [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 👁‍🗨
 * [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 👁‍🗨
-<!-- * [📖 HTTP e REST](content/http-rest.md) -->
-* 📖 HTTP e REST _Em breve..._
+* [📖 HTTP e REST](content/http-rest.md)
   * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE) 🔥
-  * [📺 Parte 2 - Estrutura da Aplicação](https://youtu.be/woUBgzJnt48) 🔥
+  * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48) 🔥
   * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4) 🔥
   * [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA) 🔥
   * [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww) 🔥
