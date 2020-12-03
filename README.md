@@ -162,6 +162,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
   - [📖 MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
   - [👶🏻 W3Schools](https://www.w3schools.com/css/)
   - [👶🏻 CSS desde o início (Traduzido pelo Maujor)](https://www.maujor.com/tutorial/joe/cssjoe1.php)
+  - [🏅 State of CSS](https://stateofcss.com/)
 
 - 🔌 JavaScript
 
@@ -170,6 +171,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
   - [👶🏻 W3Schools](https://www.w3schools.com/js/)
   - [👶🏻 JavaScript.info](https://javascript.info/)
   - [📖 Como o Javascript funciona: uma visão geral da engine, runtime e da call stack](https://medium.com/reactbrasil/como-o-javascript-funciona-uma-vis%C3%A3o-geral-da-engine-runtime-e-da-call-stack-471dd5e1aa30)
+  - [🏅 State of JS](https://stateofjs.com/)
 
 - ⛵ Navegadores
 
