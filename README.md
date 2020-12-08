@@ -91,6 +91,7 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
 - [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) ✔
 - [📖 Web Storage](content/storage.md) 🎁 🤝 _Em breve..._
+- [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser 🎁 🔥
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
@@ -221,6 +222,9 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
     - [🖼 Lorem Picsum](https://picsum.photos/)
     - [🖼 Dummy Image](https://dummyimage.com/)
     - [🖼 PlaceImg](https://placeimg.com/)
+- [Photopea](https://www.photopea.com/) 🔥
+- [Palette Generator](https://palettegenerator.com/) 🔥
+- [Piskel](https://www.piskelapp.com/) 🔥
 
 ### 🗿 História
 
