@@ -17,18 +17,15 @@ Este curso pode ser utilizado como continuação do curso [Dev C#](https://githu
 
 Disponibilidade dos professores nos dias das aulas presenciais, nos horários de aula (confira no Teams o horário das _lives_ e do atendimento por _chat_).
 
-- **Alunos de PC2 da Etec AB, 2020-2, 2I3:**
-  - [👨‍👩‍👧‍👦 Turma **única**, no Teams](https://bit.ly/2i3-pc2)
-  <!-- * [📡 Sala de Reunião, no Teams, para as aulas síncronas](https://bit.ly/pc2-aula-sinc) -->
-  - [📡 Sala de Reunião, no Teams, para as aulas síncronas (atualizado em 27/08/2020)](https://teams.microsoft.com/l/meetup-join/19%3acdf4c676dcd8493885bc96f188ad3bac%40thread.tacv2/1598559260079?context=%7b%22Tid%22%3a%22ed38466c-b641-437d-9ae9-d801b829fa94%22%2c%22Oid%22%3a%22a48d4871-c88d-424f-861d-1126fa78a714%22%7d)
+- **Alunos de PC2 da Etec AB, 2021-1, 2I3:**
+  - [👨‍👩‍👧‍👦 Turma **única**, no Teams](#) _em breve..._
+  - [📡 Sala de Reunião, no Teams, para as aulas síncronas](#) _em breve..._
   - [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
 
 ## 😱 Entregas (para alunos presenciais)
 
-- **Alunos de PC2 da Etec AB, 2020-2, 2I3:**
+- **Alunos de PC2 da Etec AB, 2021-1, 2I3:**
   - Links do repositório no GitHub, via Teams.
-
-📲 _Para quem não tem computador, as instruções serão dadas em breve._
 
 ## 🎞 Este curso no YouTube
 
@@ -45,13 +42,13 @@ Para criar seu ambiente de trabalho, baixe as ferramentas e instale em seu compu
 
 No decorrer do curso utilizaremos também:
 
-- Kit de desenvolvimento: [.NET Core SDK 📥](https://dotnet.microsoft.com/download)
+- Kit de desenvolvimento: [.NET SDK 📥](https://dotnet.microsoft.com/download)
 - Banco de dados: [MySQL Community 📥](https://dev.mysql.com/downloads/mysql/)
-
-Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as versões anteriores antes de instalar a nova.
 
 - [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente (Dev C#)](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/ambiente.md)
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+
+Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a mais recente disponível.
 
 ## Conteúdo
 
@@ -61,59 +58,59 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 ### 👔 Introdução
 
-- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação ✔
+- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 
 ### 🐢 Primeiros passos
 
-- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md) ✔
-- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) ✔
-- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md) ✔
+- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
+- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
 
 ### 🕷 Marcação e estilização
 
-- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) ✔
-- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
-- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) ✔
-- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) ✔
-- [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁 ✔
-- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) ✔
-- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) ✔
-- [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) ✔
-- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md) ✔
-- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁 ✔
+- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
+- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
+- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
+- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
+- [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
+- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
+- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
+- [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md)
+- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
+- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁
 
 ### 🔋 JavaScript no _Frontend_
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
-- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
-- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
-- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) ✔
-- [📖 Web Storage](content/storage.md) 🎁 🤝 _Em breve..._
-- [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser 🎁 🔥
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
+- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
+- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
+- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
+<!-- - [📖 Web Storage](content/storage.md) 🎁 🤝 _em breve..._ -->
+- [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser 🎁
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) ✔
-- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) ✔
-- [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md) ✔
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
+- [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md)
 
 ### 🔌 _Backend_ API com C#
 
-* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 👁‍🗨
+* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
   * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi? 🎁
-* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 👁‍🗨
-* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 👁‍🗨
-* [📖 HTTP e REST](content/http-rest.md)
-  * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE) 🔥
-  * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48) 🔥
-  * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4) 🔥
-  * [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA) 🔥
-  * [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww) 🔥
-  * [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE) 🔥
-  * [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg) 🔥
-  * [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU) 🔥
+* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 🎁
+* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 🎁
+* [📖 HTTP e REST](content/http-rest.md) 🎁
+  * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE)
+  * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48)
+  * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4)
+  * [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA)
+  * [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww)
+  * [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE)
+  * [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg)
+  * [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU)
 
 ### ☁ Acesso rápido: Tutoriais de Azure
 
@@ -125,18 +122,18 @@ Obs.: Se utilizar a versão 3 do .NET Core SDK, pode ser necessário remover as 
 
 **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra
 
-- [🏳 Marcação HTML](exercises/marcacao-html.md) ✔
-- [🎨 Tipografia](exercises/tipografia.md) ✔
-- [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
-- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) ✔
-- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
-- [🏳🎨 Formulários](exercises/forms.md) ✔
-- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) ✔
-- [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
-- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
-- [🔋 Fetch API](exercises/fetch.md) ✔
-- [🛢 Entity Framework em console](exercises/ef-console.md) ✔
-- [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md) 👁‍🗨
+- [🏳 Marcação HTML](exercises/marcacao-html.md)
+- [🎨 Tipografia](exercises/tipografia.md)
+- [🎨 Cores e fundos](exercises/cores-fundos.md)
+- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
+- [🏳🎨 Formulários](exercises/forms.md)
+- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
+- [🔋 Primeiros passos com JavaScript](exercises/js.md)
+- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+- [🔋 Fetch API](exercises/fetch.md)
+- [🛢 Entity Framework em console](exercises/ef-console.md)
+- [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md)
 
 ### Soluções comentadas
 - Prof. Ermogenes
@@ -206,7 +203,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 
 ### 🏎 _Roadmaps_ para devs
 
-- [🌍 Roadmap to becoming a web developer in 2020](https://github.com/kamranahmedse/developer-roadmap)
+- [🌍 Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 
 ### 🌎 Links úteis
 
@@ -222,9 +219,9 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
     - [🖼 Lorem Picsum](https://picsum.photos/)
     - [🖼 Dummy Image](https://dummyimage.com/)
     - [🖼 PlaceImg](https://placeimg.com/)
-- [Photopea](https://www.photopea.com/) 🔥
-- [Palette Generator](https://palettegenerator.com/) 🔥
-- [Piskel](https://www.piskelapp.com/) 🔥
+- [Photopea](https://www.photopea.com/)
+- [Palette Generator](https://palettegenerator.com/)
+- [Piskel](https://www.piskelapp.com/)
 
 ### 🗿 História
 
@@ -237,7 +234,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 - [🌍 IEEE Spectrum](https://spectrum.ieee.org/computing/software/the-top-programming-languages-2019)
 - [🌍 TIOBE Index](https://www.tiobe.com/tiobe-index/)
 - [🌍 GitHub Octoverse](https://octoverse.github.com/#top-languages)
-- [🌍 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2019#most-popular-technologies)
+- [🌍 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2020#most-popular-technologies)
 - [🌍 PYPL PopularitY of Programming Language](http://pypl.github.io/PYPL.html)
 
 ## 💪 Contributors
