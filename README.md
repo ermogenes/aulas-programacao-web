@@ -18,8 +18,8 @@ Este curso pode ser utilizado como continuação do curso [Dev C#](https://githu
 Disponibilidade dos professores nos dias das aulas presenciais, nos horários de aula (confira no Teams o horário das _lives_ e do atendimento por _chat_).
 
 - **Alunos de PC2 da Etec AB, 2021-1, 2I3:**
-  - [👨‍👩‍👧‍👦 Turma **única**, no Teams](#) _em breve..._
-  - [📡 Sala de Reunião, no Teams, para as aulas síncronas](#) _em breve..._
+  - [👨‍👩‍👧‍👦 Turma **única**, no Teams](https://teams.microsoft.com/l/team/19%3a684a48d83e5740fda6a1ba2537bb49a5%40thread.tacv2/conversations?groupId=adaac448-6873-4cd5-ada6-97c18f790c7a&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
+  - [📡 Sala de Reunião, no Teams, para as aulas síncronas](https://teams.microsoft.com/l/channel/19%3aa03d3d68815f4776bf75a1fbabfa945e%40thread.tacv2/Aulas%2520s%25C3%25ADncronas%2520%25F0%259F%258E%25A6?groupId=adaac448-6873-4cd5-ada6-97c18f790c7a&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
   - [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
 
 ## 😱 Entregas (para alunos presenciais)
