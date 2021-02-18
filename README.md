@@ -58,6 +58,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ### 👔 Introdução
 
+- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
 - [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 
 ### 🐢 Primeiros passos
