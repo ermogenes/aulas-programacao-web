@@ -313,3 +313,25 @@ A tabela acima indica algo como:
 | C1 x L3 | C2 x L3 | C3 x L3 |
 
 Células podem conter qualquer tipo de conteúdo, inclusive outras tabelas. Porém, **não use isso para definir um leiaute para seu site**. Há ferramentas muito melhores para isso!
+
+### Incorporando conteúdo externo
+
+Alguns serviços permitem que seus conteúdos sejam incorporados em _sites_ externos. Para fazê-lo, copie o código disponibilizado e cole em sua página (geralmente em opções como _compartilhar_ ou _publicar_).
+
+Veja alguns exemplos:
+
+#### YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_o0C4-YX4qI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_o0C4-YX4qI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+#### Google Apresentações
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSENJRXRzwdxu0iXMhUr0qbM5IoxHjXNklT8BvSn6X05FO1YDPmlTvvt1dfuehqIvwsRJZCDu1a_x5H/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+```html
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSENJRXRzwdxu0iXMhUr0qbM5IoxHjXNklT8BvSn6X05FO1YDPmlTvvt1dfuehqIvwsRJZCDu1a_x5H/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
