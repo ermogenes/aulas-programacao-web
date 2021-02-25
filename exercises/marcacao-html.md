@@ -119,8 +119,10 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 ---
 
 ## 🏁 Orientações para entrega (alunos do curso presencial)
-Confira no Teams o link da tarefa equivalente. Lá você postará o link do ~~repositório no GitHub~~ **_site_ publicado**, um para cada exercício.
+Confira no Teams o link da tarefa equivalente. Lá você postará o link do **repositório no GitHub**, incluindo nas configurações o link para o **_site_ publicado**, um para cada exercício.
 
-Repositório de exemplo: Exercício `hello-dev-web` (Marcação HTML)
+Repositório de exemplo: [Exercício `hello-dev-web` (Marcação HTML)](https://github.com/ermogenes/hello-world-dev-web)
 
-Exemplo de link a ser postado: [https://ermogenes.github.io/hello-dev-web](https://ermogenes.github.io/hello-dev-web)
+Site publicado: [https://ermogenes.github.io/hello-dev-web](https://ermogenes.github.io/hello-dev-web)
+
+Exemplo de link a ser postado: [https://github.com/ermogenes/hello-world-dev-web](https://github.com/ermogenes/hello-world-dev-web)
