@@ -335,3 +335,17 @@ Veja alguns exemplos:
 ```html
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSENJRXRzwdxu0iXMhUr0qbM5IoxHjXNklT8BvSn6X05FO1YDPmlTvvt1dfuehqIvwsRJZCDu1a_x5H/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
+
+#### Google Maps e Google Street View
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7314.907980993128!2d-46.637349877712474!3d-23.55213298874953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aa220b74bd%3A0x6412aad263604c19!2zU8OpLCBTw6NvIFBhdWxvIC0gU1A!5e0!3m2!1spt-BR!2sbr!4v1614302451657!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+```html
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7314.907980993128!2d-46.637349877712474!3d-23.55213298874953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aa220b74bd%3A0x6412aad263604c19!2zU8OpLCBTw6NvIFBhdWxvIC0gU1A!5e0!3m2!1spt-BR!2sbr!4v1614302451657!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+```
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1614302514278!6m8!1m7!1svwVI0Dv6PjaCvFxizwjteg!2m2!1d-23.55077105018473!2d-46.63294713074472!3f258.5954364186578!4f13.56251446358371!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+```html
+<iframe src="https://www.google.com/maps/embed?pb=!4v1614302514278!6m8!1m7!1svwVI0Dv6PjaCvFxizwjteg!2m2!1d-23.55077105018473!2d-46.63294713074472!3f258.5954364186578!4f13.56251446358371!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+```
