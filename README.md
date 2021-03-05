@@ -64,13 +64,13 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 ### 🐢 Primeiros passos
 
 - [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md) ✔
-- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) 👁‍🗨
-- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
+- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) ✔
+- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md) 👁‍🗨
 
 ### 🕷 Marcação e estilização
 
-- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
-- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
+- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) 👁‍🗨
+- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) 👁‍🗨
 - [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
 - [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
 - [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
@@ -123,9 +123,9 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra
 
-- [🏳 Marcação HTML](exercises/marcacao-html.md)
-- [🎨 Tipografia](exercises/tipografia.md)
-- [🎨 Cores e fundos](exercises/cores-fundos.md)
+- [🏳 Marcação HTML](exercises/marcacao-html.md) 👁‍🗨
+- [🎨 Tipografia](exercises/tipografia.md) 👁‍🗨
+- [🎨 Cores e fundos](exercises/cores-fundos.md) 👁‍🗨
 - [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
 - [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
 - [🏳🎨 Formulários](exercises/forms.md)
