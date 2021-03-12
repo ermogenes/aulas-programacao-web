@@ -37,7 +37,7 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 ---
 
 ## 🏁 Orientações para entrega (alunos do curso presencial)
-Confira no Teams o link da tarefa equivalente. Lá você postará o link do ~~repositório no GitHub~~ **_site_ publicado**, um para cada exercício.
+Confira no Teams o link da tarefa equivalente. Lá você postará o link do repositório no GitHub, um para cada exercício.
 
 Repositório de exemplo: Exercício `hello-dev-web` (Marcação HTML)
 
