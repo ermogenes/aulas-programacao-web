@@ -162,7 +162,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
   - [👶🏻 W3Schools](https://www.w3schools.com/css/)
   - [👶🏻 CSS desde o início (Traduzido pelo Maujor)](https://www.maujor.com/tutorial/joe/cssjoe1.php)
   - [👶🏻 CSS FlexBox: Um Guia Visual - Alura](https://www.alura.com.br/artigos/css-guia-do-flexbox)
-  - [🐸 Flexbox Froggy](https://flexboxfroggy.com/)
+  - [🐸 Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
   - [🏅 State of CSS](https://stateofcss.com/)
 
 - 🔌 JavaScript
