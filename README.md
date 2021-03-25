@@ -71,10 +71,10 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 - [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) ✔
 - [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
-- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) 👁‍🗨
-- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) 👁‍🗨
+- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) ✔
+- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) ✔
 - [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
-- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
+- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) 👁‍🗨
 - [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) 🎁
 - [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 🎁
 - [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
@@ -124,10 +124,10 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra
 
 - [🏳 Marcação HTML](exercises/marcacao-html.md) ✔
-- [🎨 Tipografia](exercises/tipografia.md) 👁‍🗨
-- [🎨 Cores e fundos](exercises/cores-fundos.md) 👁‍🗨
+- [🎨 Tipografia](exercises/tipografia.md) ✔
+- [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
 - [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) 👁‍🗨
-- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
+- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) 👁‍🗨
 - [🏳🎨 Formulários](exercises/forms.md)
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
 - [🔋 Primeiros passos com JavaScript](exercises/js.md)
