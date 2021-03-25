@@ -164,6 +164,9 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
   - [👶🏻 CSS FlexBox: Um Guia Visual - Alura](https://www.alura.com.br/artigos/css-guia-do-flexbox)
   - [🐸 Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
   - [🏅 State of CSS](https://stateofcss.com/)
+  - [🚧 Every Layout: Relearn CSS layout](https://every-layout.dev/)
+  - [Ⓜ The Elements of Typographic Style Applied to the Web](http://webtypography.net/)
+  - [🌍 Padrões de Web design responsivo](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns)
 
 - 🔌 JavaScript
 
