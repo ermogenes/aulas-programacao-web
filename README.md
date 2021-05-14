@@ -130,8 +130,8 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
 - [🏳🎨 Formulários](exercises/forms.md) ✔
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) 🎁
-- [🔋 Primeiros passos com JavaScript](exercises/js.md) 👁‍🗨
-- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+- [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
+- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) 👁‍🗨
 - [🔋 Fetch API](exercises/fetch.md)
 - [🛢 Entity Framework em console](exercises/ef-console.md)
 - [🔌☁ Infraestrutura em nuvem](exercises/nuvem.md)
