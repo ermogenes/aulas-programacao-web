@@ -17,6 +17,8 @@ Está fora do escopo desse curso ensinar bancos de dados. Há diversos cursos na
 
 Precisamos de uma instância de MySQL em execução com um banco de dados para ser acessado, e credenciais válidas com permissões suficientes.
 
+💡 _Caso você ainda não saiba instalar o MySQL, veja [este passo-a-passo](https://github.com/ermogenes/aulas-programacao-web/blob/master/content/ambiente-mysql.md)._
+
 Nos exemplos abaixo consideraremos uma instalação padrão do MySQL, com as seguintes configurações:
 
 - Servidor local (`localhost`) na porta `3306`;
