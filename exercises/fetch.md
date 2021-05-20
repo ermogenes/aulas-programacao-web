@@ -12,9 +12,9 @@ Ao carregar a página, exiba uma frase do dia (e seu autor) obtida da API públi
 
 _As frases desta API estão em inglês, exiba-as assim mesmo._
 
-- _Endpoint_: [https://quote-garden.herokuapp.com/api/v2/quotes/random](https://quote-garden.herokuapp.com/api/v2/quotes/random)
-  - `quote.quoteText` contém o texto da frase;
-  - `quote.quoteAuthor` contém o autor da frase.
+- _Endpoint_: [https://quote-garden.herokuapp.com/api/v3/quotes/random](https://quote-garden.herokuapp.com/api/v3/quotes/random)
+  - `data[0].quoteText` contém o texto da frase;
+  - `data[0].quoteAuthor` contém o autor da frase.
 
 Estilize livremente.
 
