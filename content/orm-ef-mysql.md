@@ -83,7 +83,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 Também precisamos do pacote de suporte ao MySQL:
 
 ```
-dotnet add package MySql.Data.EntityFrameworkCore
+dotnet add package MySql.EntityFrameworkCore
 ```
 
 Como vamos usar ORM, precisaremos de classes em nosso programa equivalentes às tabelas no banco de dados. Podemos criá-las automaticamente, com ferramentas. Esse processo de criar código usando ferramentas é chamado _scaffolding_.
@@ -118,7 +118,7 @@ Possíveis motivos para isso incluem:
 Agora podemos realizar o _scaffolding_, passando a string de conexão para o seu banco:
 
 ```
-dotnet ef dbcontext scaffold "server=___;port=___;user=___;password=___;database=___" MySql.Data.EntityFrameworkCore -o ___ -f
+dotnet ef dbcontext scaffold "server=___;port=___;user=___;password=___;database=___" MySql.EntityFrameworkCore -o ___ -f
 ```
 
 - Em `server` passe o endereço do servidor (ex.: `localhost`)
@@ -130,7 +130,7 @@ dotnet ef dbcontext scaffold "server=___;port=___;user=___;password=___;database
 Exemplo:
 
 ```
-dotnet ef dbcontext scaffold "server=localhost;port=3306;user=root;password=root;database=employees" MySql.Data.EntityFrameworkCore -o db -f
+dotnet ef dbcontext scaffold "server=localhost;port=3306;user=root;password=root;database=employees" MySql.EntityFrameworkCore -o db -f
 ```
 
 Saída:
