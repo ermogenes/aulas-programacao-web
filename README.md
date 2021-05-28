@@ -133,7 +133,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
 - [🔋 Fetch API](exercises/fetch.md) 👁‍🗨
-- [🛢 Entity Framework em console](exercises/ef-console.md)
+- [🛢 Entity Framework em console](exercises/ef-console.md) 👁‍🗨
 - [🔌 ASP.NET Web API](exercises/nuvem.md)
 
 ### Soluções comentadas
