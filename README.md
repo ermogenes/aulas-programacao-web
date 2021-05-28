@@ -93,7 +93,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) ✔
 - [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) 👁‍🗨
 - [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md) 🎁
 
