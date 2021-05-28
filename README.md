@@ -87,14 +87,14 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) 👁‍🗨
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) ✔
 <!-- - [📖 Web Storage](content/storage.md) 🎁 🤝 _em breve..._ -->
 - [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser 🎁
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
-- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
+- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) 👁‍🗨
 - [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md) 🎁
 
 ### 🔌 _Backend_ API com C#
