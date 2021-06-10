@@ -50,7 +50,7 @@ Atente-se às informações:
 
 Vá até o navegador e acesse `https://localhost:5001` e `http://localhost:5000`. Você não achará nenhum conteúdo, já que nada está sendo entregue para a raíz do _site_. Porém, há conteúdo sendo servido pela _controller_ `WeatherForecast`. Ela responde à rota `/WeatherForecast` com um arranjo JSON contendo o seu resultado. Para vê-lo, então, precisamos acessar `https://localhost:5001/WeatherForecast` ou `http://localhost:5000/WeatherForecast`.
 
-Perceba que você não conseguirá acessar nenhum deles, devido à configuração de segurança. Por simplicidade vamos desabilitar o redirecionamento automático para HTTPS, comentando a linha abaixo em `Startup.cs`:
+Perceba que você não conseguirá acessar nenhum deles, devido à configuração de segurança. Podemos simplesmente aceitar o acesso ao site inseguro, ou desabilitar o redirecionamento automático para HTTPS, comentando a linha abaixo em `Startup.cs`:
 
 ```cs
     // app.UseHttpsRedirection();
@@ -94,6 +94,8 @@ Pare o servidor e o inicie novamente. Agora você conseguirá acessar a versão 
 ```
 
 Para habilitar HTTPS, precisamos da maiores configurações, o que não é o foco agora.
+
+🐱‍👤 Você também pode acessar a listagem de todos os _endpoints_ disponíveis e sua documentação a partir da url `/swagger`.
 
 ## Criando uma _controller_ simples
 
