@@ -427,7 +427,7 @@ public ActionResult<List<Top>> ObtemTops(string titulo)
     // Obtém todos os tops que contém o título indicado
     // ou todos, se não for indicado nenhum
     var tops = _db.Top
-        .Include(top => top.Item) // ver ***
+        .Include(top => top.Item)
         .Where(top => String.IsNullOrEmpty(titulo) || top.Titulo.Contains(titulo))
         .ToList<Top>();
 
@@ -722,7 +722,7 @@ public ActionResult<Top> AlteraTop(string id, Top topAlterado)
 
     // Obtém um top que possua o id indicado
     var top = _db.Top
-        .Include(top => top.Item) // ver ***
+        .Include(top => top.Item)
         .SingleOrDefault(top => top.Id == id);
 
     if (top == null)
@@ -791,7 +791,7 @@ public ActionResult<CurtidasModel> CurteTop(string id)
 {
     // Obtém um top que possua o id indicado
     var top = _db.Top
-        .Include(top => top.Item) // ver ***
+        .Include(top => top.Item)
         .SingleOrDefault(top => top.Id == id);
     
     if (top == null)
@@ -833,7 +833,7 @@ public ActionResult<CurtidasModel> CurteItem(string id, int posicao)
 {
     // Obtém um top que possua o id indicado
     var top = _db.Top
-        .Include(top => top.Item) // ver ***
+        .Include(top => top.Item)
         .SingleOrDefault(top => top.Id == id);
     
     if (top == null)
@@ -910,7 +910,7 @@ public ActionResult ExcluiTop(string id)
 {
     // Obtém um top que possua o id indicado
     var top = _db.Top
-        .Include(top => top.Item) // ver ***
+        .Include(top => top.Item)
         .SingleOrDefault(top => top.Id == id);
 
     if (top == null)
