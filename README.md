@@ -99,11 +99,11 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ### 🔌 _Backend_ API com C#
 
-* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) 👁‍🗨
+* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) ✔
   * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi? 🎁
 * [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 🎁
 * [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 🎁
-* [📖 HTTP e REST](content/http-rest.md) 🎁
+* [📖 HTTP e REST](content/http-rest.md) 🎁 👁‍
   * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE) 🎁
   * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48) 🎁
   * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4) 🎁
@@ -134,7 +134,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
 - [🔋 Fetch API](exercises/fetch.md) ✔
 - [🛢 Entity Framework em console](exercises/ef-console.md) ✔
-- [🔌 ASP.NET Web API](exercises/nuvem.md) 🎁👁‍🗨
+- [🔌 ASP.NET Web API](exercises/nuvem.md) 🎁 ✔
 
 ### Soluções comentadas
 - Prof. Ermogenes
