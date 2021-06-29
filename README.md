@@ -176,6 +176,8 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
   - [👶🏻 JavaScript.info](https://javascript.info/)
   - [📖 Como o Javascript funciona: uma visão geral da engine, runtime e da call stack](https://medium.com/reactbrasil/como-o-javascript-funciona-uma-vis%C3%A3o-geral-da-engine-runtime-e-da-call-stack-471dd5e1aa30)
   - [🏅 State of JS](https://stateofjs.com/)
+  - [🐱‍👤 30 seconds of code - Short code snippets for all your development needs](https://www.30secondsofcode.org/)
+  - [🐱‍👤 Estrutura de Dados e Algoritmos em JavaScript](https://github.com/trekhleb/javascript-algorithms/blob/master/README.pt-BR.md)
 
 - ⛵ Navegadores
 
@@ -228,6 +230,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 - [Photopea](https://www.photopea.com/)
 - [Palette Generator](https://palettegenerator.com/)
 - [Piskel](https://www.piskelapp.com/)
+- [The Front-End Checklist](https://frontendchecklist.io/)
 
 ### 🗿 História
 
