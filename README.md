@@ -206,8 +206,8 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
   - [O que é SEO: o guia completo para você conquistar o topo do Google](https://rockcontent.com/br/blog/o-que-e-seo/#:~:text=SEO%20significa%20Search%20Engine%20Optimization,para%20um%20site%20ou%20blog.)
 
 - 🛢 Entity Framework
- - [📖 Documentação oficial](https://docs.microsoft.com/pt-br/ef/core/)
- - [👶🏻 Learn Entity Framework Core](https://www.learnentityframeworkcore.com/)
+  - [📖 Documentação oficial](https://docs.microsoft.com/pt-br/ef/core/)
+  - [👶🏻 Learn Entity Framework Core](https://www.learnentityframeworkcore.com/)
 
 ### 🏎 _Roadmaps_ para devs
 
