@@ -213,6 +213,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 ### 🏎 _Roadmaps_ para devs
 
 - [🌍 Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
+- [🌍 Web Skills](https://andreasbm.github.io/web-skills/)
 
 ### 🌎 Links úteis
 
