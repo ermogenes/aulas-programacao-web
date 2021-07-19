@@ -13,20 +13,6 @@ Este curso pode ser utilizado como continuação do curso [Dev C#](https://githu
 
 [![Dev C#](content/logo-dev-cs.png)](https://github.com/ermogenes/aulas-programacao-csharp)
 
-## 🧭 Aulas síncronas
-
-Disponibilidade dos professores nos dias das aulas presenciais, nos horários de aula (confira no Teams o horário das _lives_ e do atendimento por _chat_).
-
-- **Alunos de PC2 da Etec AB, 2021-1, 2I3:**
-  - [👨‍👩‍👧‍👦 Turma **única**, no Teams](https://teams.microsoft.com/l/team/19%3a684a48d83e5740fda6a1ba2537bb49a5%40thread.tacv2/conversations?groupId=adaac448-6873-4cd5-ada6-97c18f790c7a&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
-  - [📡 Sala de Reunião, no Teams, para as aulas síncronas](https://teams.microsoft.com/l/channel/19%3aa03d3d68815f4776bf75a1fbabfa945e%40thread.tacv2/Aulas%2520s%25C3%25ADncronas%2520%25F0%259F%258E%25A6?groupId=adaac448-6873-4cd5-ada6-97c18f790c7a&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
-  - [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
-
-## 😱 Entregas (para alunos presenciais)
-
-- **Alunos de PC2 da Etec AB, 2021-1, 2I3:**
-  - Links do repositório no GitHub, via Teams.
-
 ## 🎞 Este curso no YouTube
 
 - [Canal: Prof. Ermogenes Palacio](https://www.youtube.com/channel/UCeRLqYFNV2wPBclJLzbJ2Fw)
@@ -54,87 +40,87 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 **Legenda:** 📷 Slides | 📺 Vídeo-aula no YouTube | 📖 Material em texto e imagens
 
-**Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab
+<!-- **Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab -->
 
 ### 👔 Introdução
 
-- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) ✔
-- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação ✔
+- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
+- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 
 ### 🐢 Primeiros passos
 
-- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md) ✔
-- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) ✔
-- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md) ✔
+- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
+- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
 
 ### 🕷 Marcação e estilização
 
-- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) ✔
-- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
-- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) ✔
-- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) ✔
-- [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
-- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) ✔
-- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) 🎁
-- [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 🎁
-- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md) ✔
-- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁
+- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
+- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
+- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
+- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
+- [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md)
+- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
+- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
+- [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md)
+- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
+- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md)
 
 ### 🔋 JavaScript no _Frontend_
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
-- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
-- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
-- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) ✔
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
+- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
+- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
+- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
 <!-- - [📖 Web Storage](content/storage.md) 🎁 🤝 _em breve..._ -->
-- [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser 🎁
+- [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) ✔
-- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md) ✔
-- [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md) 🎁
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
+- [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md)
 
 ### 🔌 _Backend_ API com C#
 
-* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md) ✔
-  * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi? 🎁
-* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md) 🎁
-* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md) 🎁
-* [📖 HTTP e REST](content/http-rest.md) 🎁 👁‍
-  * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE) 🎁
-  * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48) 🎁
-  * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4) 🎁
-  * [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA) 🎁
-  * [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww) 🎁
-  * [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE) 🎁
-  * [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg) 🎁
-  * [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU) 🎁
+* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
+  * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi?
+* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md)
+* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md)
+* [📖 HTTP e REST](content/http-rest.md)
+  * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE)
+  * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48)
+  * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4)
+  * [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA)
+  * [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww)
+  * [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE)
+  * [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg)
+  * [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU)
 
 ### ☁ Acesso rápido: Tutoriais de Azure
 
-* [📖 Criando conta de estudante](content/azure-conta-estudante.md) 🎁
-* [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md) 🎁
-* [📖 Publicando uma aplicação .NET Core Web API](content/azure-servico-de-aplicativo.md) 🎁
+* [📖 Criando conta de estudante](content/azure-conta-estudante.md)
+* [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md)
+* [📖 Publicando uma aplicação .NET Core Web API](content/azure-servico-de-aplicativo.md)
 
 ## 🥋 Exercícios
 
-**Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra
+<!-- **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra -->
 
-- [🏳 Marcação HTML](exercises/marcacao-html.md) ✔
-- [🎨 Tipografia](exercises/tipografia.md) ✔
-- [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
-- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) ✔
-- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
-- [🏳🎨 Formulários](exercises/forms.md) ✔
-- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md) 🎁
-- [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
-- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md) ✔
-- [🔋 Fetch API](exercises/fetch.md) ✔
-- [🛢 Entity Framework em console](exercises/ef-console.md) ✔
-- [🔌 ASP.NET Web API](exercises/nuvem.md) 🎁 ✔
+- [🏳 Marcação HTML](exercises/marcacao-html.md)
+- [🎨 Tipografia](exercises/tipografia.md)
+- [🎨 Cores e fundos](exercises/cores-fundos.md)
+- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
+- [🏳🎨 Formulários](exercises/forms.md)
+- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
+- [🔋 Primeiros passos com JavaScript](exercises/js.md)
+- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+- [🔋 Fetch API](exercises/fetch.md)
+- [🛢 Entity Framework em console](exercises/ef-console.md)
+- [🔌 ASP.NET Web API](exercises/nuvem.md)
 
 ### Soluções comentadas
 - Prof. Ermogenes
