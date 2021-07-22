@@ -135,7 +135,7 @@ Códigos disponíveis no [repositório oficial](https://github.com/exercicios-au
 
 Turma 2I3, segundo semestre de 2021:
 
-Data | Conteúdo previsto | Material | Entregas
+Data | Conteúdo previsto | Material de apoio | Exercícios
 --- | --- | --- | ---
 22/07/2021 | [Apresentação e introdução](#-introdução) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | _a definir_
 29/07/2021 | [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [🏳 Marcação HTML](exercises/marcacao-html.md)
