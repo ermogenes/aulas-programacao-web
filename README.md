@@ -131,7 +131,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 Códigos disponíveis no [repositório oficial](https://github.com/exercicios-aulas-programacao-web).
 
-## 🗓 Calendário para alunos da Etec Adolpho Berezin
+## 🗓 Alunos da Etec Adolpho Berezin
 
 Turma 2I3, segundo semestre de 2021:
 
@@ -160,11 +160,18 @@ Data | Conteúdo previsto | Material | Entregas
 09/12/2021 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
 16/12/2021 | Conclusão | N/A | _a definir_
 
+[Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
+
 Fechamento intermediário: 01 a 07/10/2021
 Conselho intermediário: 09/10/2021
 
 Fechamento final: 14 a 20/12/2021
 Conselho final: 21/12/2021
+
+**Teams**
+- [Canal](https://teams.microsoft.com/l/channel/19%3abq0ZLktjv22DHH500HYUHI898HkxIUWgR3J_VyEnv5c1%40thread.tacv2/Geral?groupId=d182e3cd-fc50-4142-bddd-b9409a74db4e&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
+- [Aulas síncronas](https://teams.microsoft.com/l/channel/19%3a80c20ad1a4184843b80af4485e6bab1e%40thread.tacv2/Aulas%2520s%25C3%25ADncronas%2520%25F0%259F%258E%25A6?groupId=d182e3cd-fc50-4142-bddd-b9409a74db4e&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
+- [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
 
 ## Outros
 
