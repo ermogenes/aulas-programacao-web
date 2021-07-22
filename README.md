@@ -162,14 +162,14 @@ Data | Conteúdo previsto | Material | Entregas
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
 
-Fechamento intermediário: 01 a 07/10/2021
-Conselho intermediário: 09/10/2021
-
-Fechamento final: 14 a 20/12/2021
-Conselho final: 21/12/2021
+[Calendário Escolar 2021](http://eteab.com.br/cms/wp-content/uploads/2021/02/CALENDARIO-ESCOLAR-2021-ATUAL.pdf)
+- Fechamento intermediário: 01 a 07/10/2021
+  - Conselho intermediário: 09/10/2021
+- Fechamento final: 14 a 20/12/2021
+  - Conselho final: 21/12/2021
 
 **Teams**
-- [Canal](https://teams.microsoft.com/l/channel/19%3abq0ZLktjv22DHH500HYUHI898HkxIUWgR3J_VyEnv5c1%40thread.tacv2/Geral?groupId=d182e3cd-fc50-4142-bddd-b9409a74db4e&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
+- [Equipe, canal Geral](https://teams.microsoft.com/l/channel/19%3abq0ZLktjv22DHH500HYUHI898HkxIUWgR3J_VyEnv5c1%40thread.tacv2/Geral?groupId=d182e3cd-fc50-4142-bddd-b9409a74db4e&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
 - [Aulas síncronas](https://teams.microsoft.com/l/channel/19%3a80c20ad1a4184843b80af4485e6bab1e%40thread.tacv2/Aulas%2520s%25C3%25ADncronas%2520%25F0%259F%258E%25A6?groupId=d182e3cd-fc50-4142-bddd-b9409a74db4e&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
 - [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
 
