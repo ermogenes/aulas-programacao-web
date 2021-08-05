@@ -261,8 +261,9 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 - [Palette Generator](https://palettegenerator.com/)
 - [Piskel](https://www.piskelapp.com/)
 - [The Front-End Checklist](https://frontendchecklist.io/)
-- [Favicon](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
-- 
+- [How to Favicon in 2021](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+- [Favicon.io](https://favicon.io/)
+
 ### 🗿 História
 
 - [🦉 Web Design History Timeline](https://www.webdesignmuseum.org/web-design-history)
