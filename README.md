@@ -44,52 +44,52 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ### 👔 Introdução
 
-- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
-- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
+- [x] [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
+- [x] [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 
 ### 🐢 Primeiros passos
 
-- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
-- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
-- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
+- [x] [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
+- [x] [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+- [x] [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
 
 ### 🕷 Marcação e estilização
 
-- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
-- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
-- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
-- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
+- [x] [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
+- [ ] [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
+- [ ] [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
+- [ ] [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
 - [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md)
-- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
+- [ ] [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
 - [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
 - [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md)
-- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
+- [ ] [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
 - [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md)
 
 ### 🔋 JavaScript no _Frontend_
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
-- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
-- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
-- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
+- [ ] [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
+- [ ] [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
+- [ ] [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
+- [ ] [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
+- [ ] [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
+- [ ] [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
 <!-- - [📖 Web Storage](content/storage.md) 🎁 🤝 _em breve..._ -->
 - [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
-- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
+- [ ] [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
 - [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md)
 
 ### 🔌 _Backend_ API com C#
 
-* [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
+* [ ] [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
   * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi?
 * [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md)
 * [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md)
-* [📖 HTTP e REST](content/http-rest.md)
+* [ ] [📖 HTTP e REST](content/http-rest.md)
   * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE)
   * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48)
   * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4)
@@ -109,18 +109,18 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 <!-- **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra -->
 
-- [🏳 Marcação HTML](exercises/marcacao-html.md)
-- [🎨 Tipografia](exercises/tipografia.md)
-- [🎨 Cores e fundos](exercises/cores-fundos.md)
-- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
-- [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
-- [🏳🎨 Formulários](exercises/forms.md)
-- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
-- [🔋 Primeiros passos com JavaScript](exercises/js.md)
-- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-- [🔋 Fetch API](exercises/fetch.md)
-- [🛢 Entity Framework em console](exercises/ef-console.md)
-- [🔌 ASP.NET Web API](exercises/nuvem.md)
+- [x] [🏳 Marcação HTML](exercises/marcacao-html.md)
+- [x] [🎨 Tipografia](exercises/tipografia.md)
+- [ ] [🎨 Cores e fundos](exercises/cores-fundos.md)
+- [ ] [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+- [ ] [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
+- [ ] [🏳🎨 Formulários](exercises/forms.md)
+- [ ] [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
+- [ ] [🔋 Primeiros passos com JavaScript](exercises/js.md)
+- [ ] [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+- [ ] [🔋 Fetch API](exercises/fetch.md)
+- [ ] [🛢 Entity Framework em console](exercises/ef-console.md)
+- [ ] [🔌 ASP.NET Web API](exercises/nuvem.md)
 
 ### Soluções comentadas
 - Prof. Ermogenes
@@ -137,10 +137,10 @@ Turma 2I3, segundo semestre de 2021:
 
 Data | Conteúdo previsto | Material de apoio | Exercícios
 --- | --- | --- | ---
-22/07/2021 | [Apresentação e introdução](#-introdução) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | _a definir_
-29/07/2021 | [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [🏳 Marcação HTML](exercises/marcacao-html.md)
-05/08/2021 | [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [🏳 Marcação HTML](exercises/marcacao-html.md)
-12/08/2021 | [Estilização CSS](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [🎨 Tipografia](exercises/tipografia.md)
+22/07/2021 | ✔ [Apresentação e introdução](#-introdução) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | _a definir_
+29/07/2021 | ✔ [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [🏳 Marcação HTML](exercises/marcacao-html.md)
+05/08/2021 | ✔ [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [🏳 Marcação HTML](exercises/marcacao-html.md)
+12/08/2021 | ✔ [Estilização CSS](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [🎨 Tipografia](exercises/tipografia.md)
 19/08/2021 | [Estilização CSS](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [🎨 Cores e fundos](exercises/cores-fundos.md)
 26/08/2021 | [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
 02/09/2021 | [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [🏳🎨 Leiaute](exercises/leiaute-responsividade.md)
