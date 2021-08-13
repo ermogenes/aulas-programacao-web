@@ -103,16 +103,16 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 
 ---
 
-## Exercício `horario-2i3-2020-2`
+## Exercício `horario-2i3`
 
-Faça um _site_ que exiba o horário do 2I3 no segundo semestre de 2020.
+Faça um _site_ que exiba o horário do 2I3. No exemplo abaixo, o horário vigente no segundo semestre de 2021 (use o seu horário atual).
 
 Ele deve conter uma tabela com os seguintes dados:
 
 **Horário** | **SEG** | **TER** | **QUA** | **QUI** | **SEX**
 --- | --- | --- | --- | --- | ---
-**Bloco I** | OCA2 | RCD1 | SUPBD | PC2 ☕ | GSO2
-**Bloco II** | SUPINF | RCD1 | PTCC | PC2 ☕ | PTCC
+**Bloco I** | OCA2 | RCD1 | PTCC | PC2 ☕ | GSO2
+**Bloco II** | SUPINF | RCD1 | SUPBD | PC2 ☕ | PTCC
 
 _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 

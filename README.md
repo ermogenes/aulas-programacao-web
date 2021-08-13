@@ -261,6 +261,8 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 - [Palette Generator](https://palettegenerator.com/)
 - [Piskel](https://www.piskelapp.com/)
 - [The Front-End Checklist](https://frontendchecklist.io/)
+- [How to Favicon in 2021](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+- [Favicon.io](https://favicon.io/)
 
 ### 🗿 História
 
@@ -270,10 +272,10 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 
 ### 🏆 Top linguagens
 
-- [🌍 IEEE Spectrum](https://spectrum.ieee.org/computing/software/the-top-programming-languages-2019)
+- [🌍 IEEE Spectrum](https://spectrum.ieee.org/top-programming-languages/)
 - [🌍 TIOBE Index](https://www.tiobe.com/tiobe-index/)
 - [🌍 GitHub Octoverse](https://octoverse.github.com/#top-languages)
-- [🌍 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2020#most-popular-technologies)
+- [🌍 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey)
 - [🌍 PYPL PopularitY of Programming Language](http://pypl.github.io/PYPL.html)
 
 ## 💪 Contributors
