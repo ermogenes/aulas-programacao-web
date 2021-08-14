@@ -263,6 +263,8 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 - [The Front-End Checklist](https://frontendchecklist.io/)
 - [How to Favicon in 2021](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 - [Favicon.io](https://favicon.io/)
+- [Design Vault - UI patterns & design inspiration from real products](https://designvault.io/)
+- [Boxicons - High Quality Web Icons](https://boxicons.com/)
 
 ### 🗿 História
 
