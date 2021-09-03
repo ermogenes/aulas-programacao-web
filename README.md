@@ -60,7 +60,8 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [x] [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
 - [x] [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
 - [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md)
-- [ ] [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
+- [x] [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
+  * [📺](https://youtu.be/tvS9KGBxEDI)  [_Live_] Entendendo o Flexbox
 - [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
 - [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md)
 - [ ] [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
@@ -143,7 +144,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 12/08/2021 | ✔ [Estilização CSS](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [🎨 Tipografia](exercises/tipografia.md)
 19/08/2021 | ✔ [Estilização CSS](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [🎨 Cores e fundos](exercises/cores-fundos.md)
 26/08/2021 | ✔ [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
-02/09/2021 | [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [🏳🎨 Leiaute](exercises/leiaute-responsividade.md)
+02/09/2021 | ✔ [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [🏳🎨 Leiaute](exercises/leiaute-responsividade.md)
 09/09/2021 | [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🏳🎨 Formulários](exercises/forms.md)
 16/09/2021 | [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
 23/09/2021 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [🔋 Primeiros passos com JavaScript](exercises/js.md)
