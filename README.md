@@ -116,7 +116,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [x] [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
 - [x] [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
 - [x] [🏳🎨 Formulários](exercises/forms.md)
-- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
+- [x] [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
 - [ ] [🔋 Primeiros passos com JavaScript](exercises/js.md)
 - [ ] [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 - [ ] [🔋 Fetch API](exercises/fetch.md)
@@ -148,7 +148,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 09/09/2021 | ✔ [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🏳🎨 Formulários](exercises/forms.md)
 16/09/2021 | ✔ [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
 23/09/2021 | ✔ [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [🔋 Primeiros passos com JavaScript](exercises/js.md)
-30/09/2021 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [🔋 Primeiros passos com JavaScript](exercises/js.md)
+30/09/2021 | ✔ [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [🔋 Primeiros passos com JavaScript](exercises/js.md)
 07/10/2021 | [Objetos, funções e DOM](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 14/10/2021 | _Suspensão de atividades_
 21/10/2021 | [Objetos, funções e DOM](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
