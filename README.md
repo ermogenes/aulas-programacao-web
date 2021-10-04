@@ -201,6 +201,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
   - [Ⓜ The Elements of Typographic Style Applied to the Web](http://webtypography.net/)
   - [🌍 Padrões de Web design responsivo](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns)
   - [🌍 CSS Layout - Popular Layouts & patterns made with CSS](https://csslayout.io/)
+  - [🌍 Screen Size Map](https://screensizemap.com/)
 
 - 🔌 JavaScript
 
