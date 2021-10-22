@@ -73,7 +73,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [x] [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
 - [x] [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
 - [x] [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
-- [ ] [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
+- [x] [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
 - [ ] [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
 <!-- - [📖 Web Storage](content/storage.md) 🎁 🤝 _em breve..._ -->
 - [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
@@ -117,7 +117,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [x] [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
 - [x] [🏳🎨 Formulários](exercises/forms.md)
 - [x] [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
-- [ ] [🔋 Primeiros passos com JavaScript](exercises/js.md)
+- [x] [🔋 Primeiros passos com JavaScript](exercises/js.md)
 - [ ] [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 - [ ] [🔋 Fetch API](exercises/fetch.md)
 - [ ] [🛢 Entity Framework em console](exercises/ef-console.md)
@@ -151,7 +151,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 30/09/2021 | ✔ [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [🔋 Primeiros passos com JavaScript](exercises/js.md)
 07/10/2021 | ✔ [Objetos, funções e DOM](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 14/10/2021 | _Suspensão de atividades_
-21/10/2021 | [Objetos, funções e DOM](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+21/10/2021 | ✔ [Objetos, funções e DOM](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 28/10/2021 | [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [🔋 Fetch API](exercises/fetch.md)
 04/11/2021 | [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [🔋 Fetch API](exercises/fetch.md)
 11/11/2021 | [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [🛢 Entity Framework em console](exercises/ef-console.md)
