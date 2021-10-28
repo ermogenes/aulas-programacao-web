@@ -184,6 +184,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
   - [📖 MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
   - [👶🏻 W3Schools](https://www.w3schools.com/html/)
   - [🛠 Favicon Generator for Real](https://realfavicongenerator.net/)
+  - [🛠 Favicon.io](https://favicon.io/)
   - [🖌 Photopea](https://www.photopea.com/)
 
 - 🎨 CSS
