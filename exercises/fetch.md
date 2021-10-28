@@ -2,6 +2,8 @@
 
 Para cada exercício abaixo crie um repositório com o nome indicado, e publique um _site_ usando o GitHub Pages que atenda ao requisito indicado.
 
+👀 Atenção: Alguns exercícios podem solicitar a criação de um repositório baseado em template. Faça [dessa maneira](https://github.com/ermogenes/aulas-programacao-web/blob/master/content/github-template.md).
+
 O requisito pode ser indicado por uma lista de afazeres, por uma ou mais imagens de referência, ou por ambos.
 
 ---
@@ -81,6 +83,25 @@ _Endpoint_: `https://pokeapi.co/api/v2/pokemon/NOME-OU-NUMERO-DO-POKEMON`
   - Exemplo para [Magikarp, código 129](https://pokeapi.co/api/v2/pokemon/129)
   - `name` contém o nome original do _pokémon_;
   - `sprites.other["official-artwork"].front_default` contém a URL da imagem a ser exibida.
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
+
+---
+
+## Exercício `tv-shows-search`
+
+Utilize [este template](https://github.com/ermogenes/tv-shows-search-exercise) e a [API pública](https://www.tvmaze.com/api) do [TV Maze](https://www.tvmaze.com/) para exibir programas de TV com o nome similar ao texto digitado pelo usuário.
+
+- _Endpoint_: `https://api.tvmaze.com/search/shows?q=TERMODESEJADO`
+  - Exemplo buscando por [star](https://api.tvmaze.com/search/shows?q=star)
+  - Exemplo buscando por [war](https://api.tvmaze.com/search/shows?q=war)
+  - O resultado contém um arranjo de programas encontrados:
+    - `show.name` contém o nome do programa;
+    - `show.image.medium` contém o URL da foto de capa do programa, em qualidade média.
+
+_Você pode alterar a marcação e a estilização à vontade._
+
+![](tv-shows-search.gif)
 
 _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
 
