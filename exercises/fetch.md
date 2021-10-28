@@ -88,7 +88,7 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 
 ---
 
-## Exercício `tv-shows-search`
+## Exercício `TVShowsSearch`
 
 Utilize [este template](https://github.com/ermogenes/tv-shows-search-exercise) e a [API pública](https://www.tvmaze.com/api) do [TV Maze](https://www.tvmaze.com/) para exibir programas de TV com o nome similar ao texto digitado pelo usuário.
 
