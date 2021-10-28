@@ -118,7 +118,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [x] [🏳🎨 Formulários](exercises/forms.md)
 - [x] [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
 - [x] [🔋 Primeiros passos com JavaScript](exercises/js.md)
-- [ ] [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+- [x] [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 - [ ] [🔋 Fetch API](exercises/fetch.md)
 - [ ] [🛢 Entity Framework em console](exercises/ef-console.md)
 - [ ] [🔌 ASP.NET Web API](exercises/nuvem.md)
