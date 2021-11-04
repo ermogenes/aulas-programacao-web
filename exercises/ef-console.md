@@ -60,6 +60,32 @@ A aplicação deve ter um menu com as seguintes opções:
 - `Alterar departamento`: deve solicitar que o usuário entre com o código, buscar, e se ele existir, exibir o nome e solicitar o novo nome, que deverá ser salvo.
 - `Excluir departamento`: deve solicitar que o usuário entre com o código e buscar o registro. Caso ele exista, verificar se ele possui algum funcionário (em `dept_emp`) ou algum gerente (em `dept_manager`). Se não possuir nenhum dos dois, perguntar se ele deseja excluir, e efetivar a exclusão somente se confirmado.
 
+## Exercício `Agenda`
+
+Crie um repositório baseado [neste template](https://github.com/ermogenes/agenda-template).
+
+Crie um banco de dados com a estrutura contida no arquivo `scripts/agenda.sql`:
+
+```sql
+DROP SCHEMA IF EXISTS `agenda` ;
+
+CREATE SCHEMA IF NOT EXISTS `agenda` DEFAULT CHARACTER SET utf8 ;
+USE `agenda` ;
+
+DROP TABLE IF EXISTS `contato` ;
+
+CREATE TABLE IF NOT EXISTS `contato` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(50) NOT NULL,
+  `fone` VARCHAR(20) NULL,
+  `estrelas` INT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `nome_UNIQUE` (`nome` ASC) VISIBLE)
+ENGINE = InnoDB;
+```
+
+Implemente as funções indicadas no menu, salvando no banco de dados criado.
+
 ---
 
 ## 🏁 Orientações para entrega (alunos do curso presencial)
