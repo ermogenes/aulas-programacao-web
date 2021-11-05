@@ -60,6 +60,7 @@ A aplicação deve ter um menu com as seguintes opções:
 - `Alterar departamento`: deve solicitar que o usuário entre com o código, buscar, e se ele existir, exibir o nome e solicitar o novo nome, que deverá ser salvo.
 - `Excluir departamento`: deve solicitar que o usuário entre com o código e buscar o registro. Caso ele exista, verificar se ele possui algum funcionário (em `dept_emp`) ou algum gerente (em `dept_manager`). Se não possuir nenhum dos dois, perguntar se ele deseja excluir, e efetivar a exclusão somente se confirmado.
 
+---
 ## Exercício `Agenda`
 
 Crie um repositório baseado [neste template](https://github.com/ermogenes/agenda-template).
