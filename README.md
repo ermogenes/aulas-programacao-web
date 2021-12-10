@@ -87,11 +87,11 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ### 🔌 _Backend_ API com C#
 
-* [ ] [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
+* [x] [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
   * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi?
 * [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md)
 * [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md)
-* [ ] [📖 HTTP e REST](content/http-rest.md)
+* [x] [📖 HTTP e REST](content/http-rest.md)
   * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE)
   * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48)
   * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4)
@@ -121,8 +121,8 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [x] [🔋 Primeiros passos com JavaScript](exercises/js.md)
 - [x] [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 - [x] [🔋 Fetch API](exercises/fetch.md)
-- [ ] [🛢 Entity Framework em console](exercises/ef-console.md)
-- [ ] [🔌 ASP.NET Web API](exercises/nuvem.md)
+- [x] [🛢 Entity Framework em console](exercises/ef-console.md)
+- [x] [🔌 ASP.NET Web API](exercises/nuvem.md)
 
 ### Soluções comentadas
 - Prof. Ermogenes
@@ -158,10 +158,10 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 28/10/2021 | ✔ [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [🔋 Fetch API](exercises/fetch.md)
 04/11/2021 | ✔ [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [🔋 Fetch API](exercises/fetch.md)
 11/11/2021 | [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [🛢 Entity Framework em console](exercises/ef-console.md)
-18/11/2021 | [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [🛢 Entity Framework em console](exercises/ef-console.md)
-25/11/2021 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
-02/12/2021 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
-09/12/2021 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
+18/11/2021 | ✔ [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [🛢 Entity Framework em console](exercises/ef-console.md)
+25/11/2021 | ✔ [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
+02/12/2021 | ✔ [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
+09/12/2021 | ✔ [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
 16/12/2021 | Conclusão | N/A | _a definir_
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
