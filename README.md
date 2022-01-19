@@ -44,7 +44,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ## Conteúdo
 
-**Legenda:** 📷 Slides | 📺 Vídeo-aula no YouTube | 📖 Material em texto e imagens | 🤝 colab | 🎁 extra | ✔ já estudado neste semestre
+**Legenda:** 📷 Slides \| 📺 Vídeo-aula no YouTube \| 📖 Material em texto e imagens \| 🤝 colab \| 🎁 extra \| ✔ já estudado neste semestre
 
 <!-- **Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab -->
 
@@ -134,12 +134,12 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ### Soluções comentadas
 - Prof. Ermogenes
-  - [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) | [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
-  - [📺 Exercício: Pokedex](https://youtu.be/Nt0cxxzLtk4) | [🕸 solução](https://github.com/ermogenes/Pokedex-2020-2)
-  - [📺 Exercício: TVShowsSearch](https://youtu.be/EUVrMv4-aW4) | [🕸 solução](https://github.com/ermogenes/tv-shows-search-solved)
-  - [📺 Exercício: Agenda](https://youtu.be/D78qNi-Pff0) | [🕸 solução](https://github.com/ermogenes/agenda-solucao)
+  - [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) \| [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
+  - [📺 Exercício: Pokedex](https://youtu.be/Nt0cxxzLtk4) \| [🕸 solução](https://github.com/ermogenes/Pokedex-2020-2)
+  - [📺 Exercício: TVShowsSearch](https://youtu.be/EUVrMv4-aW4) \| [🕸 solução](https://github.com/ermogenes/tv-shows-search-solved)
+  - [📺 Exercício: Agenda](https://youtu.be/D78qNi-Pff0) \| [🕸 solução](https://github.com/ermogenes/agenda-solucao)
 - Prof. Neri
-  - [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
+  - [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) \| [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
 
 
 ---
