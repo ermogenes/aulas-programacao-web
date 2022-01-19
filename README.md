@@ -7,11 +7,15 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ermogenes/aulas-programacao-web?label=commits)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ermogenes/aulas-programacao-web?label=tamanho)
 
-**Materiais de Aula - Programação de Computadores II - [Etec Adolpho Berezin](http://eteab.com.br/)**
+---
 
-Este curso pode ser utilizado como continuação do curso [Dev C#](https://github.com/ermogenes/aulas-programacao-csharp).
+## Site de apoio - Programação de Computadores II
 
-[![Dev C#](content/logo-dev-cs.png)](https://github.com/ermogenes/aulas-programacao-csharp)
+[Etec Adolpho Berezin](http://eteab.com.br/)
+
+<!-- Este curso pode ser utilizado como continuação do curso [Dev C#](https://github.com/ermogenes/aulas-programacao-csharp).
+
+[![Dev C#](content/logo-dev-cs.png)](https://github.com/ermogenes/aulas-programacao-csharp) -->
 
 ## 🎞 Este curso no YouTube
 
@@ -36,93 +40,97 @@ No decorrer do curso utilizaremos também:
 
 Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a mais recente disponível.
 
+---
+
 ## Conteúdo
 
-**Legenda:** 📷 Slides | 📺 Vídeo-aula no YouTube | 📖 Material em texto e imagens
+**Legenda:** 📷 Slides | 📺 Vídeo-aula no YouTube | 📖 Material em texto e imagens | 🤝 colab | 🎁 extra | ✔ já estudado neste semestre
 
 <!-- **Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab -->
 
 ### 👔 Introdução
 
-- [x] [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
-- [x] [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
+- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
+- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 
 ### 🐢 Primeiros passos
 
-- [x] [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
-- [x] [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
-- [x] [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
+- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
+- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
 
 ### 🕷 Marcação e estilização
 
-- [x] [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
-- [x] [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
-- [x] [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
-- [x] [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
-- [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md)
-- [x] [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
-  * [📺](https://youtu.be/tvS9KGBxEDI)  [_Live_] Entendendo o Flexbox
+- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
+- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
+- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
+- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
+- 🎁 [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md)
+- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
+- 🎁 [📺](https://youtu.be/tvS9KGBxEDI) [_Live_] Entendendo o Flexbox
 - [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
-- [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md)
-- [x] [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
-- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md)
+- 🎁 [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md)
+- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
+- 🎁 [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md)
 
 ### 🔋 JavaScript no _Frontend_
 
-- [x] [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
-- [x] [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
-- [x] [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
-- [x] [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
-- [x] [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
-- [x] [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
-- [📖 Web Storage](content/storage.md) 🤝 _feat._ Prof. Neri
-- [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
+- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
+- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
+- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
+- 🎁 [📖 Web Storage](content/storage.md) 🤝 Prof. Neri
+- 🎁 [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
 
 ### 🛢 Banco de dados com Entity Framework e MySQL
 
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
-- [x] [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
-  * [📺](https://youtu.be/D78qNi-Pff0) [_Live_] Construindo uma Agenda com MySQL e EF
-- [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md)
+- 🎁 [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
+- 🎁 [📺](https://youtu.be/D78qNi-Pff0) [_Live_] Construindo uma Agenda com MySQL e EF
+- 🎁 [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md)
 
 ### 🔌 _Backend_ API com C#
 
-* [x] [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
-  * [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi?
-* [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md)
-* [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md)
-* [x] [📖 HTTP e REST](content/http-rest.md)
-  * [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE)
-  * [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48)
-  * [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4)
-  * [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA)
-  * [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww)
-  * [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE)
-  * [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg)
-  * [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU)
+- [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
+- 🎁 [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi?
+- 🎁 [📺](https://youtu.be/HVDa-nUrbZI) [📖 CI/CD na nuvem com Azure e GitHub Actions](content/deploy-azure.md)
+- 🎁 [📺](https://youtu.be/ZE0Hzk0Ek6A) [📖 Bancos de dados na nuvem](content/bd-nuvem.md)
+- 🎁 [📖 HTTP e REST](content/http-rest.md)
+  - [📺 Parte 1 - Introdução](https://youtu.be/TOxRXH7ACiE)
+  - [📺 Parte 2 - Estrutura da aplicação](https://youtu.be/woUBgzJnt48)
+  - [📺 Parte 3 - GET (listagem e filtro)](https://youtu.be/lXisL_k4KC4)
+  - [📺 Parte 4 - GET (item único)](https://youtu.be/Jv5_CmRHHCA)
+  - 🎁 [📺 Parte 5 - DELETE](https://youtu.be/TFNS8nQA3Ww)
+  - 🎁 [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE)
+  - 🎁 [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg)
+  - 🎁 [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU)
 
 ### ☁ Acesso rápido: Tutoriais de Azure
 
-* [📖 Criando conta de estudante](content/azure-conta-estudante.md)
-* [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md)
-* [📖 Publicando uma aplicação .NET Core Web API](content/azure-servico-de-aplicativo.md)
+* 🎁 [📖 Criando conta de estudante](content/azure-conta-estudante.md)
+* 🎁 [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md)
+* 🎁 [📖 Publicando uma aplicação .NET Core Web API](content/azure-servico-de-aplicativo.md)
+
+---
 
 ## 🥋 Exercícios
 
 <!-- **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra -->
 
-- [x] [🏳 Marcação HTML](exercises/marcacao-html.md)
-- [x] [🎨 Tipografia](exercises/tipografia.md)
-- [x] [🎨 Cores e fundos](exercises/cores-fundos.md)
-- [x] [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
-- [x] [🏳🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
-- [x] [🏳🎨 Formulários](exercises/forms.md)
-- [x] [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
-- [x] [🔋 Primeiros passos com JavaScript](exercises/js.md)
-- [x] [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-- [x] [🔋 Fetch API](exercises/fetch.md)
-- [x] [🛢 Entity Framework em console](exercises/ef-console.md)
-- [x] [🔌 ASP.NET Web API](exercises/nuvem.md)
+- [🏳 Marcação HTML](exercises/marcacao-html.md)
+- [🎨 Tipografia](exercises/tipografia.md)
+- [🎨 Cores e fundos](exercises/cores-fundos.md)
+- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+- [🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
+- [🏳 Formulários](exercises/forms.md)
+- [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
+- [🔋 Primeiros passos com JavaScript](exercises/js.md)
+- [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+- [🔋 Fetch API](exercises/fetch.md)
+- [🛢 Entity Framework em console](exercises/ef-console.md)
+- [🔌 ASP.NET Web API](exercises/nuvem.md)
 
 ### Soluções comentadas
 - Prof. Ermogenes
@@ -133,52 +141,54 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - Prof. Neri
   - [📺 Exercício comentado: galeria-primario](https://youtu.be/ioaZdOlco-g) | [🕸 solução](https://exercicios-aulas-programacao-web.github.io/galeria-primario/)
 
-Códigos disponíveis no [repositório oficial](https://github.com/exercicios-aulas-programacao-web).
 
-## 🗓 Alunos da Etec Adolpho Berezin
+---
 
-Turma 2I3, segundo semestre de 2021:
+## 🗓 Calendário
+
+Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2022:
 
 Data | Conteúdo previsto | Material de apoio | Exercícios
 --- | --- | --- | ---
-22/07/2021 | ✔ [Apresentação e introdução](#-introdução) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | _a definir_
-29/07/2021 | ✔ [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [🏳 Marcação HTML](exercises/marcacao-html.md)
-05/08/2021 | ✔ [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [🏳 Marcação HTML](exercises/marcacao-html.md)
-12/08/2021 | ✔ [Estilização CSS](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [🎨 Tipografia](exercises/tipografia.md)
-19/08/2021 | ✔ [Estilização CSS](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [🎨 Cores e fundos](exercises/cores-fundos.md)
-26/08/2021 | ✔ [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
-02/09/2021 | ✔ [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [🏳🎨 Leiaute](exercises/leiaute-responsividade.md)
-09/09/2021 | ✔ [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🏳🎨 Formulários](exercises/forms.md)
-16/09/2021 | ✔ [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
-23/09/2021 | ✔ [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [🔋 Primeiros passos com JavaScript](exercises/js.md)
-30/09/2021 | ✔ [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [🔋 Primeiros passos com JavaScript](exercises/js.md)
-07/10/2021 | ✔ [Objetos, funções e DOM](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-14/10/2021 | _Suspensão de atividades_
-21/10/2021 | ✔ [Objetos, funções e DOM](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-28/10/2021 | ✔ [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [🔋 Fetch API](exercises/fetch.md)
-04/11/2021 | ✔ [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [🔋 Fetch API](exercises/fetch.md)
-11/11/2021 | ✔ [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [🛢 Entity Framework em console](exercises/ef-console.md)
-18/11/2021 | ✔ [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [🛢 Entity Framework em console](exercises/ef-console.md)
-25/11/2021 | ✔ [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
-02/12/2021 | ✔ [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
-09/12/2021 | ✔ [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [🔌 ASP.NET Web API](exercises/nuvem.md)
-16/12/2021 | Conclusão | N/A | _a definir_
+03/05/2022 | [Apresentação e introdução](#-introdução) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
+10/02/2022 | [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
+17/02/2022 | [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
+24/02/2022 | [Tipografia](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Tipografia](exercises/tipografia.md)
+03/03/2022 | [Cores e fundos](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Cores e fundos](exercises/cores-fundos.md)
+10/03/2022 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [_Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+17/03/2022 | [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Leiaute](exercises/leiaute-responsividade.md)
+24/03/2022 | [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Formulários](exercises/forms.md)
+31/03/2022 | [Projeto prático](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🚀 Projeto prático](exercises/projeto-a-2020-2.md)
+07/04/2022 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
+14/04/2022 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
+21/04/2022 | _Suspensão de atividades_
+28/04/2022 | [Objetos](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+05/05/2022 | [Funções](#-javascript-no-frontend) | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+12/05/2022 | [DOM](#-javascript-no-frontend) | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+19/05/2022 | [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Fetch API](exercises/fetch.md)
+26/05/2022 | [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Fetch API](exercises/fetch.md)
+02/06/2022 | [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [Entity Framework em console](exercises/ef-console.md)
+09/06/2022 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [ASP.NET Web API](exercises/nuvem.md)
+16/06/2022 | _Feriado - Corpus Christi_ |  | 
+23/06/2022 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [ASP.NET Web API](exercises/nuvem.md)
+30/06/2022 | Conclusão |  | 
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
 
-[Calendário Escolar 2021](http://eteab.com.br/cms/wp-content/uploads/2021/02/CALENDARIO-ESCOLAR-2021-ATUAL.pdf)
-- Fechamento intermediário: 01 a 07/10/2021
-  - Conselho intermediário: 09/10/2021
-- Fechamento final: 14 a 20/12/2021
-  - Conselho final: 21/12/2021
+[Calendário Escolar 2022](http://eteab.com.br/cms/wp-content/uploads/2022/01/CALENDARIO-ESCOLAR-2022.pdf)
+
+- Entrega de resultados intermediários: 04 a 07/04/2022
+  - Conselho intermediário: 11 a 14/04/2022
+- Entrega de resultados finais: 29/06 a 05/07/2022
+  - Conselho final: 07/07/2022
 
 **Teams**
-- [Equipe, canal Geral](https://teams.microsoft.com/l/channel/19%3abq0ZLktjv22DHH500HYUHI898HkxIUWgR3J_VyEnv5c1%40thread.tacv2/Geral?groupId=d182e3cd-fc50-4142-bddd-b9409a74db4e&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
-- [Aulas síncronas](https://teams.microsoft.com/l/channel/19%3a80c20ad1a4184843b80af4485e6bab1e%40thread.tacv2/Aulas%2520s%25C3%25ADncronas%2520%25F0%259F%258E%25A6?groupId=d182e3cd-fc50-4142-bddd-b9409a74db4e&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
+- [Equipe única, canal Geral (a definir)]()
 - [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
 
-## Outros
+---
 
+## ➕ Outros recursos
 ### 🕷 Especificações e tutoriais
 
 - 🏳 HTML
@@ -290,13 +300,18 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 - [🌍 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey)
 - [🌍 PYPL PopularitY of Programming Language](http://pypl.github.io/PYPL.html)
 
-## 💪 Contributors
-
-[👨🏻‍🏫 @diegoneri](https://github.com/diegoneri)
-
 ---
 
+## 🎉 Está difícil demais, o que eu faço?
+
+Faça antes o [Dev C#](https://github.com/ermogenes/aulas-programacao-csharp) e aprenda a programar do zero.
+
+[![Dev C#](content/logo-dev-cs.png)](https://github.com/ermogenes/aulas-programacao-csharp)
+
+----
 Prof. Ermogenes Palacio, 2020-.
 
 ![GitHub followers](https://img.shields.io/github/followers/ermogenes?label=seguidores&style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/ermogenes?style=social)
+
+💪 Contributor [👨🏻‍🏫 @diegoneri](https://github.com/diegoneri)
