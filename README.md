@@ -48,7 +48,17 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 <!-- **Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab -->
 
-### 👔 Introdução
+### 🛢 Banco de dados com Entity Framework Core e MySQL
+
+- 🎁 [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+- [📺](https://youtu.be/JI1-f04navk) Bancos de dados com MySQL 🔥
+- [📺](https://youtu.be/tLkxJHqUDxk) CRUD com EF Core 🔥
+
+### 🔌 _Backend_ com C# Minimal APIs
+
+- _em breve, material atualizado_
+
+### 👔 Introdução à web
 
 - [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
 - [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
@@ -84,14 +94,22 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - 🎁 [📖 Web Storage](content/storage.md) 🤝 Prof. Neri
 - 🎁 [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
 
-### 🛢 Banco de dados com Entity Framework e MySQL
+### 🏄🏻‍♂️ Tópicos adicionais
 
-- 🎁 [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
-- [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
+#### ☁ Acesso rápido: Tutoriais de Azure
+
+* 🎁 [📖 Criando conta de estudante](content/azure-conta-estudante.md)
+* 🎁 [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md)
+* 🎁 [📖 Publicando uma aplicação .NET Core Web API](content/azure-servico-de-aplicativo.md)
+
+### 👴 Materiais antigos (_old but gold_)
+
+#### BD
+- 🎁 [📺](https://youtu.be/63ocBcx8NXQ) [📖 ORM com Entity Framework e MySQL](content/orm-ef-mysql.md)
 - 🎁 [📺](https://youtu.be/D78qNi-Pff0) [_Live_] Construindo uma Agenda com MySQL e EF
 - 🎁 [📺](https://youtu.be/kC-BWUBh6A4) [📖 Relacionamentos](content/relacionamentos.md)
 
-### 🔌 _Backend_ API com C#
+#### _Backend_
 
 - [📺](https://youtu.be/nXhpFgBOdd8) [📖 Hello World com ASP.NET Core Web API](content/hw-web-api.md)
 - 🎁 [📺](https://youtu.be/EC8hlh_hTuI)  [_Live_] Como funciona uma WebApi?
@@ -106,12 +124,6 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
   - 🎁 [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE)
   - 🎁 [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg)
   - 🎁 [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU)
-
-### ☁ Acesso rápido: Tutoriais de Azure
-
-* 🎁 [📖 Criando conta de estudante](content/azure-conta-estudante.md)
-* 🎁 [📖 Publicando um _site_ estático](content/azure-aplicativo-web-estatico.md)
-* 🎁 [📖 Publicando uma aplicação .NET Core Web API](content/azure-servico-de-aplicativo.md)
 
 ---
 
