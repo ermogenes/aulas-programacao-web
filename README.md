@@ -54,7 +54,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - [📺](https://youtu.be/JI1-f04navk) Bancos de dados com MySQL 🔥
 - [📺](https://youtu.be/tLkxJHqUDxk) CRUD com EF Core 🔥
 
-### 🔌 _Backend_ com C# Minimal APIs
+### 🔌 _Backend_ com C#
 
 - _em breve, material atualizado_
 
@@ -162,27 +162,27 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2022:
 
 Data | Conteúdo previsto | Material de apoio | Exercícios
 --- | --- | --- | ---
-03/05/2022 | [Apresentação e introdução](#-introdução) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
-10/02/2022 | [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
-17/02/2022 | [Marcação HTML](#-primeiros-passos) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
-24/02/2022 | [Tipografia](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Tipografia](exercises/tipografia.md)
-03/03/2022 | [Cores e fundos](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Cores e fundos](exercises/cores-fundos.md)
-10/03/2022 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [_Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
-17/03/2022 | [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Leiaute](exercises/leiaute-responsividade.md)
-24/03/2022 | [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Formulários](exercises/forms.md)
-31/03/2022 | [Projeto prático](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [🚀 Projeto prático](exercises/projeto-a-2020-2.md)
-07/04/2022 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
-14/04/2022 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
+03/02/2022 | _Recepção aos ingressantes_ | | 
+10/02/2022 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📺](https://youtu.be/tLkxJHqUDxk) | _em breve_
+17/02/2022 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📺](https://youtu.be/tLkxJHqUDxk) | _em breve_
+24/02/2022 | [Backend com C#](#-backend-com-c) | _em breve_ | _em breve_
+03/03/2022 | [Backend com C#](#-backend-com-c) | _em breve_ | _em breve_
+10/03/2022 | [Introdução](#-introdução-à-web) e [Marcação HTML](#-primeiros-passos) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
+17/03/2022 | [Introdução](#-introdução-à-web) e [Marcação HTML](#-primeiros-passos) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
+24/03/2022 | [Tipografia](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Tipografia](exercises/tipografia.md)
+31/03/2022 | [Cores e fundos](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Cores e fundos](exercises/cores-fundos.md)
+07/04/2022 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [_Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+14/04/2022 | [Leiaute](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Leiaute](exercises/leiaute-responsividade.md)
 21/04/2022 | _Suspensão de atividades_
-28/04/2022 | [Objetos](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-05/05/2022 | [Funções](#-javascript-no-frontend) | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-12/05/2022 | [DOM](#-javascript-no-frontend) | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-19/05/2022 | [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Fetch API](exercises/fetch.md)
-26/05/2022 | [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Fetch API](exercises/fetch.md)
-02/06/2022 | [Banco de dados em C# com Entity Framework e MySQL](#-banco-de-dados-com-entity-framework-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/63ocBcx8NXQ) [📖](content/orm-ef-mysql.md) [📺](https://youtu.be/kC-BWUBh6A4) [📖](content/relacionamentos.md) | [Entity Framework em console](exercises/ef-console.md)
-09/06/2022 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [ASP.NET Web API](exercises/nuvem.md)
+28/04/2022 | [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Formulários](exercises/forms.md)
+05/05/2022 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
+12/05/2022 | [Primeiros passos com JavaScript](#-javascript-no-frontend) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
+19/05/2022 | [Objetos](#-javascript-no-frontend) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+26/05/2022 | [Funções](#-javascript-no-frontend) | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+02/06/2022 | [DOM](#-javascript-no-frontend) | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
+09/06/2022 | [Fetch API](#-javascript-no-frontend) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Fetch API](exercises/fetch.md)
 16/06/2022 | _Feriado - Corpus Christi_ |  | 
-23/06/2022 | [Backend com ASP.NET Core Web API](#-backend-api-com-c) | [📺](https://youtu.be/nXhpFgBOdd8) [📖](content/hw-web-api.md) [📺](https://youtu.be/EC8hlh_hTuI) [📖](content/http-rest.md) [📺](https://youtu.be/TOxRXH7ACiE) [📺](https://youtu.be/woUBgzJnt48) [📺](https://youtu.be/lXisL_k4KC4) [📺](https://youtu.be/Jv5_CmRHHCA) [📺](https://youtu.be/TFNS8nQA3Ww) [📺](https://youtu.be/y0K7rNNExWE) [📺](https://youtu.be/VJIu6kv8hNg) [📺](https://youtu.be/sxWqJir3hjU) | [ASP.NET Web API](exercises/nuvem.md)
+23/06/2022 | Projeto prático | | _em breve_
 30/06/2022 | Conclusão |  | 
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
