@@ -24,7 +24,7 @@ ENGINE = InnoDB;
 
 Implemente um CRUD REST na tabela `tarefa`, com _endpoints_ que atendam as seguintes requisições:
 
-_requisição | Resposta
+Requisição | Resposta
 --- | ---
 `GET /api/tarefas` | Lista todas as tarefas
 `GET /api/tarefas?somente_pendentes={?}` | Filtra por conclusão
