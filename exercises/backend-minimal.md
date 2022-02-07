@@ -139,3 +139,101 @@ Confira no Teams o link da tarefa equivalente. Lá você postará o link dos rep
 [Exercício `EtecAB` (Saída em console)](https://github.com/ermogenes/EtecAB)
 
 Exemplo de link a ser postado: https://github.com/ermogenes/EtecAB
+
+<!-- 
+
+using Microsoft.AspNetCore.Mvc;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
+
+var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+// Ex 1
+app.MapGet("/hello-world", () =>
+{
+    return Results.Ok(new
+    {
+        mensagem = "Hello, World!"
+    });
+});
+
+// Ex 2
+app.MapGet("/soma", ([FromQuery] int a, [FromQuery] int b) =>
+{
+    return Results.Ok(new
+    {
+        a,
+        b,
+        soma = a + b,
+    });
+});
+
+// Ex 3
+app.MapGet("/divisao", ([FromQuery] int numerador, [FromQuery] int denominador) =>
+{
+    if (denominador == 0)
+    {
+        return Results.BadRequest(new
+        {
+            mensagem = "Denominador não pode ser zero.",
+        });
+    }
+
+    return Results.Ok(new
+    {
+        numerador,
+        denominador,
+        resultado = (double)numerador / denominador,
+    });
+});
+
+// Ex 4
+app.MapGet("/dado/d{faces}", ([FromRoute] int faces) =>
+{
+    if (faces < 1){
+        return Results.BadRequest();
+    }
+
+    Random gerador = new Random();
+
+    var dado = new {
+        dado = $"d{faces}",
+        rolagem = gerador.Next(1, faces + 1),
+    };
+
+    return Results.Ok(dado);
+});
+
+// Ex 5
+app.MapGet("/dados/{qtd}d{faces}", ([FromRoute] int qtd, [FromRoute] int faces) =>
+{
+    if (faces < 1 || qtd < 1){
+        return Results.BadRequest();
+    }
+
+    Random gerador = new Random();
+
+    List<int> rolagens = new();
+
+    for (int i = 1; i <= qtd; i++)
+    {
+        rolagens.Add(gerador.Next(1, faces + 1));
+    }
+
+    var resultado = new {
+        dados = $"{qtd}d{faces}",
+        rolagens,
+    };
+
+    return Results.Ok(resultado);
+});
+
+app.Run();
+
+ -->

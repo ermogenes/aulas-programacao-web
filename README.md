@@ -110,8 +110,9 @@ Há também material antigo (muito bom) ou de tópicos não mais tratados neste 
 
 <!-- **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra -->
 
-- [🛢 CRUD com MySQL](exercises/crud-mysql.md)
-- [🔌 Backend com Minimal APIs](exercises/backend-minimal.md)
+- [🛢 CRUD com MySQL](exercises/crud-mysql.md) 🔥
+- [🔌 Backend com Minimal APIs](exercises/backend-minimal.md) 🔥
+- [🔌 REST com bancos de dados](exercises/rest-bd.md)
 - [🏳 Marcação HTML](exercises/marcacao-html.md)
 - [🎨 Tipografia](exercises/tipografia.md)
 - [🎨 Cores e fundos](exercises/cores-fundos.md)
