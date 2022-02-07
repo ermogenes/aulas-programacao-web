@@ -174,7 +174,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
   - Conselho final: 07/07/2022
 
 **Teams**
-- [Equipe única, canal Geral](https://teams.microsoft.com/l/team/19%3aGOwv94sY7RaWPe5koPgYMlnw1todR7iOVzQNQDzkH7Y1%40thread.tacv2/conversations?groupId=df58dbf1-04cf-45a8-98a8-a9da4706bd24&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
+- [Equipe única, canal Geral](https://teams.microsoft.com/l/team/19%3aPRL-zwgCFpNWC5zkerm7v1GZxtPUt0IZ93w04__Mdv01%40thread.tacv2/conversations?groupId=abf5d719-e05c-4112-997c-89a04f1a72d9&tenantId=ed38466c-b641-437d-9ae9-d801b829fa94)
 - [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
 
 ---
