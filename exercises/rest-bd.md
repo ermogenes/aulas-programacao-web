@@ -1,4 +1,4 @@
-# REST com bancos de dados
+# REST e bancos de dados
 
 Para cada exercício abaixo crie um repositório com o nome indicado contendo um projeto do tipo `web` em C#.
 
