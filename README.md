@@ -227,6 +227,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
   - [🌍 Padrões de Web design responsivo](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns)
   - [🌍 CSS Layout - Popular Layouts & patterns made with CSS](https://csslayout.io/)
   - [🌍 Screen Size Map](https://screensizemap.com/)
+  - [🌍 Animate On Scroll Library](https://michalsnik.github.io/aos/)
 
 - 🔌 JavaScript
 
