@@ -6,7 +6,7 @@ As strings de conexão deverão apontar preferencialmente para o servidor `local
 
 **Bancos**:
 
-O banco de dados `employees` foi visto [nessa aula](../content/db-mysql.md).
+O banco de dados `employees` foi visto [nessa aula](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md).
 
 O banco de dados `agenda` foi visto [nessa aula](https://youtu.be/D78qNi-Pff0).
 

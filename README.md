@@ -51,8 +51,8 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 ### 🛢 Banco de dados com Entity Framework Core e MySQL
 
 - 🎁 [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
-- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](content/db-mysql.md) 🔥
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](content/crud-efcore.md) 🔥
+- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) 🔥
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) 🔥
 
 ### 👔 Introdução à web
 
@@ -162,8 +162,8 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2022:
 Data | Conteúdo previsto | Material de apoio | Exercícios
 --- | --- | --- | ---
 03/02/2022 | _Recepção aos ingressantes_ | | 
-10/02/2022 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](content/crud-efcore.md) | [CRUD com MySQL](exercises/crud-mysql.md)
-17/02/2022 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](content/ambiente-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](content/crud-efcore.md) | [CRUD com MySQL](exercises/crud-mysql.md)
+10/02/2022 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [CRUD com MySQL](exercises/crud-mysql.md)
+17/02/2022 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [CRUD com MySQL](exercises/crud-mysql.md)
 24/02/2022 | [Introdução à web](#-introdução-à-web) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
 03/03/2022 | [Backend](#-backend) | _em breve_ | [Backend com Minimal APIs](exercises/backend-minimal.md)
 10/03/2022 | [Backend](#-backend) | _em breve_ | [Backend com Minimal APIs](exercises/backend-minimal.md)
