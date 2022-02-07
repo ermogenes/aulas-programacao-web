@@ -61,7 +61,7 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 ### 🔌 _Backend_
 
-- [📖 Backend com Minimal APIs](content/minimal-apis.md)
+- [📖 Backend com Minimal APIs](content/minimal-apis.md) 🔥
 - [📖 REST e banco de dados](content/rest-bd.md)
 
 ### 🐢 _Frontend_
