@@ -48,6 +48,11 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 <!-- **Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab -->
 
+### Materiais úteis
+
+- [📺](https://youtu.be/KZGT_pm9UlM) [📖 Novos templates .NET 6](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/templates-net6.md) 🔥
+- [📖 GitHub em computadores compartilhados](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/github-login.md) 🔥
+
 ### 🛢 Banco de dados com Entity Framework Core e MySQL
 
 - 🎁 [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
