@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `tarefas`.`tarefa` (
 ENGINE = InnoDB;
 ```
 
-Implemente um CRUD REST na tabela `tarefa`, com _endpoints_ que atendas as seguintes requisições:
+Implemente um CRUD REST na tabela `tarefa`, com _endpoints_ que atendam as seguintes requisições:
 
 _requisição | Resposta
 --- | ---
