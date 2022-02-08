@@ -1,4 +1,4 @@
-# REST
+# REST e bancos de dados
 
 Existe um estilo de arquitetura de sistemas criado para utilizar todo o potencial do protocolo HTTP chamado [REST (REpresentational State Transfer)](https://restfulapi.net/). Ele é muito popular hoje em dia e o utilizaremos neste material.
 
