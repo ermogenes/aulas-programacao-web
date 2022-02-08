@@ -330,3 +330,101 @@ Possui o conteúdo recebido. Podemos lê-lo de diversas maneiras:
 - `.json()` converte um conteúdo JSON em objeto do JavaScript;
 - `.text()` lê o texto sem processá-lo;
 - `.blob()` permite receber um arquivo binário (como uma imagem, por exemplo).
+
+## Fetch de APIs REST
+
+Precisamos agora estudar um pouco mais aprofundadamente a Fetch API para que possamos consumir o nosso backend em todas as suas nuances.
+
+A função `fetch` pode receber um segundo parâmetro indicando as opções da requisição (_request_): `fetch(url, request)`. Esse objeto vai conter as configurações e os dados a serem enviados na requisição:
+
+* `method` indica o método a ser utilizado, como `GET` ou `POST`.
+* `headers` contém um objeto cujas propriedades serão enviadas no cabeçalho da requisição.
+* `body` contém uma string ou campos de formulário enviados no corpo da requisição.
+
+### Chamadas REST
+
+`GET`, sem parâmetro de _query string_:
+
+```js
+// ...
+fetch("/api/recurso")
+// ...
+```
+
+`GET`, com parâmetro de _query string_:
+
+```js
+// ...
+fetch(`/api/recurso?parametro=${valorDesejado}`)
+// ...
+```
+
+`POST`:
+
+```js
+// ...
+fetch("/api/recurso", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(novoRecurso),
+})
+// ...
+```
+
+`PUT`:
+
+```js
+// ...
+fetch(`/api/recurso/${id}`, {
+  method: "PUT",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(recursoAlterado),
+})
+// ...
+```
+
+`PATCH`:
+
+```js
+// ...
+fetch(`/api/recurso/${id}/acao`, { method: "PATCH" })
+// ...
+```
+
+
+`DELETE`:
+
+```js
+// ...
+fetch(`/api/recurso/${id}`, { method: "DELETE" })
+// ...
+```
+
+### Entendendo os resultados
+
+Após a requisição, o objeto retornado possui todo o conteúdo da resposta.
+
+* `.status` possui o código de status do retorno (ex.: `404`);
+* `.statusText` possui a descrição textual do status de retorno (ex.: `NOT FOUND`);
+* `.ok` é `true` se o resultado possui status de sucesso (entre 200 e 299, inclusive);
+* `.json()` obtém um objeto JavaScript equivalente ao conteúdo JSON recebido.
+
+Exemplo:
+
+```js
+// ...
+const response = await fetch(url, requestOptions);
+if (response.ok) {
+  // Sucesso
+  const result = await response.json();
+  // ...
+} else {
+  // Erro
+  alert(`Erro: ${response.status} - ${response.statusText}`);
+}
+// ...
+```

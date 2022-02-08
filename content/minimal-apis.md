@@ -110,6 +110,55 @@ app.MapGet("/", () => "Hello World!");
 
 Ela cria uma rota (_endpoint_) que atende à requisições HTTP de verbo GET na URL "/", executando uma função que retorna a _string_ `"Hello World"`.
 
+## HTTP
+
+O [HTTP (Hypertext Transfer Protocol)](https://developer.mozilla.org/pt-BR/docs/Web/HTTP) é o protocolo de comunicação sobre o qual a web funciona. Com ele navegadores, servidores, aplicativos _mobile_ e qualquer outro tipo de aplicação podem trocar informações de maneira simples e direta.
+
+Por exemplo, quando você quer acessar um _site_, você digita seu endereço (ou URL) em um navegador (cliente HTTP) e ele envia seu pedido (GET) para o servidor indicado na URL, que responde e esse resultado é exibido pelo navegador. Porém, HTTP é muito mais que isso, suportando muitos tipos de tráfego de informação.
+
+Uma requisição (_request_) usa um método (_method_) ou verbo que indica a ação desejada e aponta para um URL (com um caminho de recurso, em um servidor). Pode conter um conjunto de cabeçalhos (_headers_) com a configuração da comunicação, e um corpo com informações adicionais. A resposta (_response_) possui um código de status indicando o sucesso/fracasso da comunicação, cabeçalhos opcionais, e o corpo da mensagem contendo o conteúdo requisitado.
+
+### Clientes HTTP
+
+Usamos clientes HTTP toda vez que fazemos uma requisição a um servidor usando esse protocolo. O tipo mais conhecido é o navegador (_browser_), mas ele tem um comportamento com finalidade específica, e não serve para tudo que precisamos como desenvolvedor. Podemos fazer nossas chamadas manualmente com JavaScript usando Fetch, mas isso não é nada prático para testar as nossas comunicações com os backends.
+
+Também é possível realizar chamadas Fetch usando um gerador de documentação conhecido como Swagger. Ele usa os padrões OpenAPI.
+
+Caso seja necessário baixe um cliente HTTP dedicado para desenvolvedores chamado [Insomnia](https://insomnia.rest/). Com ele podemos entender em detalhes o que acontece na comunicação. Baixe-o e instale-o acessando [https://insomnia.rest/download/](https://insomnia.rest/download/), opção _Insomnia Core_. Outra opção bastante utilizada é o [Postman](https://www.postman.com/downloads/).
+
+### Métodos HTTP
+
+Quando fazemos uma requisição a um URL, devemos indicar o método desejado. Cada método é indicado por um verbo, e possui uma semântica própria.
+ no recurso indicado
+Alguns verbos importantes:
+Verbo | Semântica
+--- | ---
+`GET` | Solicita os dados do recurso indicado
+`POST` | Envia dados novos
+`PUT` | Substitui os dados existentes no recurso indicado pelos dados novos enviados 
+`PATCH` | Aplica modificações parciais ao dados existentes no recurso indicado
+`DELETE` | Remove o recurso indicado
+
+Veja uma tabela completa [aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods).
+
+### HTTP Status Codes
+
+Os códigos de status seguem uma tabela numérica, com o seguinte agrupamento:
+
+* Respostas de informação (100-199)
+* Respostas de sucesso (200-299)
+* Redirecionamentos (300-399)
+* Erros do cliente (400-499)
+* Erros do servidor (500-599)
+
+Por exemplo:
+* `200 OK` caso a solicitação seja válida e o resultado seja enviado com sucesso
+* `404 NOT FOUND` caso o recurso não exista
+* `400 BAD REQUEST` caso a solicitação seja inválida (por erro do cliente)
+* `500 INTERNAL SERVER ERROR` caso ocorra um problema (por erro do servidor)
+
+Veja uma tabela completa [aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status). Veja também [🐱 aqui](https://www.flickr.com/photos/girliemac/sets/72157628409467125) e [🐶 aqui](https://httpstatusdogs.com/).
+
 ## _Logging_
 
 Podemos usar `Console.WriteLine` em nossa aplicação web, mas há um mecanismo mais interessante.
