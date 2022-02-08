@@ -19,9 +19,11 @@
 
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
 ![](https://img.shields.io/badge/GitHub%20Pages-222?logo=githubpages&logoColor=fff&style=for-the-badge)
+![](https://img.shields.io/badge/Google%20Fonts-4285F4?logo=googlefonts&logoColor=fff&style=for-the-badge)
 ![](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+![](https://img.shields.io/badge/Photopea-18A497?logo=photopea&logoColor=fff&style=for-the-badge)
 ![](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
 ![](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white)
 ![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
@@ -207,6 +209,8 @@ Faça antes o [Dev C#](https://github.com/ermogenes/aulas-programacao-csharp) e 
 
 ----
 Prof. Ermogenes Palacio, 2020-.
+
+[![Buy Me A Coffee Badge](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FD0?logo=buymeacoffee&logoColor=000&style=for-the-badge)](https://www.buymeacoffee.com/ermogenes)
 
 ![GitHub followers](https://img.shields.io/github/followers/ermogenes?label=seguidores&style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/ermogenes?style=social)
