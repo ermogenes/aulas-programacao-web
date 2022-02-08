@@ -100,10 +100,9 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 - 🎁 [📖 Web Storage](content/storage.md) 🤝 Prof. Neri
 - 🎁 [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
 
+[🌍 Links úteis e outros recursos](content/links.md)
+
 Há também material antigo (muito bom) ou de tópicos não mais tratados neste curso [aqui](content/more.md).
-
-[🌍 Links úteis e outros recursos](content/links.md).
-
 ---
 
 ## 🥋 Exercícios
