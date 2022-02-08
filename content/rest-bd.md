@@ -200,7 +200,7 @@ app.MapPost("/api/tarefas", ([FromServices] tarefasContext _db,
 {
     if (String.IsNullOrEmpty(novaTarefa.Descricao))
     {
-        return Results.BadRequest(new { mensagem = "Não é possivel incluir tarefa sem título." });
+        return Results.BadRequest(new { mensagem = "Não é possivel incluir tarefa sem descrição." });
     }
 
     var tarefa = new Tarefa
@@ -209,7 +209,7 @@ app.MapPost("/api/tarefas", ([FromServices] tarefasContext _db,
         Concluida = novaTarefa.Concluida,
     };
 
-    _db.Add(tarefa);
+    _db.Tarefa.Add(tarefa);
     _db.SaveChanges();
 
     var tarefaUrl = $"/api/tarefas/{tarefa.Id}";
@@ -341,12 +341,16 @@ app.MapDelete("/api/tarefas/{id}", ([FromServices] tarefasContext _db,
         return Results.NotFound();
     }
 
-    _db.Remove(tarefa);
+    _db.Tarefa.Remove(tarefa);
     _db.SaveChanges();
 
     return Results.Ok();
 });
 ```
+
+---
+
+![](rest-bd-001.png)
 
 ## Exemplo completo
 
