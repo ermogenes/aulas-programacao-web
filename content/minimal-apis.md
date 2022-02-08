@@ -71,6 +71,31 @@ Acessando um dos URLs indicados você será redirecionado ao seu navegador padr�
 
 ![](minimal-001.png)
 
+### Configurando HTTPS
+
+Caso encontre o erro abaixo, você não tem certificado de desenvolvimento:
+
+```
+Compilando...
+Unhandled exception. System.InvalidOperationException: Unable to configure HTTPS endpoint. No server certificate was specified, and the default developer certificate could not be found or is out of date.
+```
+
+Corrija usando `dotnet dev-certs https`.
+
+Mais opções:
+
+- `dotnet dev-certs https --check` verifica seus certificados de desenvolvimento
+- `dotnet dev-certs https` cria um certificados de desenvolvimento auto-assinado
+- `dotnet dev-certs https --check --trust` verifica seus certificados de desenvolvimento confiáveis
+- `dotnet dev-certs https --clean` exclui os certificados de desenvolvimento
+- `dotnet dev-certs https --trust` cria um certificados de desenvolvimento auto-assinado e adiciona como confiável
+
+Para forçar o redirecionamento para `https`caso o usuário envie `http`, use:
+
+```cs
+app.UseHttpsRedirection();
+```
+
 ### `WebApplication` e _middlewares_
 
 A variável `app`, do tipo `WebApplication`, representa nossa aplicação. Ela é ativada pelo método `Run()`, quando começa a esperar por requisições HTTP. É criada pelo método `Build()` de um objeto construtor, que recebe a maioria das configurações. Muitas configurações são efetuadas usando o mecanismo de serviços do ASP.NET.
