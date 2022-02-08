@@ -102,7 +102,8 @@ Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a
 
 [🌍 Links úteis e outros recursos](content/links.md)
 
-Há também material antigo (muito bom) ou de tópicos não mais tratados neste curso [aqui](content/more.md).
+[Outros materiais - antigos ou de tópicos removidos (mas ainda úteis)](content/more.md)
+
 ---
 
 ## 🥋 Exercícios
