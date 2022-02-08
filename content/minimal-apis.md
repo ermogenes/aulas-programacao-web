@@ -1,5 +1,7 @@
 # Backend com Minimal APIs
 
+[📽 Veja esta vídeo-aula no Youtube](https://youtu.be/CoU15wM8Ang)
+
 _Este material uma o método *Minimal API* e só funciona em .NET 6 ou superior. Caso use uma versão anterior, ou queira conhecer o método *MVC*, veja [este material](hw-web-api.md)._
 
 ## Criando o projeto usando _template_ `web`
