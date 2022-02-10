@@ -60,7 +60,7 @@ No decorrer do curso utilizaremos também:
 - [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente (Dev C#)](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/ambiente.md)
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
 
-Obs.: Os materiais citam a versão 3 do .NET Core SDK, mas você deve utilizar a mais recente disponível.
+Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você deve utilizar as mais recentes disponíveis.
 
 ---
 
