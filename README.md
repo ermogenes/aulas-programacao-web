@@ -79,7 +79,7 @@ Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você de
 
 - 🎁 [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
 - [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) 🔥 ✔
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) 🔥 ✔
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) 🔥
 
 ### 👔 Introdução à web
 
