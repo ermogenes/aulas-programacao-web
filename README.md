@@ -163,7 +163,7 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2022:
 
 Data | Conteúdo previsto | Material de apoio | Exercícios
 --- | --- | --- | ---
-03/02/2022 | _Recepção aos ingressantes_ | | 
+03/02/2022 ✔ | _Recepção aos ingressantes_ ✔ | | 
 10/02/2022 ✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) ✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [CRUD com MySQL](exercises/crud-mysql.md)
 17/02/2022 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [CRUD com MySQL](exercises/crud-mysql.md)
 24/02/2022 | [Introdução à web](#-introdução-à-web) | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
