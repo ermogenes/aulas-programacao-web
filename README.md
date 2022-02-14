@@ -201,7 +201,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 
 ---
 
-## 🎉 Está difícil demais, o que eu faço?
+## 😲 Está difícil demais, o que eu faço?
 
 Faça antes o [Dev C#](https://github.com/ermogenes/aulas-programacao-csharp) e aprenda a programar do zero.
 
