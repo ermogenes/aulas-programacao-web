@@ -25,3 +25,7 @@
   - 🎁 [📺 Parte 6 - POST](https://youtu.be/y0K7rNNExWE)
   - 🎁 [📺 Parte 7 - PUT](https://youtu.be/VJIu6kv8hNg)
   - 🎁 [📺 Parte 8 - PATCH](https://youtu.be/sxWqJir3hjU)
+
+## Exemplos
+
+- [Minhas Tarefas (web)](https://github.com/ermogenes/minhas-tarefas-cs-web): Uma aplicação web .NET 6 com Minimal APIs, MySQL e OpenAPI. Implementa uma API com autenticação JWT e dois perfis (admin e usuário). Usa o pattern Repository e inclui 102 testes automatizados com xUnit, usando estratégia AAA em um Sqlite em memória. Os testes são executados a cada alteração no GitHub usando um workflow do GitHub Actions.
