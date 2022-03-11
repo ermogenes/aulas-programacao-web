@@ -84,7 +84,7 @@ Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você de
 ### 👔 Introdução à web
 
 - [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) ✔
-- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
+- [📺](https://youtu.be/_o0C4-YX4qI) Apresentação ✔
 
 ### 🔌 _Backend_
 
@@ -93,8 +93,8 @@ Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você de
 
 ### 🐢 _Frontend_
 
-- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
-- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md) ✔
+- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) ✔
 - [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
 
 ### 🕷 Marcação e estilização
@@ -168,8 +168,8 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 17/02/2022 ✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) ✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [CRUD com MySQL](exercises/crud-mysql.md)
 24/02/2022 ✔ | [Introdução à web](#-introdução-à-web) ✔ | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
 03/03/2022 ✔ | [Backend](#-backend) ✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Backend com Minimal APIs](exercises/backend-minimal.md)
-10/03/2022 | [Backend](#-backend) ✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [REST e bancos de dados](exercises/rest-bd.md)
-17/03/2022 | [Marcação HTML](#-frontend) | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
+10/03/2022 ✔ | [Backend](#-backend) ✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [REST e bancos de dados](exercises/rest-bd.md)
+17/03/2022 | [Marcação HTML](#-frontend) ✔ | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Marcação HTML](exercises/marcacao-html.md)
 24/03/2022 | [Tipografia](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Tipografia](exercises/tipografia.md)
 31/03/2022 | [Cores e fundos](#-marcação-e-estilização) | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Cores e fundos](exercises/cores-fundos.md)
 07/04/2022 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização) | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [_Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
