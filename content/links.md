@@ -67,6 +67,9 @@
   - [📖 Documentação oficial](https://docs.microsoft.com/pt-br/ef/core/)
   - [👶🏻 Learn Entity Framework Core](https://www.learnentityframeworkcore.com/)
 
+- Full-stack
+  - [OAuth Architecture Guidance](https://authguidance.com/)
+
 ## 🏎 _Roadmaps_ para devs
 
 - [🌍 Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
