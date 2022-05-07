@@ -176,7 +176,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 14/04/2022 ✔ | [Leiaute](#-marcação-e-estilização) ✔ | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Leiaute](exercises/leiaute-responsividade.md)
 21/04/2022 ✔ | _Suspensão de atividades_ ✔
 28/04/2022 ✔ | [Formulários](#-marcação-e-estilização) ✔ | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Formulários](exercises/forms.md)
-05/05/2022 | [Primeiros passos com JavaScript](#-javascript) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
+05/05/2022 ✔ | [Primeiros passos com JavaScript](#-javascript) ✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
 12/05/2022 | [Primeiros passos com JavaScript](#-javascript) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
 19/05/2022 | [Objetos](#-javascript) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 26/05/2022 | [Funções](#-javascript) | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
