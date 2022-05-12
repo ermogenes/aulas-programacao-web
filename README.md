@@ -113,7 +113,7 @@ Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você de
 
 ### 🔋 JavaScript
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
 - [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
