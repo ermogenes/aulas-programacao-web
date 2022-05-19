@@ -114,7 +114,7 @@ Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você de
 ### 🔋 JavaScript
 
 - [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
@@ -177,7 +177,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 21/04/2022 ✔ | _Suspensão de atividades_ ✔
 28/04/2022 ✔ | [Formulários](#-marcação-e-estilização) ✔ | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Formulários](exercises/forms.md)
 05/05/2022 ✔ | [Primeiros passos com JavaScript](#-javascript) ✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
-12/05/2022 | [Primeiros passos com JavaScript](#-javascript) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
+12/05/2022 ✔ | [Primeiros passos com JavaScript](#-javascript) ✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Primeiros passos com JavaScript](exercises/js.md)
 19/05/2022 | [Objetos](#-javascript) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 26/05/2022 | [Funções](#-javascript) | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 02/06/2022 | [DOM](#-javascript) | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
