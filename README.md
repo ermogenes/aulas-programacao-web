@@ -118,7 +118,7 @@ Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você de
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) ✔
 - 🎁 [📖 Web Storage](content/storage.md) 🤝 Prof. Neri
 - 🎁 [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
 
@@ -181,9 +181,9 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 19/05/2022 ✔ | [Objetos](#-javascript) ✔ | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 26/05/2022 ✔ | [Funções](#-javascript) ✔ | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 02/06/2022 ✔ | [DOM](#-javascript) ✔ | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
-09/06/2022 | [Fetch API](#-javascript) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Fetch API](exercises/fetch.md)
-16/06/2022 | _Feriado - Corpus Christi_ |  | 
-23/06/2022 | Projeto prático | | _em breve_
+09/06/2022 ✔ | [Fetch API](#-javascript) ✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Fetch API](exercises/fetch.md)
+16/06/2022 ✔ | _Feriado - Corpus Christi_ |  | 
+23/06/2022 ✔ | Projeto prático ✔ | | _em breve_
 30/06/2022 | Conclusão |  | 
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
