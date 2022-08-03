@@ -39,28 +39,10 @@
 
 [![Dev C#](content/logo-dev-cs.png)](https://github.com/ermogenes/aulas-programacao-csharp) -->
 
-## 🎞 Este curso no YouTube
-
+🎞 Este curso no YouTube:
 - [Canal: Prof. Ermogenes Palacio](https://www.youtube.com/channel/UCeRLqYFNV2wPBclJLzbJ2Fw)
 - [Canal: Prof. Diego Neri](https://www.youtube.com/channel/UCDOt7T8TvMmYLKkqXGUIMHg)
 - [Playlist com todos os vídeos](https://www.youtube.com/playlist?list=PLk6PnAig6xXLdVZuurmTnn_YYNX3jJ1iw)
-
-## 🛠 Ferramentas
-
-Para criar seu ambiente de trabalho, baixe as ferramentas e instale em seu computador.
-
-- IDE: [Visual Studio Code 📥](https://code.visualstudio.com/download)
-- Controle de versão: [Git 📥](https://git-scm.com/downloads)
-
-No decorrer do curso utilizaremos também:
-
-- Kit de desenvolvimento: [.NET SDK 📥](https://dotnet.microsoft.com/download)
-- Banco de dados: [MySQL Community 📥](https://dev.mysql.com/downloads/mysql/)
-
-- [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente (Dev C#)](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/ambiente.md)
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
-
-Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você deve utilizar as mais recentes disponíveis.
 
 ---
 
@@ -197,6 +179,25 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 **Teams**
 - [Equipe única, canal Geral](#)
 - [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
+
+---
+
+## 🛠 Ferramentas
+
+Para criar seu ambiente de trabalho, baixe as ferramentas e instale em seu computador.
+
+- IDE: [Visual Studio Code 📥](https://code.visualstudio.com/download)
+- Controle de versão: [Git 📥](https://git-scm.com/downloads)
+
+No decorrer do curso utilizaremos também:
+
+- Kit de desenvolvimento: [.NET SDK 📥](https://dotnet.microsoft.com/download)
+- Banco de dados: [MySQL Community 📥](https://dev.mysql.com/downloads/mysql/)
+
+- [📺](https://youtu.be/QIK8Tt5m1v0) [📖 Passo-a-passo para a criação do ambiente (Dev C#)](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/ambiente.md)
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+
+Obs.: Os materiais podem citar versões anteriores das ferramentas, mas você deve utilizar as mais recentes disponíveis.
 
 ---
 
