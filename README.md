@@ -48,7 +48,7 @@
 
 ## Conteúdo
 
-**Legenda:** 📷 Slides \| 📺 Vídeo-aula no YouTube \| 📖 Material em texto e imagens \| 🤝 colab \| 🎁 extra \| ✔ já estudado neste semestre
+**Legenda:** 📷 Slides \| 📺 Vídeo-aula no YouTube \| 📖 Material em texto e imagens \| 🤝 colab \| 🎁 extra \| ✔ já estudado neste semestre \| ⏰ conteúdo ainda a ser cumprido
 
 <!-- **Para alunos presenciais:** ✔ já estudado | 👁‍🗨 semana atual | 🔥 adicionado recentemente | 🎁 extra  | 🤝 colab -->
 
@@ -59,9 +59,9 @@
 
 ### 🛢 Banco de dados com Entity Framework Core e MySQL
 
-- 🎁 [📖 Criação de ambiente MySQL](content/ambiente-mysql.md)
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🎁
 - [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) ✔
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md)
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) ⏰
 
 ### 👔 Introdução à web
 
@@ -71,7 +71,7 @@
 ### 🔌 _Backend_
 
 - [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md) ✔
-- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md)
+- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md) ⏰
 
 ### 🐢 _Frontend_
 
@@ -85,13 +85,13 @@
 - [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
 - [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
 - [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
-- 🎁 [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md)
+- [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
 - [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
-- 🎁 [📺](https://youtu.be/tvS9KGBxEDI) [_Live_] Entendendo o Flexbox
+- [📺](https://youtu.be/tvS9KGBxEDI) [_Live_] Entendendo o Flexbox 🎁
 - [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
-- 🎁 [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md)
+- [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 🎁
 - [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
-- 🎁 [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md)
+- [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁
 
 ### 🔋 JavaScript
 
@@ -101,8 +101,8 @@
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
 - [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
-- 🎁 [📖 Web Storage](content/storage.md) 🤝 Prof. Neri
-- 🎁 [📺](https://youtu.be/tOHJaW3Ts3w)  [_Live_] Jogos 2D com Phaser
+- [📖 Web Storage](content/storage.md) 🎁 🤝 Prof. Neri
+- [📺](https://youtu.be/tOHJaW3Ts3w) 🎁 [_Live_] Jogos 2D com Phaser
 
 [🌍 Links úteis e outros recursos](content/links.md)
 
