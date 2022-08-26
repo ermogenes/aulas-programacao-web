@@ -84,6 +84,7 @@
   - [🖼 Unsplash](https://unsplash.com/)
   - [🖼 SimpleIcons](https://simpleicons.org/)
   - [🖼 PNGPlay](http://www.pngplay.com/)
+  - [🖼 Giphy](https://giphy.com/)
   - _Lorem Ipsum_ de imagens:
     - [🖼 Placeholder.com](https://placeholder.com/)
     - [🖼 Lorem Picsum](https://picsum.photos/)
