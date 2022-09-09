@@ -99,6 +99,7 @@
 - [Design Vault - UI patterns & design inspiration from real products](https://designvault.io/)
 - [Boxicons - High Quality Web Icons](https://boxicons.com/)
 - [Badges](https://badges.pages.dev/)
+- [Brasil API](https://github.com/BrasilAPI/BrasilAPI)
 
 ## 🗿 História
 
