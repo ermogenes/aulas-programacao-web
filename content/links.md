@@ -100,6 +100,7 @@
 - [Boxicons - High Quality Web Icons](https://boxicons.com/)
 - [Badges](https://badges.pages.dev/)
 - [Brasil API](https://github.com/BrasilAPI/BrasilAPI)
+- [Touch and Mouse](https://web.dev/mobile-touchandmouse/)
 
 ## 🗿 História
 
