@@ -43,7 +43,7 @@ Veja o seguinte exemplo:
 
 ![](000071.png)
 
-Dois itens foram criados, e posicionados lado-a-lado, com o tamanho definido de acordo com seu conteúdo.
+Dois itens foram criados, e posicionados lado-a-lado, com o tamanho definido de acordo com seu conteúdo. Itens _flex_ buscam ocupar o menor tamanho possível sem quebras de linha.
 
 Perceba que ao adicionar mais itens, eles se redimensionam para caber no _container_:
 
