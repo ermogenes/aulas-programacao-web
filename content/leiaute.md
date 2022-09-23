@@ -228,7 +228,7 @@ Em nível de linha:
 - `sup` - sobrescrito
 - `time` - datas e horas
 - `u` - texto não-articulado (com erro de grafia, por exemplo)
-- `var` - variáve matemática ou de programação
+- `var` - variável matemática ou de programação
 
 Muitos desses elementos são estilizados na folha de estilos do navegador (_user agent stylesheet_), devendo se tomar cuidado para mantê-los consistentes entre todos os usuários.
 
