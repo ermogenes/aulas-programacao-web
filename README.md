@@ -88,9 +88,9 @@
 - [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
 - [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) ✔
 - [📺](https://youtu.be/tvS9KGBxEDI) [_Live_] Entendendo o Flexbox 🎁
-- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
+- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) ✔
 - [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 🎁
-- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
+- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md) ✔
 - [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁
 
 ### 🔋 JavaScript
@@ -155,10 +155,10 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 15/09/2022✔ | [Tipografia](#-marcação-e-estilização)✔ | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Lista](exercises/tipografia.md)
 17/09/2022 _(sábado)_ ✔ | _Reposição de 13/10/2022_ ✔ |
 22/09/2022✔ | [Cores e fundos](#-marcação-e-estilização)✔ | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Lista](exercises/cores-fundos.md)
-29/09/2022 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização)✔ | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Lista](exercises/box-model-tamanho-posicionamento.md)
+29/09/2022✔ | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização)✔ | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Lista](exercises/box-model-tamanho-posicionamento.md)
 06/10/2022 | [Leiaute](#-marcação-e-estilização)✔ | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Lista](exercises/leiaute-responsividade.md)
 13/10/2022 | _Suspensão de atividades_
-20/10/2022 | [Formulários](#-marcação-e-estilização) | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Lista](exercises/forms.md)
+20/10/2022 | [Formulários](#-marcação-e-estilização)✔ | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Lista](exercises/forms.md)
 27/10/2022 | [Primeiros passos com JavaScript](#-javascript) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
 03/11/2022 | [Primeiros passos com JavaScript](#-javascript) | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
 10/11/2022 | [Objetos](#-javascript) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Lista](exercises/objetos-funcoes-dom.md)
