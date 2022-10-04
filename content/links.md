@@ -101,6 +101,7 @@
 - [Badges](https://badges.pages.dev/)
 - [Brasil API](https://github.com/BrasilAPI/BrasilAPI)
 - [Touch and Mouse](https://web.dev/mobile-touchandmouse/)
+- [prefers-color-scheme: Hello darkness, my old friend](https://web.dev/prefers-color-scheme/)
 
 ## 🗿 História
 
