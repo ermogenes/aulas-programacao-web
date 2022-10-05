@@ -126,8 +126,8 @@ Todos os nós | Somente elementos | Descrição
 `firstChild` | `firstElementChild` | primeiro filho
 `lastChild` | `lastElementChild` | último filho
 `parentNode` | `parentElement` | o pai (`document.documentElement.parentNode === document` mas `document.documentElement.parentElement === null`)
-`nextSibling` | `previousElementSibling` | o próximo irmão
-`previousSibling` | `nextElementSibling` | o irmão anterior
+`nextSibling` | `nextElementSibling` | o próximo irmão
+`previousSibling` | `previousElementSibling` | o irmão anterior
 
 Use:
 
