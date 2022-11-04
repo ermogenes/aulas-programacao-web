@@ -97,8 +97,8 @@
 
 - [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
 - [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
-- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
-- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
+- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
+- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
 - [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
 - [📖 Web Storage](content/storage.md) 🎁 🤝 Prof. Neri
@@ -160,9 +160,9 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 13/10/2022✔ | _Suspensão de atividades_ ✔
 20/10/2022✔ | [Formulários](#-marcação-e-estilização)✔ | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Lista](exercises/forms.md)
 27/10/2022✔ | [Primeiros passos com JavaScript](#-javascript)✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
-03/11/2022 | [Primeiros passos com JavaScript](#-javascript)✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
-10/11/2022 | [Objetos](#-javascript) | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Lista](exercises/objetos-funcoes-dom.md)
-17/11/2022 | [Funções](#-javascript) | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Lista](exercises/objetos-funcoes-dom.md)
+03/11/2022✔ | [Primeiros passos com JavaScript](#-javascript)✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
+10/11/2022 | [Objetos](#-javascript)✔ | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Lista](exercises/objetos-funcoes-dom.md)
+17/11/2022 | [Funções](#-javascript)✔ | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Lista](exercises/objetos-funcoes-dom.md)
 24/11/2022 | [DOM](#-javascript) | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Lista](exercises/objetos-funcoes-dom.md)
 01/12/2022 | [Fetch API](#-javascript) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
 08/12/2022 | [Fetch API](#-javascript) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
