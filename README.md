@@ -61,7 +61,7 @@
 
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🎁
 - [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) ✔
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) ⏰
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) ✔
 
 ### 👔 Introdução à web
 
@@ -100,7 +100,7 @@
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) ✔
 - [📖 Web Storage](content/storage.md) 🎁 🤝 Prof. Neri
 - [📺](https://youtu.be/tOHJaW3Ts3w) 🎁 [_Live_] Jogos 2D com Phaser
 
@@ -147,7 +147,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 --- | --- | --- | ---
 28/07/2022✔ | _Recepção aos ingressantes✔_ | | 
 04/08/2022✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql)✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)
-11/08/2022✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql)⏰ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)
+11/08/2022✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql)✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)
 18/08/2022✔ | [Introdução à web](#-introdução-à-web)✔ | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
 25/08/2022✔ | [Backend](#-backend)✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Lista](exercises/backend-minimal.md)
 01/09/2022✔ | [Backend](#-backend)⏰ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Lista](exercises/rest-bd.md)
@@ -162,10 +162,10 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 27/10/2022✔ | [Primeiros passos com JavaScript](#-javascript)✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
 03/11/2022✔ | [Primeiros passos com JavaScript](#-javascript)✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
 10/11/2022✔ | [Objetos](#-javascript)✔ | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Lista](exercises/objetos-funcoes-dom.md)
-17/11/2022 | [Funções](#-javascript)✔ | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Lista](exercises/objetos-funcoes-dom.md)
-24/11/2022 | [DOM](#-javascript)✔ | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Lista](exercises/objetos-funcoes-dom.md)
-01/12/2022 | [Fetch API](#-javascript) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
-08/12/2022 | [Fetch API](#-javascript) | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
+17/11/2022✔ | [Funções](#-javascript)✔ | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Lista](exercises/objetos-funcoes-dom.md)
+24/11/2022✔ | [DOM](#-javascript)✔ | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Lista](exercises/objetos-funcoes-dom.md)
+01/12/2022 | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
+08/12/2022 | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
 15/12/2022 | Conclusão |  | 
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
