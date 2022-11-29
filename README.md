@@ -166,7 +166,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 24/11/2022✔ | [DOM](#-javascript)✔ | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Lista](exercises/objetos-funcoes-dom.md)
 01/12/2022 | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
 08/12/2022 | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
-15/12/2022 | Conclusão |  | 
+15/12/2022 | _Feira de TCCs_ |  | 
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
 
