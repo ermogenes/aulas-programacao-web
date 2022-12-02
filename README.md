@@ -71,7 +71,7 @@
 ### 🔌 _Backend_
 
 - [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md) ✔
-- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md) ⏰
+- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md) ✔
 
 ### 🐢 _Frontend_
 
@@ -150,7 +150,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 11/08/2022✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql)✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)
 18/08/2022✔ | [Introdução à web](#-introdução-à-web)✔ | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
 25/08/2022✔ | [Backend](#-backend)✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Lista](exercises/backend-minimal.md)
-01/09/2022✔ | [Backend](#-backend)⏰ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Lista](exercises/rest-bd.md)
+01/09/2022✔ | [Backend](#-backend)✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Lista](exercises/rest-bd.md)
 08/09/2022✔ | [Marcação HTML](#-frontend)✔ | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Lista](exercises/marcacao-html.md)
 15/09/2022✔ | [Tipografia](#-marcação-e-estilização)✔ | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Lista](exercises/tipografia.md)
 17/09/2022 _(sábado)_ ✔ | _Reposição de 13/10/2022_ ✔ |
@@ -164,7 +164,7 @@ Data | Conteúdo previsto | Material de apoio | Exercícios
 10/11/2022✔ | [Objetos](#-javascript)✔ | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Lista](exercises/objetos-funcoes-dom.md)
 17/11/2022✔ | [Funções](#-javascript)✔ | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Lista](exercises/objetos-funcoes-dom.md)
 24/11/2022✔ | [DOM](#-javascript)✔ | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Lista](exercises/objetos-funcoes-dom.md)
-01/12/2022 | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
+01/12/2022✔ | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
 08/12/2022 | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
 15/12/2022 | _Feira de TCCs_ |  | 
 
