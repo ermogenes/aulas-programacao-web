@@ -7,7 +7,6 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ermogenes/aulas-programacao-web?label=commits)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ermogenes/aulas-programacao-web?label=tamanho)
 
-
 ![](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
 ![](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -40,6 +39,7 @@
 [![Dev C#](content/logo-dev-cs.png)](https://github.com/ermogenes/aulas-programacao-csharp) -->
 
 🎞 Este curso no YouTube:
+
 - [Canal: Prof. Ermogenes Palacio](https://www.youtube.com/channel/UCeRLqYFNV2wPBclJLzbJ2Fw)
 - [Canal: Prof. Diego Neri](https://www.youtube.com/channel/UCDOt7T8TvMmYLKkqXGUIMHg)
 - [Playlist com todos os vídeos](https://www.youtube.com/playlist?list=PLk6PnAig6xXLdVZuurmTnn_YYNX3jJ1iw)
@@ -60,47 +60,47 @@
 ### 🛢 Banco de dados com Entity Framework Core e MySQL
 
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🎁
-- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) ✔
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) ✔
+- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md)
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md)
 
 ### 👔 Introdução à web
 
-- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) ✔
+- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
 - [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 
 ### 🔌 _Backend_
 
-- [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md) ✔
-- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md) ✔
+- [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md)
+- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md)
 
 ### 🐢 _Frontend_
 
-- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md) ✔
-- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md) ✔
-- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md) ✔
+- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
+- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+- [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
 
 ### 🕷 Marcação e estilização
 
-- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) ✔
-- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
-- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) ✔
-- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) ✔
+- [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md)
+- [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md)
+- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
+- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
 - [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
-- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md) ✔
+- [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
 - [📺](https://youtu.be/tvS9KGBxEDI) [_Live_] Entendendo o Flexbox 🎁
-- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md) ✔
+- [📺](https://youtu.be/ltndQE-fqSg) [📖 Responsividade](content/responsividade.md)
 - [📺](https://youtu.be/K39Pnhg99Nk) [📖 _Mobile-first holy grail_](content/holy-grail.md) 🎁
-- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md) ✔
+- [📺](https://youtu.be/ApdHdo3p_JE) [📖 Formulários](content/forms.md)
 - [📺](https://youtu.be/PkpVgtvo-U0) [📖 Bibliotecas CSS e CDN](content/bibliotecas.md) 🎁
 
 ### 🔋 JavaScript
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
-- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md) ✔
-- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md) ✔
-- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md) ✔
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md) ✔
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
+- [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
+- [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
+- [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
 - [📖 Web Storage](content/storage.md) 🎁 🤝 Prof. Neri
 - [📺](https://youtu.be/tOHJaW3Ts3w) 🎁 [_Live_] Jogos 2D com Phaser
 
@@ -129,6 +129,7 @@
 - [🔋 Fetch API](exercises/fetch.md)
 
 ### Soluções comentadas
+
 - Prof. Ermogenes
   - [📺 Exercício: PesoIdeal em JavaScript](https://youtu.be/jmM9c1QI5eM) \| [🕸 solução](https://github.com/ermogenes/PesoIdealJS)
   - [📺 Exercício: Pokedex](https://youtu.be/Nt0cxxzLtk4) \| [🕸 solução](https://github.com/ermogenes/Pokedex-2020-2)
@@ -141,45 +142,40 @@
 
 ## 🗓 Calendário
 
-Turma 2I3 da Etec Adolpho Berezin, segundo semestre de 2022:
+Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 
-Data | Conteúdo previsto | Material de apoio | Exercícios
---- | --- | --- | ---
-28/07/2022✔ | _Recepção aos ingressantes✔_ | | 
-04/08/2022✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql)✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)
-11/08/2022✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql)✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)
-18/08/2022✔ | [Introdução à web](#-introdução-à-web)✔ | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI) | 
-25/08/2022✔ | [Backend](#-backend)✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Lista](exercises/backend-minimal.md)
-01/09/2022✔ | [Backend](#-backend)✔ | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md) | [Lista](exercises/rest-bd.md)
-08/09/2022✔ | [Marcação HTML](#-frontend)✔ | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md) | [Lista](exercises/marcacao-html.md)
-15/09/2022✔ | [Tipografia](#-marcação-e-estilização)✔ | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Lista](exercises/tipografia.md)
-17/09/2022 _(sábado)_ ✔ | _Reposição de 13/10/2022_ ✔ |
-22/09/2022✔ | [Cores e fundos](#-marcação-e-estilização)✔ | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) | [Lista](exercises/cores-fundos.md)
-29/09/2022✔ | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização)✔ | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Lista](exercises/box-model-tamanho-posicionamento.md)
-06/10/2022✔ | [Leiaute](#-marcação-e-estilização)✔ | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md) | [Lista](exercises/leiaute-responsividade.md)
-13/10/2022✔ | _Suspensão de atividades_ ✔
-20/10/2022✔ | [Formulários](#-marcação-e-estilização)✔ | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md) | [Lista](exercises/forms.md)
-27/10/2022✔ | [Primeiros passos com JavaScript](#-javascript)✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
-03/11/2022✔ | [Primeiros passos com JavaScript](#-javascript)✔ | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md) | [Lista](exercises/js.md)
-10/11/2022✔ | [Objetos](#-javascript)✔ | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md) | [Lista](exercises/objetos-funcoes-dom.md)
-17/11/2022✔ | [Funções](#-javascript)✔ | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md) | [Lista](exercises/objetos-funcoes-dom.md)
-24/11/2022✔ | [DOM](#-javascript)✔ | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md) | [Lista](exercises/objetos-funcoes-dom.md)
-01/12/2022✔ | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
-08/12/2022✔ | [Fetch API](#-javascript)✔ | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md) | [Lista](exercises/fetch.md)
-15/12/2022✔ | _Feira de TCCs_ ✔ |  | 
+| Data       | Conteúdo previsto                                                    | Material de apoio                                                                                                                                                                                                                                                                          | Exercícios                                             |
+| ---------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| 09/02/2023 | [Introdução à web](#-introdução-à-web)                               | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI)                                                                                                                                              |
+| 16/02/2023 | [Marcação HTML](#-frontend)                                          | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md)                                                                                                                                                 | [Lista](exercises/marcacao-html.md)                    |
+| 23/02/2023 | [Tipografia](#-marcação-e-estilização)                               | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md)                           | [Lista](exercises/tipografia.md)                       |
+| 02/03/2023 | [Cores e fundos](#-marcação-e-estilização)                           | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md)                           | [Lista](exercises/cores-fundos.md)                     |
+| 09/03/2023 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização)    | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/box-model-tamanho-posicionamento.md) |
+| 16/03/2023 | [Leiaute](#-marcação-e-estilização)                                  | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/leiaute-responsividade.md)           |
+| 23/03/2023 | [Formulários](#-marcação-e-estilização)                              | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md)                                                                                                                                                                                                                                  | [Lista](exercises/forms.md)                            |
+| 30/03/2023 | [Primeiros passos com JavaScript](#-javascript)                      | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md)                                                                                                                                                             | [Lista](exercises/js.md)                               |
+| 06/04/2023 | [Primeiros passos com JavaScript](#-javascript)                      | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md)                                                                                                                                                             | [Lista](exercises/js.md)                               |
+| 13/04/2023 | [Objetos](#-javascript)                                              | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md)                                                                                                                                                                                                                                | [Lista](exercises/objetos-funcoes-dom.md)              |
+| 20/04/2023 | [Funções](#-javascript)                                              | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md)                                                                                                                                                                                                                                | [Lista](exercises/objetos-funcoes-dom.md)              |
+| 27/04/2023 | [DOM](#-javascript)                                                  | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md)                                                                                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)              |
+| 04/05/2023 | [DOM](#-javascript)                                                  | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md)                                                                                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)              |
+| 11/05/2023 | [Fetch API](#-javascript)                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
+| 18/05/2023 | [Fetch API](#-javascript)                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
+| 25/05/2023 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)                       |
+| 01/06/2023 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)                       |
+| 08/06/2023 | [Backend](#-backend)                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/backend-minimal.md)                  |
+| 15/06/2023 | _Feriado - Corpus Christi_                                           |
+| 22/06/2023 | [Backend](#-backend)                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                          |
+| 29/06/2023 | Conclusão                                                            |                                                                                                                                                                                                                                                                                            |
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
 
-[Calendário Escolar 2022](http://eteab.com.br/cms/wp-content/uploads/2022/01/CALENDARIO-ESCOLAR-2022.pdf)
+[Calendário Escolar 2023](http://eteab.com.br/cms/wp-content/uploads/2023/01/CALENDARIO-GERAL-2023.pdf)
 
-- Entrega de resultados intermediários: 26 a 30/09/2022
-  - Conselho intermediário: 04 a 07/10/2022
-- Entrega de resultados finais: 16 a 20/12/2022
-  - Conselho final: 21/12/2022
-
-**Teams**
-- [Equipe única, canal Geral](#)
-- [📺 Playlist com os tutoriais do Teams oficiais do Centro Paula Souza](https://www.youtube.com/playlist?list=PLk6PnAig6xXJqV_M_BEDuEWLIYaiznysz)
+- Entrega de resultados intermediários: 31/03 a 06/04/2023
+  - Conselho intermediário: 11 a 14/04/2023
+- Entrega de resultados finais: 30/06 a 04/07/2023
+  - Conselho final: 05/07/2023
 
 ---
 
@@ -208,7 +204,8 @@ Faça antes o [Dev C#](https://github.com/ermogenes/aulas-programacao-csharp) e 
 
 [![Dev C#](content/logo-dev-cs.png)](https://github.com/ermogenes/aulas-programacao-csharp)
 
-----
+---
+
 Prof. Ermogenes Palacio, 2020-.
 
 [![Buy Me A Coffee Badge](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FD0?logo=buymeacoffee&logoColor=000&style=for-the-badge)](https://www.buymeacoffee.com/ermogenes)
