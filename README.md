@@ -57,21 +57,10 @@
 - [📺](https://youtu.be/KZGT_pm9UlM) [📖 Novos templates .NET 6](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/templates-net6.md)
 - [📖 GitHub em computadores compartilhados](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/github-login.md)
 
-### 🛢 Banco de dados com Entity Framework Core e MySQL
-
-- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🎁
-- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md)
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md)
-
 ### 👔 Introdução à web
 
 - [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
 - [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
-
-### 🔌 _Backend_
-
-- [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md)
-- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md)
 
 ### 🐢 _Frontend_
 
@@ -103,6 +92,17 @@
 - [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
 - [📖 Web Storage](content/storage.md) 🎁 🤝 Prof. Neri
 - [📺](https://youtu.be/tOHJaW3Ts3w) 🎁 [_Live_] Jogos 2D com Phaser
+
+### 🛢 Banco de dados com Entity Framework Core e MySQL
+
+- [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🎁
+- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md)
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md)
+
+### 🔌 _Backend_
+
+- [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md)
+- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md)
 
 [🌍 Links úteis e outros recursos](content/links.md)
 
