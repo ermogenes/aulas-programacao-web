@@ -59,13 +59,13 @@
 
 ### 👔 Introdução à web
 
-- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)
+- [📷 Programação para web](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing)✔
 - [📺](https://youtu.be/_o0C4-YX4qI) Apresentação
 
 ### 🐢 _Frontend_
 
-- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)
-- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)
+- [📺](https://youtu.be/l3ft7U7iZ1s) [📖 Hello World com GitHub Pages](content/hello-world-gh-pages.md)✔
+- [📺](https://youtu.be/5-2U1Tk2rHI) [📖 Marcação HTML](content/marcacao-html.md)✔
 - [📺](https://youtu.be/WgxdN0navic) [📖 Estilos CSS](content/estilos-css.md)
 
 ### 🕷 Marcação e estilização
@@ -114,9 +114,6 @@
 
 <!-- **Para alunos presenciais:** ✔ finalizada | 👁‍🗨 atual | 🔥 adicionados recentemente | 🎁 extra -->
 
-- [🛢 CRUD com MySQL](exercises/crud-mysql.md)
-- [🔌 Backend com Minimal APIs](exercises/backend-minimal.md)
-- [🔌 REST e bancos de dados](exercises/rest-bd.md)
 - [🏳 Marcação HTML](exercises/marcacao-html.md)
 - [🎨 Tipografia](exercises/tipografia.md)
 - [🎨 Cores e fundos](exercises/cores-fundos.md)
@@ -127,6 +124,9 @@
 - [🔋 Primeiros passos com JavaScript](exercises/js.md)
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 - [🔋 Fetch API](exercises/fetch.md)
+- [🛢 CRUD com MySQL](exercises/crud-mysql.md)
+- [🔌 Backend com Minimal APIs](exercises/backend-minimal.md)
+- [🔌 REST e bancos de dados](exercises/rest-bd.md)
 
 ### Soluções comentadas
 
@@ -147,7 +147,7 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 | Data       | Conteúdo previsto                                                    | Material de apoio                                                                                                                                                                                                                                                                          | Exercícios                                             |
 | ---------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
 | 09/02/2023✔ | [Introdução à web](#-introdução-à-web)✔                               | [📷](https://docs.google.com/presentation/d/1W1dcLeHVS2Ln7MG7S5A7SaTsHD0iQBA5OxIyJTGeKLc/edit?usp=sharing) [📺](https://youtu.be/_o0C4-YX4qI)                                                                                                                                              |
-| 16/02/2023 | [Marcação HTML](#-frontend)                                          | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md)                                                                                                                                                 | [Lista](exercises/marcacao-html.md)                    |
+| 16/02/2023✔ | [Marcação HTML](#-frontend)✔                                          | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md)                                                                                                                                                 | [Lista](exercises/marcacao-html.md)                    |
 | 23/02/2023 | [Tipografia](#-marcação-e-estilização)                               | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md)                           | [Lista](exercises/tipografia.md)                       |
 | 02/03/2023 | [Cores e fundos](#-marcação-e-estilização)                           | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md)                           | [Lista](exercises/cores-fundos.md)                     |
 | 09/03/2023 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização)    | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/box-model-tamanho-posicionamento.md) |
