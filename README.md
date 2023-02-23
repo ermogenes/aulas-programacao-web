@@ -128,6 +128,14 @@
 - [🔌 Backend com Minimal APIs](exercises/backend-minimal.md)
 - [🔌 REST e bancos de dados](exercises/rest-bd.md)
 
+### Entregas para alunos da Etec (2I3 - 2023-1)
+
+Clique no _link_ *Entregar*, entre com seu e-mail institucional e siga as instruções.
+
+Lista | Prazo | Ações
+--- | --- | ---
+Marcação HTML | 05/03/2023 | [Entregar](https://forms.office.com/r/0xyCfqjvjn)
+
 ### Soluções comentadas
 
 - Prof. Ermogenes
