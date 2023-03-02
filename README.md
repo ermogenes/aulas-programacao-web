@@ -135,6 +135,7 @@ Clique no _link_ *Entregar*, entre com seu e-mail institucional e siga as instru
 Lista | Prazo | Ações
 --- | --- | ---
 Marcação HTML | 05/03/2023 | [Entregar](https://forms.office.com/r/0xyCfqjvjn)
+Tipografia, Cores e fundos | 19/03/2023 | [Entregar](https://forms.office.com/r/Q1icMshkMa)
 
 ### Soluções comentadas
 
