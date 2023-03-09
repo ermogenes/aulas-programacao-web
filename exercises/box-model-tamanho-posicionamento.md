@@ -22,6 +22,20 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 
 ---
 
+## Exercício `mongagua`
+
+Utilizando os recursos aprendidos até agora, crie um _site_ com múltiplas páginas utilizando como tema um assunto relacionado à cidade de Mongaguá/SP.
+
+Exemplos:
+- Poço das Antas;
+- Festão;
+- Morro da Padroeira;
+- ...
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
+
+---
+
 ## 🏁 Orientações para entrega (alunos do curso presencial)
 Confira no Teams o link da tarefa equivalente. Lá você postará o link do repositório no GitHub, um para cada exercício.
 
