@@ -136,6 +136,7 @@ Lista | Prazo | Ações
 --- | --- | ---
 Marcação HTML | 05/03/2023 | [Entregar](https://forms.office.com/r/0xyCfqjvjn)
 Tipografia, cores e fundos | 19/03/2023 | [Entregar](https://forms.office.com/r/Q1icMshkMa)
+_Box-model_, tamanho e posicionamento | 19/03/2023 | [Entregar](https://forms.office.com/r/Er1jcY3bJb)
 
 ### Soluções comentadas
 
