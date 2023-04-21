@@ -132,12 +132,12 @@
 
 Clique no _link_ *Entregar*, entre com seu e-mail institucional e siga as instruções.
 
-Lista | Prazo | Ações
---- | --- | ---
-Marcação HTML | 05/03/2023 | [Entregar](https://forms.office.com/r/0xyCfqjvjn)
-Tipografia, cores e fundos | 19/03/2023 | [Entregar](https://forms.office.com/r/Q1icMshkMa)
-_Box-model_, tamanho e posicionamento | 26/03/2023 | [Entregar](https://forms.office.com/r/Er1jcY3bJb)
-Primeiros passos com JavaScript | 30/04/2023 | [Entregar](https://forms.office.com/r/Ezg3VXv7Xr)
+Lista | Exercícios | Prazo | Ações
+--- | --- | --- | ---
+Marcação HTML | [hello-dev-web](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/marcacao-html.md#exerc%C3%ADcio-hello-dev-web), [passo-a-passo](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/marcacao-html.md#exerc%C3%ADcio-passo-a-passo) | 05/03/2023 | [Entregar](https://forms.office.com/r/0xyCfqjvjn)
+Tipografia, cores e fundos | [cinco-fontes](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/tipografia.md#exerc%C3%ADcio-cinco-fontes), [tema-com-css](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/cores-fundos.md#exerc%C3%ADcio-tema-com-css) | 19/03/2023 | [Entregar](https://forms.office.com/r/Q1icMshkMa)
+_Box-model_, tamanho e posicionamento | [mongagua](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/box-model-tamanho-posicionamento.md#exerc%C3%ADcio-mongagua) | 26/03/2023 | [Entregar](https://forms.office.com/r/Er1jcY3bJb)
+Primeiros passos com JavaScript | [NomeCompletoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-nomecompletojs), [Media4NotasJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-media4notasjs), [DivisaoJs](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-divisaojs) |30/04/2023 | [Entregar](https://forms.office.com/r/Ezg3VXv7Xr) 
 
 ### Soluções comentadas
 
