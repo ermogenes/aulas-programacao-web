@@ -24,6 +24,14 @@ _Não recomendamos o uso de imagens as quais você não tenha direito de uso. Es
 
 ---
 
+## Exercício `ChurrascoJS`
+
+Reimplementação em JavaScript do exercício `ChurrascoJS` da lista "Números e Operadores" do Dev C#: [Churrasco](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/exercises/numeros-operadores.md#exerc%C3%ADcio-churrasco)
+
+_Não recomendamos o uso de imagens as quais você não tenha direito de uso. Este curso se exime de qualquer responsabilidade referente a danos causados à terceiros em trabalhos criados por alunos_.
+
+---
+
 ## Exercício `CalculadoraIMCJS`
 
 Reimplementação em JavaScript do exercício `CalculadoraIMC` da lista "Decisão e operações lógicas" do Dev C#: [CalculadoraIMC](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/exercises/decisao-simples.md#exerc%C3%ADcio-calculadoraimc)
