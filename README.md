@@ -139,6 +139,7 @@ Tipografia, cores e fundos | [cinco-fontes](https://github.com/ermogenes/aulas-p
 _Box-model_, tamanho e posicionamento | [mongagua](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/box-model-tamanho-posicionamento.md#exerc%C3%ADcio-mongagua) | 26/03/2023 | [Entregar](https://forms.office.com/r/Er1jcY3bJb)
 Primeiros passos com JavaScript | [NomeCompletoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-nomecompletojs), [Media4NotasJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-media4notasjs), [DivisaoJs](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-divisaojs) |30/04/2023 | [Entregar](https://forms.office.com/r/Ezg3VXv7Xr) 
 Objetos, funções, DOM e Formulários | [TrocaImagem](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-trocaimagem), [ChurrascoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-churrascojs)|14/05/2023 | [Entregar](https://forms.office.com/r/4Re0c0LhSc)
+Fetch API | [TVShowsSearch](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/fetch.md#exerc%C3%ADcio-tvshowssearch)|28/05/2023 | [Entregar](https://forms.office.com/r/2ZYrH7DcbG)
 
 ### Soluções comentadas
 
