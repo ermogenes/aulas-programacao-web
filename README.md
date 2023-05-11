@@ -89,7 +89,7 @@
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)✔
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)✔
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)✔
-- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)
+- [📺](https://youtu.be/WEKmp75qonw) [📖 Assincronia e Fetch API](content/async-fetch.md)✔
 - [📖 Web Storage](content/storage.md) 🎁 🤝 Prof. Neri
 - [📺](https://youtu.be/tOHJaW3Ts3w) 🎁 [_Live_] Jogos 2D com Phaser
 
@@ -123,7 +123,7 @@
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
 - [🔋 Primeiros passos com JavaScript](exercises/js.md)✔
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)✔
-- [🔋 Fetch API](exercises/fetch.md)
+- [🔋 Fetch API](exercises/fetch.md)✔
 - [🛢 CRUD com MySQL](exercises/crud-mysql.md)
 - [🔌 Backend com Minimal APIs](exercises/backend-minimal.md)
 - [🔌 REST e bancos de dados](exercises/rest-bd.md)
@@ -170,10 +170,10 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 | 13/04/2023✔ | ~[Primeiros passos com JavaScript](#-javascript)~ Conselho ✔                      | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md)                                                                                                                                                             | [Lista](exercises/js.md)                               |
 | 20/04/2023✔ | [Objetos](#-javascript)✔                                              | [📺](https://youtu.be/FKPb2I9cVVo) [📖](content/objetos.md)                                                                                                                                                                                                                                | [Lista](exercises/objetos-funcoes-dom.md)              |
 | 27/04/2023✔ | [Funções](#-javascript)✔                                              | [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/funcoes.md)                                                                                                                                                                                                                                | [Lista](exercises/objetos-funcoes-dom.md)              |
-| 04/05/2023 | ~Conectando Ideias, Roteando Conhecimento~                           |
-| 11/05/2023 | [DOM](#-javascript)✔                                                  | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md)                                                                                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)              |
-| 18/05/2023 | [Fetch API](#-javascript)                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
-| 25/05/2023 | [Fetch API](#-javascript)                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
+| 04/05/2023✔ | ~Conectando Ideias, Roteando Conhecimento~                           |
+| 11/05/2023✔ | [DOM](#-javascript)✔                                                  | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md)                                                                                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)              |
+| 18/05/2023 | [Fetch API](#-javascript)✔                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
+| 25/05/2023 | [Fetch API](#-javascript)✔                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
 | 01/06/2023 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)                       |
 | 08/06/2023 | _Feriado - Corpus Christi_                                           |
 | 15/06/2023 | [Backend](#-backend)                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/backend-minimal.md)                  |
