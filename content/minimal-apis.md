@@ -199,6 +199,7 @@ Adicione também os _middlewares_:
 Exemplo:
 
 ```cs
+using Swashbuckle.AspNetCore;
 ...
 builder.Services.AddSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
