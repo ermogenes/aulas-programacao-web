@@ -56,6 +56,16 @@ Altere `appsettings.json`, adicionando a chave `"ConnectionStrings"`:
 }
 ```
 
+Vamos alterar o `Program.cs` para adicionar acesso ao BD.
+
+Adicione as dependências:
+
+```cs
+using NomeDoProjeto.db; // deixe igual ao namespace em db/tarefasContext.cs
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
+```
+
 Adicione um `Service` em `app` usando o seguinte comando no `builder`:
 ```cs
 builder.Services.AddDbContext<tarefasContext>(opt =>
@@ -68,7 +78,7 @@ builder.Services.AddDbContext<tarefasContext>(opt =>
 
 Agora, todas as rotas poderão ter acesso ao contexto usando `[FromServices]`. Exemplo:
 ```cs
-app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db) =>
+app.MapGet("/api/tarefas", ([FromServices] TarefasContext _db) =>
 {
     return Results.Ok(_db.Tarefa.ToList<Tarefa>());
 });
@@ -101,7 +111,7 @@ Observações:
 Vamos obter uma única tarefa pelo seu `id` (PK) e retorná-la com o código 200. Caso não encontremos, retornaremos 404.
 
 ```cs
-app.MapGet("/api/tarefas/{id}", ([FromServices] tarefasContext _db,
+app.MapGet("/api/tarefas/{id}", ([FromServices] TarefasContext _db,
     [FromRoute] int id
 ) =>
 {
@@ -121,7 +131,7 @@ app.MapGet("/api/tarefas/{id}", ([FromServices] tarefasContext _db,
 Vamos obter as tarefas e retornar a lista com um código 200.
 
 ```cs
-app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db) =>
+app.MapGet("/api/tarefas", ([FromServices] TarefasContext _db) =>
 {
     var tarefas = _db.Tarefa.ToList<Tarefa>();
     return Results.Ok(tarefas);
@@ -131,7 +141,7 @@ app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db) =>
 Como preparação para os próximos passos, vamos separar a preparação da consulta SQL (um `SELECT`) e a execução em si. Salvaremos a consulta em `query`, porque a modificaremos antes de executar de acordo om os parâmetros recebidos.
 
 ```cs
-app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db,
+app.MapGet("/api/tarefas", ([FromServices] TarefasContext _db,
 ) =>
 {
     var query = _db.Tarefa.AsQueryable<Tarefa>();
@@ -145,7 +155,7 @@ app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db,
 Passaremos a aceitar o parâmetro `descricao` [1]. Adicionaremos o filtro [2] somente se ele for informado [3].
 
 ```cs
-app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db,
+app.MapGet("/api/tarefas", ([FromServices] TarefasContext _db,
     [FromQuery] string? descricao                                   // <- 1
 ) =>
 {
@@ -167,7 +177,7 @@ app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db,
 Adicionamos o parâmetro `somente_pendentes` [4]. Caso ele não seja informado, usaremos `false` como padrão (_não filtrar_) [5]. Faremos o filtro [6] (e uma ordenação pelos mais recentes primeiro) [7] somente se ele foi selecionado [8].
 
 ```cs
-app.MapGet("/api/tarefas", ([FromServices] tarefasContext _db,
+app.MapGet("/api/tarefas", ([FromServices] TarefasContext _db,
     [FromQuery(Name = "somente_pendentes")] bool? somentePendentes, // <- 4
     [FromQuery] string? descricao
 ) =>
@@ -210,7 +220,7 @@ Resultados comuns:
 Vamos validar o registro informado, ignorando o `id` (que é `AUTO_INCREMENT`). Em caso inválido, retornaremos 400 e uma mensagem de erro. Caso contrário, retornaremos 201 com a URL do recurso criado, e o recurso no corpo da resposta.
 
 ```cs
-app.MapPost("/api/tarefas", ([FromServices] tarefasContext _db,
+app.MapPost("/api/tarefas", ([FromServices] TarefasContext _db,
     [FromBody] Tarefa novaTarefa
 ) =>
 {
@@ -255,7 +265,7 @@ Buscamos a tarefa indicada. Caso não exista, 404.
 Caso exista, alteramos os dados e retornamos a tarefa alterada com código 200.
 
 ```cs
-app.MapPut("/api/tarefas/{id}", ([FromServices] tarefasContext _db,
+app.MapPut("/api/tarefas/{id}", ([FromServices] TarefasContext _db,
     [FromRoute] int id,
     [FromBody] Tarefa tarefaAlterada
 ) =>
@@ -307,7 +317,7 @@ Caso exista e já esteja concluída, retornamos 400.
 Caso contrário, mudamos para concluída e retornamos o objeto alterado com código 200.
 
 ```cs
-app.MapMethods("/api/tarefas/{id}/concluir", new[] { "PATCH" }, ([FromServices] tarefasContext _db,
+app.MapMethods("/api/tarefas/{id}/concluir", new[] { "PATCH" }, ([FromServices] TarefasContext _db,
     [FromRoute] int id
 ) =>
 {
@@ -346,7 +356,7 @@ Resultados comuns:
 Buscamos a tarefa indicada. Caso não exista, 404. Caso exista a excluímos e retornamos 200.
 
 ```cs
-app.MapDelete("/api/tarefas/{id}", ([FromServices] tarefasContext _db,
+app.MapDelete("/api/tarefas/{id}", ([FromServices] TarefasContext _db,
     [FromRoute] int id
 ) =>
 {
