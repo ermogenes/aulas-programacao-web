@@ -25,7 +25,7 @@ Após, baixar, execute o _setup_ e selecione a opção _Custom_.
 
 ![](mysql-0006.png)
 
-Escolha o _MySQL Server_, o _MySQL Workbench_ e o _Connerctor/NET_, todos nas versões mais recentes. Clique em _Next_.
+Escolha o _MySQL Server_, o _MySQL Workbench_ e o _Connector/NET_, todos nas versões mais recentes. Clique em _Next_.
 
 ![](mysql-0007.png)
 
