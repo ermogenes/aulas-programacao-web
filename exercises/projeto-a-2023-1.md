@@ -26,7 +26,7 @@ O conteúdo do _site_ ficará ao seu critério. Exemplos de conteúdos:
 
 Serão avaliados os seguintes itens:
 
-- Um _site_ pessoal funcional, de conteúdo informativo, bem organizado e agradável.
+- Um _site_ funcional, de conteúdo informativo, bem organizado e agradável.
 - Código correto, sem _bugs_, legível e bem organizado.
 - Uso de boas práticas de programação e _design_.
 - Uso dos recursos adequados a cada situação.
