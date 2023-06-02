@@ -96,12 +96,12 @@
 ### 🛢 Banco de dados com Entity Framework Core e MySQL
 
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🎁
-- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md)
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md)
+- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md)✔
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md)✔
 
 ### 🔌 _Backend_
 
-- [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md)
+- [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md) ✔
 - [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md)
 
 [🌍 Links úteis e outros recursos](content/links.md)
@@ -127,6 +127,7 @@
 - [🛢 CRUD com MySQL](exercises/crud-mysql.md)
 - [🔌 Backend com Minimal APIs](exercises/backend-minimal.md)
 - [🔌 REST e bancos de dados](exercises/rest-bd.md)
+- [🚀 Projeto prático: 2023-1](exercises/projeto-a-2023-1.md)
 
 ### Entregas para alunos da Etec (2I3 - 2023-1)
 
@@ -174,10 +175,10 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 | 04/05/2023✔ | ~Conectando Ideias, Roteando Conhecimento~                           |
 | 11/05/2023✔ | [DOM](#-javascript)✔                                                  | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md)                                                                                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)              |
 | 18/05/2023✔ | [Fetch API](#-javascript)✔                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
-| 25/05/2023 | [Fetch API](#-javascript)✔                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
-| 01/06/2023 | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)                       |
+| 25/05/2023✔ | [Fetch API](#-javascript)✔                                            | [📺](https://youtu.be/WEKmp75qonw) [📖](content/async-fetch.md)                                                                                                                                                                                                                            | [Lista](exercises/fetch.md)                            |
+| 01/06/2023✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql)✔ | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)                       |
 | 08/06/2023 | _Feriado - Corpus Christi_                                           |
-| 15/06/2023 | [Backend](#-backend)                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/backend-minimal.md)                  |
+| 15/06/2023 | [Backend](#-backend)✔                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/backend-minimal.md)                  |
 | 22/06/2023 | [Backend](#-backend)                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                          |
 | 29/06/2023 | _Feira de TCCs_                                                      |                                                                                                                                                                                                                                                                                            |
 
