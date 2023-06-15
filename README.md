@@ -141,6 +141,7 @@ _Box-model_, tamanho e posicionamento | [mongagua](https://github.com/ermogenes/
 Primeiros passos com JavaScript | [NomeCompletoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-nomecompletojs), [Media4NotasJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-media4notasjs), [DivisaoJs](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-divisaojs) |30/04/2023 | [Entregar](https://forms.office.com/r/Ezg3VXv7Xr) 
 Objetos, funções, DOM e Formulários | [TrocaImagem](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-trocaimagem), [ChurrascoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-churrascojs)|14/05/2023 | [Entregar](https://forms.office.com/r/4Re0c0LhSc)
 Fetch API | [TVShowsSearch](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/fetch.md#exerc%C3%ADcio-tvshowssearch)|28/05/2023 | [Entregar](https://forms.office.com/r/2ZYrH7DcbG)
+Projeto | [Projeto TCC](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/projeto-a-2023-1.md)|25/06/2023 | [Entregar](https://forms.office.com/r/QPX66bXahN)
 
 ### Soluções comentadas
 
