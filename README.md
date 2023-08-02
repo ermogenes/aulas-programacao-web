@@ -131,21 +131,18 @@
 
 ### Entregas para alunos da Etec (2I3 - 2023-2)
 
-**Em breve**
+Clique no _link_ _Entregar_, entre com seu e-mail institucional e siga as instruções.
 
-<!--
-Clique no _link_ *Entregar*, entre com seu e-mail institucional e siga as instruções.
+| Lista                                 | Exercícios                                                                                                                                                                                                                                                                                                                                                                         | Prazo      | Ações               |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------- |
+| Marcação HTML                         | [hello-dev-web](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/marcacao-html.md#exerc%C3%ADcio-hello-dev-web), [passo-a-passo](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/marcacao-html.md#exerc%C3%ADcio-passo-a-passo)                                                                                                   | 13/08/2023 | Entregar (em breve) |
+| Tipografia, cores e fundos            | [cinco-fontes](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/tipografia.md#exerc%C3%ADcio-cinco-fontes), [tema-com-css](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/cores-fundos.md#exerc%C3%ADcio-tema-com-css)                                                                                                           | 10/09/2023 | Entregar (em breve) |
+| _Box-model_, tamanho e posicionamento | [hobby](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/box-model-tamanho-posicionamento.md#exerc%C3%ADcio-hobby)                                                                                                                                                                                                                                         | 24/09/2023 | Entregar (em breve) |
+| Primeiros passos com JavaScript       | [NomeCompletoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-nomecompletojs), [Media4NotasJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-media4notasjs), [DivisaoJs](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-divisaojs) | 29/10/2023 | Entregar (em breve) |
+| Objetos, funções, DOM e Formulários   | [TrocaImagem](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-trocaimagem), [ChurrascoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-churrascojs)                                                                                               | 19/11/2023 | Entregar (em breve) |
+| Fetch API                             | [Bandas](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/fetch.md#exerc%C3%ADcio-bandas)                                                                                                                                                                                                                                                                  | 03/12/2023 | Entregar (em breve) |
 
-Lista | Exercícios | Prazo | Ações
---- | --- | --- | ---
-Marcação HTML | [hello-dev-web](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/marcacao-html.md#exerc%C3%ADcio-hello-dev-web), [passo-a-passo](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/marcacao-html.md#exerc%C3%ADcio-passo-a-passo) | 05/03/2023 | [Entregar](https://forms.office.com/r/0xyCfqjvjn)
-Tipografia, cores e fundos | [cinco-fontes](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/tipografia.md#exerc%C3%ADcio-cinco-fontes), [tema-com-css](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/cores-fundos.md#exerc%C3%ADcio-tema-com-css) | 19/03/2023 | [Entregar](https://forms.office.com/r/Q1icMshkMa)
-_Box-model_, tamanho e posicionamento | [mongagua](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/box-model-tamanho-posicionamento.md#exerc%C3%ADcio-mongagua) | 26/03/2023 | [Entregar](https://forms.office.com/r/Er1jcY3bJb)
-Primeiros passos com JavaScript | [NomeCompletoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-nomecompletojs), [Media4NotasJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-media4notasjs), [DivisaoJs](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/js.md#exerc%C3%ADcio-divisaojs) |30/04/2023 | [Entregar](https://forms.office.com/r/Ezg3VXv7Xr)
-Objetos, funções, DOM e Formulários | [TrocaImagem](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-trocaimagem), [ChurrascoJS](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/objetos-funcoes-dom.md#exerc%C3%ADcio-churrascojs)|14/05/2023 | [Entregar](https://forms.office.com/r/4Re0c0LhSc)
-Fetch API | [TVShowsSearch](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/fetch.md#exerc%C3%ADcio-tvshowssearch)|28/05/2023 | [Entregar](https://forms.office.com/r/2ZYrH7DcbG)
-Projeto | [Projeto TCC](https://github.com/ermogenes/aulas-programacao-web/blob/master/exercises/projeto-a-2023-1.md)|25/06/2023 | [Entregar](https://forms.office.com/r/QPX66bXahN)
--->
+_Obs.: A lista de exercícios a serem entregues pode ser alterada sem aviso prévio._
 
 ### Soluções comentadas
 
