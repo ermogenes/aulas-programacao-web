@@ -72,8 +72,8 @@
 
 - [📺](https://youtu.be/UViHi9HHAOU) [📖 Tipografia](content/tipografia.md) ✔
 - [📺](https://youtu.be/IEJhZot5HwY) [📖 Cores e fundos](content/cores-fundos.md) ✔
-- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md)
-- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md)
+- [📺](https://youtu.be/1sQzXRL8M4I) [📖 _Box-model_](content/box-model.md) ✔
+- [📺](https://youtu.be/5I9SbWkQF28) [📖 Tamanho e posicionamento](content/posicionamento.md) ✔
 - [📺](https://youtu.be/ciLNSZdOVas) [📖 Transições e animações](content/transicoes-animacoes.md) 🎁
 - [📺](https://youtu.be/z92A3u5I09w) [📖 Leiaute](content/leiaute.md)
 - [📺](https://youtu.be/tvS9KGBxEDI) [_Live_] Entendendo o Flexbox 🎁
@@ -117,7 +117,7 @@
 - [🏳 Marcação HTML](exercises/marcacao-html.md) ✔
 - [🎨 Tipografia](exercises/tipografia.md) ✔
 - [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
-- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md)
+- [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) ✔
 - [🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
 - [🏳 Formulários](exercises/forms.md)
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
@@ -166,7 +166,7 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 | 03/08/2023✔ | [Marcação HTML](#-frontend) ✔                                         | [📺](https://youtu.be/l3ft7U7iZ1s) [📖](content/hello-world-gh-pages.md) [📺](https://youtu.be/5-2U1Tk2rHI) [📖](content/marcacao-html.md)                                                                                                                                                 | [Lista](exercises/marcacao-html.md)                                   |
 | 10/08/2023✔ | [Estilos CSS](#-estilos-css) ✔                                      | [📺](https://youtu.be/WgxdN0navic) [📖](content/estilos-css.md)                           |         |
 | 17/08/2023✔ | [Tipografia](#-marcação-e-estilização), [cores e fundos](#-marcação-e-estilização) ✔                           | [📺](https://youtu.be/UViHi9HHAOU) [📖](content/tipografia.md) [📺](https://youtu.be/IEJhZot5HwY) [📖](content/cores-fundos.md) [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md)                           | [Lista](exercises/cores-fundos.md)                     |
-| 24/08/2023 | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização)    | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/box-model-tamanho-posicionamento.md)                |
+| 24/08/2023✔ | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização) ✔    | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/box-model-tamanho-posicionamento.md)                |
 | 31/08/2023 | [Leiaute e Responsividade](#-marcação-e-estilização)                 | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/leiaute-responsividade.md)                          |
 | 07/09/2023 | _Feriado - Independência do Brasil_                                  |
 | 14/09/2023 | [Primeiros passos com JavaScript](#-javascript)                      | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md)                                                                                                                                                             | [Lista](exercises/js.md)                                              |
