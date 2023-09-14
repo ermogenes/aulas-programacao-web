@@ -118,7 +118,7 @@
 - [🎨 Tipografia](exercises/tipografia.md) ✔
 - [🎨 Cores e fundos](exercises/cores-fundos.md) ✔
 - [🎨 _Box-model_, tamanho e posicionamento](exercises/box-model-tamanho-posicionamento.md) ✔
-- [🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md)
+- [🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
 - [🏳 Formulários](exercises/forms.md)
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
 - [🔋 Primeiros passos com JavaScript](exercises/js.md)
