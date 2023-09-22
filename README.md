@@ -84,8 +84,8 @@
 
 ### 🔋 JavaScript
 
-- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md)
-- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md)
+- [📺](https://youtu.be/ejWjuYLnKkA) [📖 Hello World com JavaScript](content/hello-world-js.md) ✔
+- [📺](https://youtu.be/z7gvyMe0VQI) [📖 Sintaxe e estruturas básicas](content/sintaxe.md) ✔
 - [📺](https://youtu.be/FKPb2I9cVVo) [📖 Objetos](content/objetos.md)
 - [📺](https://youtu.be/MOIbBRNVfPA) [📖 Funções](content/funcoes.md)
 - [📺](https://youtu.be/7mLX9WKf1Ow) [📖 DOM - Document Object Model](content/dom.md)
@@ -121,7 +121,7 @@
 - [🎨 Leiaute e responsividade](exercises/leiaute-responsividade.md) ✔
 - [🏳 Formulários](exercises/forms.md)
 - [🚀 Projeto prático: HTML e CSS](exercises/projeto-a-2020-2.md)
-- [🔋 Primeiros passos com JavaScript](exercises/js.md)
+- [🔋 Primeiros passos com JavaScript](exercises/js.md) ✔
 - [🔋 Objetos, funções e DOM](exercises/objetos-funcoes-dom.md)
 - [🔋 Fetch API](exercises/fetch.md)
 - [🛢 CRUD com MySQL](exercises/crud-mysql.md)
@@ -169,8 +169,8 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 | 24/08/2023✔ | [_Box-model_, tamanho e posicionamento](#-marcação-e-estilização) ✔    | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/box-model-tamanho-posicionamento.md)                |
 | 31/08/2023✔ | [Leiaute e Responsividade](#-marcação-e-estilização) ✔                 | [📺](https://youtu.be/1sQzXRL8M4I) [📖](content/box-model.md) [📺](https://youtu.be/5I9SbWkQF28) [📖](content/posicionamento.md) [📺](https://youtu.be/z92A3u5I09w) [📖](content/leiaute.md)                                                                                               | [Lista](exercises/leiaute-responsividade.md)                          |
 | 07/09/2023✔ | _Feriado - Independência do Brasil_ ✔                                 |
-| 14/09/2023 | [Primeiros passos com JavaScript](#-javascript)                      | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md)                                                                                                                                                             | [Lista](exercises/js.md)                                              |
-| 21/09/2023 | [Objetos](#-javascript) e [Funções](#-javascript)                    | [📺](https://youtu.be/FKPb2I9cVVo) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/objetos.md) [📖](content/funcoes.md)                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)                             |
+| 14/09/2023✔ | [Primeiros passos com JavaScript](#-javascript) ✔                      | [📺](https://youtu.be/ejWjuYLnKkA) [📖](content/hello-world-js.md) [📺](https://youtu.be/z7gvyMe0VQI) [📖](content/sintaxe.md)                                                                                                                                                             | [Lista](exercises/js.md)                                              |
+| 21/09/2023✔ | [Objetos](#-javascript) e [Funções](#-javascript)                    | [📺](https://youtu.be/FKPb2I9cVVo) [📺](https://youtu.be/MOIbBRNVfPA) [📖](content/objetos.md) [📖](content/funcoes.md)                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)                             |
 | 28/09/2023 | [DOM](#-javascript)                                                  | [📺](https://youtu.be/7mLX9WKf1Ow) [📖](content/dom.md)                                                                                                                                                                                                                                    | [Lista](exercises/objetos-funcoes-dom.md)                             |
 | 05/10/2023 | [Formulários](#-marcação-e-estilização)                              | [📺](https://youtu.be/ApdHdo3p_JE) [📖](content/forms.md)                                                                                                                                                                                                                                  | [Lista](exercises/forms.md)                                           |
 | 12/10/2023 | _Feriado - Nossa Senhora Aparecida_                                  |
