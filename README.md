@@ -182,7 +182,7 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 | 23/11/2023 | [Backend](#-backend) ✔                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                                         |
 | 30/11/2023 | [Backend](#-backend)                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                                         |
 | 07/12/2023 | _Feriado - Aniversário de Mongaguá_                                  |
-| 14/12/2023 | Considerações finais                                                 |
+| 14/12/2023 | Feira de TCCs                                                 |
 
 [Plano de curso](http://eteab.com.br/cms/wp-content/uploads/2020/02/Inform%C3%A1tica-353_CS-1.pdf)
 
