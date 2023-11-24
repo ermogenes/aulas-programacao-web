@@ -96,13 +96,13 @@
 ### 🛢 Banco de dados com Entity Framework Core e MySQL
 
 - [📖 Criação de ambiente MySQL](content/ambiente-mysql.md) 🎁
-- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md)
-- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md)
+- [📺](https://youtu.be/JI1-f04navk) [📖 Bancos de dados com MySQL](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) ✔
+- [📺](https://youtu.be/tLkxJHqUDxk) [📖 CRUD com EF Core](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) ✔
 
 ### 🔌 _Backend_
 
 - [📺](https://youtu.be/CoU15wM8Ang) [📖 Backend com Minimal APIs](content/minimal-apis.md) ✔
-- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md)
+- [📺](https://youtu.be/-MTMXeZQ3Dc) [📖 REST e bancos de dados](content/rest-bd.md) ✔
 
 [🌍 Links úteis e outros recursos](content/links.md)
 
@@ -126,7 +126,7 @@
 - [🔋 Fetch API](exercises/fetch.md) ✔
 - [🛢 CRUD com MySQL](exercises/crud-mysql.md)
 - [🔌 Backend com Minimal APIs](exercises/backend-minimal.md) ✔
-- [🔌 REST e bancos de dados](exercises/rest-bd.md)
+- [🔌 REST e bancos de dados](exercises/rest-bd.md) ✔
 - [🚀 Projeto prático](exercises/projeto-a-2023-1.md)
 
 ### Entregas para alunos da Etec (2I3 - 2023-2)
@@ -179,8 +179,8 @@ Turma 2I3 da Etec Adolpho Berezin, primeiro semestre de 2023:
 | 02/11/2023✔ | _Feriado - Finados_ ✔                                                  |
 | 09/11/2023✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)                                      |
 | 16/11/2023✔ | [Banco de dados](#-banco-de-dados-com-entity-framework-core-e-mysql) | [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/db-mysql.md) [📺](https://youtu.be/JI1-f04navk) [📖](content/db-mysql.md) [📺](https://youtu.be/tLkxJHqUDxk) [📖](https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/crud-efcore.md) | [Lista](exercises/crud-mysql.md)                                      |
-| 23/11/2023 | [Backend](#-backend) ✔                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                                         |
-| 30/11/2023 | [Backend](#-backend)                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                                         |
+| 23/11/2023✔ | [Backend](#-backend) ✔                                                 | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                                         |
+| 30/11/2023 | [Backend](#-backend) ✔                                                | [📺](https://youtu.be/CoU15wM8Ang) [📖](content/minimal-apis.md) [📺](https://youtu.be/-MTMXeZQ3Dc) [📖](content/rest-bd.md)                                                                                                                                                               | [Lista](exercises/rest-bd.md)                                         |
 | 07/12/2023 | _Feriado - Aniversário de Mongaguá_                                  |
 | 14/12/2023 | Feira de TCCs                                                 |
 
