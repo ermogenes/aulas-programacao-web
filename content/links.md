@@ -36,6 +36,7 @@
   - [📖 Como o Javascript funciona: uma visão geral da engine, runtime e da call stack](https://medium.com/reactbrasil/como-o-javascript-funciona-uma-vis%C3%A3o-geral-da-engine-runtime-e-da-call-stack-471dd5e1aa30)
   - [🐱‍👤 30 seconds of code - Short code snippets for all your development needs](https://www.30secondsofcode.org/)
   - [🐱‍👤 Estrutura de Dados e Algoritmos em JavaScript](https://github.com/trekhleb/javascript-algorithms/blob/master/README.pt-BR.md)
+  - [Elevator Saga](https://play.elevatorsaga.com/)
 
 - ⛵ Navegadores
 
